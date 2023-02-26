@@ -21,13 +21,14 @@ const host = process.env.APP_HOST;
 const port = process.env.APP_PORT;
 const api_version = process.env.API_VERSION;
 
-app.use(cors());
+// middleware
+app.use(cors()); //Cross-Origin Resource Sharing  helps to handle error when we run the appl in front-end and backend development
 app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+app.use(express.json()); //JSON
 app.use(morgan('combined', { stream: logStream }));
 
-database();
+database(); //Database connection
 
 app.use(`/api/${api_version}`, routes());
 app.use(appErrorHandler);

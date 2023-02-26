@@ -1,1 +1,229 @@
 error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27018 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27018\n    at NativeConnection.Connection.openUri (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (D:\\MSBelagavi\\FunDoo_Notes\\src\\config\\/database.js:12:20)\n    at tryCatch (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2023-02-24T07:26:20.721Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-24T09:10:22.753Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "RamKumar " fails to match the required pattern: /^[A-Z]{1,1}[a-z]{3,20}$/ 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-24T09:11:37.843Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "Ramkumar " fails to match the required pattern: /^[A-Z]{1,1}[a-z]{3,20}$/ 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-24T09:12:01.054Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "Ramkumar " fails to match the required pattern: /^[A-Z]{1,1}[a-z]{3,20}$/ 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-24T09:13:10.342Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "Ramkumar " fails to match the required pattern: /^[A-Z]{1,1}[a-z]{3,20}$/ 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-24T09:14:33.617Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" with value "koladur" fails to match the required pattern: /^[A-Z]{1,1}[a-z]{3,20}$/ 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-24T09:27:19.227Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'firstName')
+    at _callee2$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:36:26)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-26T06:43:53.638Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'firstName')
+    at _callee2$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:36:26)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-26T06:44:25.657Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'firstName')
+    at _callee2$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:36:26)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-26T06:50:12.544Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'firstName')
+    at _callee2$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:36:26)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-26T06:50:38.849Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'firstName')
+    at _callee2$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:36:26)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-26T06:50:53.479Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\response.js:278:15)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:20:52)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-26T06:51:11.490Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "RohanKumar" fails to match the required pattern: /^[A-Z]{1,1}[a-z]{3,20}$/ 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-26T06:56:21.776Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\response.js:278:15)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:21:36)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-26T06:56:37.575Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\response.js:278:15)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:21:36)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-26T06:56:53.986Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\response.js:278:15)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:21:36)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-26T06:57:06.326Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'firstName')
+    at _callee2$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:37:26)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-26T06:59:44.464Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\response.js:278:15)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:21:36)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-26T07:10:32.593Z"}

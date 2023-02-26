@@ -1,39 +1,13 @@
 import User from '../models/user.model';
 
-//get all users
-export const getAllUsers = async () => {
-  const data = await User.find();
-  return data;
-};
-
-//create new user
+//create new user : using user model
 export const newUser = async (body) => {
   const data = await User.create(body);
   return data;
 };
 
-//update single user
-export const updateUser = async (_id, body) => {
-  const data = await User.findByIdAndUpdate(
-    {
-      _id
-    },
-    body,
-    {
-      new: true
-    }
-  );
-  return data;
-};
-
-//delete single user
-export const deleteUser = async (id) => {
-  await User.findByIdAndDelete(id);
-  return '';
-};
-
-//get single user
-export const getUser = async (id) => {
-  const data = await User.findById(id);
+//login :the user info will get from email
+export const login = async (email) => {
+  const data = await User.findOne({ email: email });
   return data;
 };
