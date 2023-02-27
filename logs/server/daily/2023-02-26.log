@@ -234,3 +234,42 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-02-26T07:10:32.593Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-26T07:31:08.665Z"}
+info: Connected to the database. {"timestamp":"2023-02-26T07:31:08.717Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\response.js:278:15)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:21:36)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-26T07:35:08.756Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-26T07:39:57.976Z"}
+info: Connected to the database. {"timestamp":"2023-02-26T07:39:58.029Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-26T07:40:11.032Z"}
+info: Connected to the database. {"timestamp":"2023-02-26T07:40:11.071Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-26T07:45:07.714Z"}
+info: Connected to the database. {"timestamp":"2023-02-26T07:45:07.749Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-26T07:47:23.604Z"}
+info: Connected to the database. {"timestamp":"2023-02-26T07:47:23.640Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-26T07:48:25.659Z"}
+info: Connected to the database. {"timestamp":"2023-02-26T07:48:25.698Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-26T07:48:36.010Z"}
+info: Connected to the database. {"timestamp":"2023-02-26T07:48:36.052Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-26T07:50:33.523Z"}
+info: Connected to the database. {"timestamp":"2023-02-26T07:50:33.560Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-26T07:50:44.778Z"}
+info: Connected to the database. {"timestamp":"2023-02-26T07:50:44.812Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-26T07:51:37.328Z"}
+info: Connected to the database. {"timestamp":"2023-02-26T07:51:37.355Z"}

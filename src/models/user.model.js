@@ -20,7 +20,7 @@ const userSchema = new Schema(
   {
     timestamps: true,
     collection: 'User',
-    versionKey: false // to remove the "__v" :0 in database
+    versionKey: false // to remove the "__v" :0 in response from db
   }
 );
 
