@@ -178,3 +178,518 @@ info: ::1 - - [27/Feb/2023:04:20:38 +0000] "POST /api/v1/users/create HTTP/1.1" 
 
 info: ::1 - - [27/Feb/2023:04:20:54 +0000] "POST /api/v1/users/create HTTP/1.1" 201 265 "-" "PostmanRuntime/7.31.1"
 
+info: ::1 - - [27/Feb/2023:06:08:07 +0000] "POST /api/v1/users/create HTTP/1.1" 200 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:06:09:08 +0000] "POST /api/v1/users/create HTTP/1.1" 200 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:06:09:24 +0000] "POST /api/v1/users/create HTTP/1.1" 200 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:06:09:48 +0000] "POST /api/v1/users/create HTTP/1.1" 500 139 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:06:09:55 +0000] "POST /api/v1/users/create HTTP/1.1" 200 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:06:10:08 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:06:11:26 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:06:11:42 +0000] "POST /api/v1/users/create HTTP/1.1" 200 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:06:12:04 +0000] "POST /api/v1/users/create HTTP/1.1" 200 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:06:34:29 +0000] "POST /api/v1/users/create HTTP/1.1" 200 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:06:35:21 +0000] "POST /api/v1/users/create HTTP/1.1" 200 92 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:06:35:28 +0000] "POST /api/v1/users/create HTTP/1.1" 200 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:06:36:12 +0000] "POST /api/v1/users/create HTTP/1.1" 500 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:06:37:50 +0000] "POST /api/v1/users/create HTTP/1.1" 500 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:07:15:39 +0000] "POST /api/v1/users/create HTTP/1.1" 200 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:07:16:08 +0000] "POST /api/v1/users/create HTTP/1.1" 500 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:07:19:02 +0000] "POST /api/v1/users/create HTTP/1.1" 500 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:07:33:21 +0000] "POST /api/v1/users/create HTTP/1.1" 500 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:07:49:13 +0000] "POST /api/v1/users/create HTTP/1.1" 200 58 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:07:50:47 +0000] "POST /api/v1/users/create HTTP/1.1" 200 58 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:07:54:37 +0000] "POST /api/v1/users/create HTTP/1.1" 200 58 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:07:55:01 +0000] "POST /api/v1/users/login HTTP/1.1" 500 71 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:07:55:18 +0000] "POST /api/v1/users/login HTTP/1.1" 500 71 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:07:55:36 +0000] "POST /api/v1/users/login HTTP/1.1" 500 71 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:02:56 +0000] "POST /api/v1/users/create HTTP/1.1" 200 92 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:03:02 +0000] "POST /api/v1/users/create HTTP/1.1" 200 92 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:03:10 +0000] "POST /api/v1/users/create HTTP/1.1" 201 270 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:16:13 +0000] "POST /api/v1/users/create HTTP/1.1" 201 272 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:23:29 +0000] "POST /api/v1/users/create HTTP/1.1" 201 274 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:28:13 +0000] "POST /api/v1/users/create HTTP/1.1" 500 69 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:28:53 +0000] "POST /api/v1/users/create HTTP/1.1" 201 276 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:29:15 +0000] "POST /api/v1/users/login HTTP/1.1" 500 67 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:33:30 +0000] "POST /api/v1/users/create HTTP/1.1" 500 55 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:34:04 +0000] "POST /api/v1/users/create HTTP/1.1" 200 92 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:38:20 +0000] "POST /api/v1/users/create HTTP/1.1" 201 323 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:39:46 +0000] "POST /api/v1/users/login HTTP/1.1" 500 67 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:40:21 +0000] "POST /api/v1/users/login HTTP/1.1" 500 67 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:41:56 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:48:40 +0000] "POST /api/v1/users/create HTTP/1.1" 500 176 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:49:15 +0000] "POST /api/v1/users/create HTTP/1.1" 200 92 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:49:27 +0000] "POST /api/v1/users/create HTTP/1.1" 200 51 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:49:55 +0000] "POST /api/v1/users/create HTTP/1.1" 200 51 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:51:03 +0000] "POST /api/v1/users/create HTTP/1.1" 201 320 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:52:01 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:52:30 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:55:00 +0000] "POST /api/v1/users/login HTTP/1.1" 200 45 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:59:20 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:00:47 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:02:23 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:02:37 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:04:34 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:04:52 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:04:55 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:05:36 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:08:42 +0000] "POST /api/v1/users/create HTTP/1.1" 201 322 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:09:45 +0000] "POST /api/v1/users/create HTTP/1.1" 201 322 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:09:49 +0000] "POST /api/v1/users/create HTTP/1.1" 201 322 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:12:30 +0000] "POST /api/v1/users/create HTTP/1.1" 200 46 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:12:47 +0000] "POST /api/v1/users/create HTTP/1.1" 200 46 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:13:29 +0000] "POST /api/v1/users/create HTTP/1.1" 201 323 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:13:32 +0000] "POST /api/v1/users/create HTTP/1.1" 201 323 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:16:38 +0000] "POST /api/v1/users/create HTTP/1.1" 200 51 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:17:11 +0000] "POST /api/v1/users/create HTTP/1.1" 200 51 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:18:14 +0000] "POST /api/v1/users/create HTTP/1.1" 200 51 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:18:22 +0000] "POST /api/v1/users/create HTTP/1.1" 200 51 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:18:48 +0000] "POST /api/v1/users/create HTTP/1.1" 201 323 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:09:18:56 +0000] "POST /api/v1/users/create HTTP/1.1" 201 323 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:10:39:10 +0000] "POST /api/v1/users/create HTTP/1.1" 200 92 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:10:39:43 +0000] "POST /api/v1/users/create HTTP/1.1" 201 322 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:10:40:35 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:10:41:05 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:10:41:10 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:10:41:30 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:10:42:43 +0000] "POST /api/v1/users/create HTTP/1.1" 201 322 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:10:42:59 +0000] "POST /api/v1/users/create HTTP/1.1" 500 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:10:43:14 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:10:43:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:10:45:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:11:11:16 +0000] "POST /api/v1/users/create HTTP/1.1" 201 321 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:11:12:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:11:16:34 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:11:18:55 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:11:20:09 +0000] "POST /api/v1/users/login HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:11:31:07 +0000] "POST /api/v1/users/create HTTP/1.1" 201 322 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:11:31:29 +0000] "POST /api/v1/users/login HTTP/1.1" 200 315 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:11:32:19 +0000] "POST /api/v1/users/login HTTP/1.1" 200 57 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:11:32:29 +0000] "POST /api/v1/users/login HTTP/1.1" 500 51 "-" "PostmanRuntime/7.31.1"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\src\/index.js:38:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32) {"date":"Mon Feb 27 2023 17:23:44 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":4000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":260279.687},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18815160,"external":20350565,"heapTotal":90910720,"heapUsed":50638344,"rss":129748992},"pid":6064,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js:38:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js","function":null,"line":38,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false}]}
+info: ::1 - - [27/Feb/2023:11:54:55 +0000] "POST /api/v1/users/create HTTP/1.1" 201 322 "-" "PostmanRuntime/7.31.1"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\src\/index.js:38:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32) {"date":"Mon Feb 27 2023 17:28:54 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":4000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":260588.859},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18836614,"external":20372019,"heapTotal":90910720,"heapUsed":50807320,"rss":129982464},"pid":11356,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js:38:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js","function":null,"line":38,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false}]}
+info: ::1 - - [27/Feb/2023:16:09:34 +0000] "POST /api/v1/users/create HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:16:09:55 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 53 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:16:10:56 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 53 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:16:13:19 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 53 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:16:13:30 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 53 "-" "PostmanRuntime/7.31.1"
+
+error: uncaughtException: Password not matching re-enter password and confirm password
+Error: Password not matching re-enter password and confirm password
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\services\/user.service.js:46:11)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Mon Feb 27 2023 22:06:48 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":277261.453},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18397932,"external":19932522,"heapTotal":91959296,"heapUsed":48311576,"rss":130199552},"pid":12740,"uid":null,"version":"v18.13.0"},"stack":"Error: Password not matching re-enter password and confirm password\n    at _callee$ (D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js:46:11)\n    at tryCatch (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":11,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js","function":"_callee$","line":46,"method":null,"native":false},{"column":17,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: Password not matching re-enter password and confirm password
+Error: Password not matching re-enter password and confirm password
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\services\/user.service.js:46:11)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Mon Feb 27 2023 22:08:16 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":277349.656},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18302043,"external":19835317,"heapTotal":49229824,"heapUsed":45828664,"rss":88780800},"pid":12432,"uid":null,"version":"v18.13.0"},"stack":"Error: Password not matching re-enter password and confirm password\n    at _callee$ (D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js:46:11)\n    at tryCatch (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":11,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js","function":"_callee$","line":46,"method":null,"native":false},{"column":17,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [27/Feb/2023:16:51:05 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 323 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:16:51:35 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 321 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:16:51:47 +0000] "POST /api/v1/users/signin HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:16:53:02 +0000] "POST /api/v1/users/signin HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:16:53:30 +0000] "POST /api/v1/users/signin HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:16:53:32 +0000] "POST /api/v1/users/signin HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:16:53:45 +0000] "POST /api/v1/users/signin HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:16:53:48 +0000] "POST /api/v1/users/signin HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:16:54:43 +0000] "POST /api/v1/users/signin HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:16:54:45 +0000] "POST /api/v1/users/signin HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:16:55:24 +0000] "POST /api/v1/users/signin HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:16:55:37 +0000] "POST /api/v1/users/signin HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:17:00:20 +0000] "POST /api/v1/users/signin HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:17:00:23 +0000] "POST /api/v1/users/signin HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:17:00:31 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 323 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:17:00:49 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:17:00:57 +0000] "POST /api/v1/users/signin HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:17:01:02 +0000] "POST /api/v1/users/signin HTTP/1.1" 200 321 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:17:03:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 321 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:17:03:39 +0000] "POST /api/v1/users/login HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:17:06:34 +0000] "POST /api/v1/users/login HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:17:06:46 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 62 "-" "PostmanRuntime/7.31.1"
+
+error: uncaughtException: Password not matching re-enter password and confirm password
+Error: Password not matching re-enter password and confirm password
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\services\/user.service.js:11:11)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newRegistration (D:\MSBelagavi\FunDoo_Notes\src\services\/user.service.js:8:29)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:15:34)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) {"date":"Mon Feb 27 2023 22:37:01 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":279074.703},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18300644,"external":19833918,"heapTotal":50016256,"heapUsed":46400184,"rss":89477120},"pid":15584,"uid":null,"version":"v18.13.0"},"stack":"Error: Password not matching re-enter password and confirm password\n    at _callee$ (D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js:11:11)\n    at tryCatch (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at Object.apply (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at Object.newRegistration (D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js:8:29)\n    at _callee$ (D:\\MSBelagavi\\FunDoo_Notes\\src\\controllers\\/user.controller.js:15:34)\n    at tryCatch (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)","trace":[{"column":11,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js","function":"_callee$","line":11,"method":null,"native":false},{"column":17,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"Object.apply","line":19,"method":"apply","native":false},{"column":29,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js","function":"Object.newRegistration","line":8,"method":"newRegistration","native":false},{"column":34,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\controllers\\/user.controller.js","function":"_callee$","line":15,"method":null,"native":false},{"column":17,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false}]}
+error: uncaughtException: Password not matching re-enter password and confirm password
+Error: Password not matching re-enter password and confirm password
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\services\/user.service.js:11:11)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newRegistration (D:\MSBelagavi\FunDoo_Notes\src\services\/user.service.js:8:29)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:15:34)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) {"date":"Mon Feb 27 2023 22:37:53 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":279126.109},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18402407,"external":19936997,"heapTotal":91435008,"heapUsed":48160920,"rss":129863680},"pid":17092,"uid":null,"version":"v18.13.0"},"stack":"Error: Password not matching re-enter password and confirm password\n    at _callee$ (D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js:11:11)\n    at tryCatch (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at Object.apply (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at Object.newRegistration (D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js:8:29)\n    at _callee$ (D:\\MSBelagavi\\FunDoo_Notes\\src\\controllers\\/user.controller.js:15:34)\n    at tryCatch (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)","trace":[{"column":11,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js","function":"_callee$","line":11,"method":null,"native":false},{"column":17,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"Object.apply","line":19,"method":"apply","native":false},{"column":29,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js","function":"Object.newRegistration","line":8,"method":"newRegistration","native":false},{"column":34,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\controllers\\/user.controller.js","function":"_callee$","line":15,"method":null,"native":false},{"column":17,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false}]}
+error: uncaughtException: Password not matching re-enter password and confirm password
+Error: Password not matching re-enter password and confirm password
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\services\/user.service.js:11:11)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newRegistration (D:\MSBelagavi\FunDoo_Notes\src\services\/user.service.js:8:29)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:15:34)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) {"date":"Mon Feb 27 2023 22:39:28 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":279221.64},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18292436,"external":19825710,"heapTotal":50016256,"heapUsed":46266696,"rss":88760320},"pid":17108,"uid":null,"version":"v18.13.0"},"stack":"Error: Password not matching re-enter password and confirm password\n    at _callee$ (D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js:11:11)\n    at tryCatch (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at Object.apply (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at Object.newRegistration (D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js:8:29)\n    at _callee$ (D:\\MSBelagavi\\FunDoo_Notes\\src\\controllers\\/user.controller.js:15:34)\n    at tryCatch (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)","trace":[{"column":11,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js","function":"_callee$","line":11,"method":null,"native":false},{"column":17,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"Object.apply","line":19,"method":"apply","native":false},{"column":29,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js","function":"Object.newRegistration","line":8,"method":"newRegistration","native":false},{"column":34,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\controllers\\/user.controller.js","function":"_callee$","line":15,"method":null,"native":false},{"column":17,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false}]}
+info: ::1 - - [27/Feb/2023:17:11:11 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 322 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:17:11:17 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 62 "-" "PostmanRuntime/7.31.1"
+
+error: uncaughtException: Password not matching re-enter password and confirm password
+Error: Password not matching re-enter password and confirm password
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\services\/user.service.js:11:11)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newRegistration (D:\MSBelagavi\FunDoo_Notes\src\services\/user.service.js:8:29)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:15:34)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) {"date":"Mon Feb 27 2023 22:41:37 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":279350.89},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18300644,"external":19833918,"heapTotal":50016256,"heapUsed":46112288,"rss":89210880},"pid":17068,"uid":null,"version":"v18.13.0"},"stack":"Error: Password not matching re-enter password and confirm password\n    at _callee$ (D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js:11:11)\n    at tryCatch (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at Object.apply (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at Object.newRegistration (D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js:8:29)\n    at _callee$ (D:\\MSBelagavi\\FunDoo_Notes\\src\\controllers\\/user.controller.js:15:34)\n    at tryCatch (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)","trace":[{"column":11,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js","function":"_callee$","line":11,"method":null,"native":false},{"column":17,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"Object.apply","line":19,"method":"apply","native":false},{"column":29,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js","function":"Object.newRegistration","line":8,"method":"newRegistration","native":false},{"column":34,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\controllers\\/user.controller.js","function":"_callee$","line":15,"method":null,"native":false},{"column":17,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false}]}
+info: ::1 - - [27/Feb/2023:17:12:09 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 62 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:17:12:23 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:17:12:36 +0000] "POST /api/v1/users/login HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:17:12:43 +0000] "POST /api/v1/users/login HTTP/1.1" 200 320 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:04:59:17 +0000] "POST /api/v1/users/login HTTP/1.1" 400 45 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:05:00:52 +0000] "POST /api/v1/users/login HTTP/1.1" 400 45 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:05:01:02 +0000] "POST /api/v1/users/login HTTP/1.1" 200 315 "-" "PostmanRuntime/7.31.1"
+
+error: uncaughtException: Password not matching re-enter password and confirm password
+Error: Password not matching re-enter password and confirm password
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\services\/user.service.js:11:11)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newRegistration (D:\MSBelagavi\FunDoo_Notes\src\services\/user.service.js:8:29)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:15:34)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at newRegistration (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:14:29)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (D:\MSBelagavi\FunDoo_Notes\src\validators\/user.validator.js:29:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28) {"date":"Tue Feb 28 2023 10:32:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":321984.468},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18329171,"external":19862445,"heapTotal":53161984,"heapUsed":49788568,"rss":93143040},"pid":13776,"uid":null,"version":"v18.13.0"},"stack":"Error: Password not matching re-enter password and confirm password\n    at _callee$ (D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js:11:11)\n    at tryCatch (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at Object.apply (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at Object.newRegistration (D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js:8:29)\n    at _callee$ (D:\\MSBelagavi\\FunDoo_Notes\\src\\controllers\\/user.controller.js:15:34)\n    at tryCatch (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at apply (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at newRegistration (D:\\MSBelagavi\\FunDoo_Notes\\src\\controllers\\/user.controller.js:14:29)\n    at Layer.handle [as handle_request] (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at newUserValidator (D:\\MSBelagavi\\FunDoo_Notes\\src\\validators\\/user.validator.js:29:5)\n    at Layer.handle [as handle_request] (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at logger (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\morgan\\index.js:144:5)\n    at Layer.handle [as handle_request] (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\body-parser\\lib\\read.js:137:5\n    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)\n    at invokeCallback (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\raw-body\\index.js:231:16)\n    at done (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\raw-body\\index.js:220:7)\n    at IncomingMessage.onEnd (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\raw-body\\index.js:280:7)\n    at IncomingMessage.emit (node:events:513:28)","trace":[{"column":11,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js","function":"_callee$","line":11,"method":null,"native":false},{"column":17,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"Object.apply","line":19,"method":"apply","native":false},{"column":29,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/user.service.js","function":"Object.newRegistration","line":8,"method":"newRegistration","native":false},{"column":34,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\controllers\\/user.controller.js","function":"_callee$","line":15,"method":null,"native":false},{"column":17,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"apply","line":19,"method":null,"native":false},{"column":29,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\controllers\\/user.controller.js","function":"newRegistration","line":14,"method":null,"native":false},{"column":5,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":5,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\validators\\/user.validator.js","function":"newUserValidator","line":29,"method":null,"native":false},{"column":5,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":3,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":114,"method":"dispatch","native":false},{"column":5,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":284,"method":null,"native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\morgan\\index.js","function":"logger","line":144,"method":null,"native":false},{"column":5,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\body-parser\\lib\\read.js","function":null,"line":137,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":204,"method":"runInAsyncScope","native":false},{"column":16,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\raw-body\\index.js","function":"invokeCallback","line":231,"method":null,"native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\raw-body\\index.js","function":"done","line":220,"method":null,"native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\raw-body\\index.js","function":"IncomingMessage.onEnd","line":280,"method":"onEnd","native":false},{"column":28,"file":"node:events","function":"IncomingMessage.emit","line":513,"method":"emit","native":false}]}
+info: ::1 - - [28/Feb/2023:05:09:05 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 322 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:05:10:19 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 62 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:05:10:42 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 322 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:05:10:47 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 62 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:05:15:22 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 67 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:05:15:48 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 62 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:05:17:35 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 95 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:05:17:50 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 323 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:05:18:06 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:05:18:16 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:05:18:23 +0000] "POST /api/v1/users/login HTTP/1.1" 400 45 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:05:20:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 43 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:05:20:20 +0000] "POST /api/v1/users/login HTTP/1.1" 200 316 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:05:20:35 +0000] "POST /api/v1/users/login HTTP/1.1" 200 43 "-" "PostmanRuntime/7.31.1"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\src\/index.js:38:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Feb 28 2023 13:32:30 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":332802.468},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19174118,"external":20709523,"heapTotal":93302784,"heapUsed":58465640,"rss":131596288},"pid":7160,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js:38:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js","function":null,"line":38,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\src\/index.js:38:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32) {"date":"Tue Feb 28 2023 13:34:08 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":332900},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18335404,"external":19870809,"heapTotal":91172864,"heapUsed":46776192,"rss":131207168},"pid":3032,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js:38:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js","function":null,"line":38,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false}]}
+info: ::1 - - [28/Feb/2023:08:05:36 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:08:06:45 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 95 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:08:07:13 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 62 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:08:07:23 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 322 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:08:07:43 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 62 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:08:08:10 +0000] "POST /api/v1/users/login HTTP/1.1" 400 45 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:08:08:19 +0000] "POST /api/v1/users/login HTTP/1.1" 200 315 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:08:08:27 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.31.1"
+
