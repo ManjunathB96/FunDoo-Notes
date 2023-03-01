@@ -3760,3 +3760,28 @@ info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T1
 info: Connected to the database. {"timestamp":"2023-03-01T11:45:26.108Z"}
 info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:46:03.012Z"}
 info: Connected to the database. {"timestamp":"2023-03-01T11:46:03.050Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T12:41:31.951Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T12:41:32.000Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T12:44:22.470Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T12:48:47.823Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T12:48:47.860Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T12:51:00.730Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T12:51:00.767Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T12:51:09.416Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T12:51:09.466Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T12:52:51.303Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T12:52:51.344Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T12:59:29.976Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T12:59:30.018Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T12:59:41.597Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T12:59:41.631Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T12:59:51.322Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T12:59:51.376Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T12:59:58.336Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T12:59:58.367Z"}
