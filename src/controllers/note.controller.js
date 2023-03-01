@@ -1,6 +1,6 @@
 import HttpStatus from 'http-status-codes';
 import { log } from 'winston';
-import * as noteService from '../services/note.service';
+import * as NoteService from '../services/note.service';
 
 
 /**
@@ -11,7 +11,7 @@ import * as noteService from '../services/note.service';
  */
 export const newNote = async (req, res, next) => {
   try {
-    const data = await noteService.newNote(req.body);
+    const data = await NoteService.newNote(req.body);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
@@ -22,5 +22,24 @@ export const newNote = async (req, res, next) => {
   }
 };
 
+/**
+ * Controller to get all notes available
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const getAllNotes = async (req, res, next) => {
+  try {
+    const data = await NoteService.getAllNotes();
+    console.log("getAllNotes__",data)
+    res.status(HttpStatus.OK).json({
+      //  code: HttpStatus.OK,
+      data: data,
+      message: 'All users fetched successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
 
 

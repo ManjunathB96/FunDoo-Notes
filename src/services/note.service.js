@@ -9,3 +9,8 @@ export const newNote = async (body) => {
   return data;
 };
 
+//to get all  notes
+export const getAllNotes = async () => {
+  const data = await Note.find();
+  return data;
+};

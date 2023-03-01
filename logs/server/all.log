@@ -3704,3 +3704,59 @@ info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T0
 info: Connected to the database. {"timestamp":"2023-03-01T08:07:13.023Z"}
 info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T08:08:02.858Z"}
 info: Connected to the database. {"timestamp":"2023-03-01T08:08:02.882Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:18:15.508Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:18:15.548Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:20:26.968Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:20:27.004Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:20:42.834Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:20:42.868Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:20:59.471Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:20:59.522Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:24:14.156Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:24:14.224Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/:_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T11:26:12.850Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/:_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T11:26:24.871Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:29:29.983Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:29:30.014Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:29:41.358Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:29:41.429Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:29:52.528Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:29:52.578Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:30:28.278Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:30:28.350Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:30:41.777Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:30:41.809Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:37:38.717Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:37:38.772Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:37:52.590Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:37:52.674Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:42:06.635Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:42:06.691Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:44:41.773Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:44:41.843Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:44:47.151Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:44:47.181Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:45:19.974Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:45:20.013Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:45:26.082Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:45:26.108Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T11:46:03.012Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:46:03.050Z"}

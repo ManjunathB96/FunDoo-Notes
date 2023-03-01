@@ -2361,3 +2361,23 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-03-01T08:04:04.954Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/:_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T11:26:12.850Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/:_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T11:26:24.871Z"}
