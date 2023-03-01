@@ -1150,3 +1150,1214 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-02-28T08:06:45.459Z"}
+error: 
+    status - 500 
+    message - Error: Password not matching re-enter password and confirm password
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\services\/user.service.js:13:11)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newRegistration (D:\MSBelagavi\FunDoo_Notes\src\services\/user.service.js:10:29)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:14:36)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at newRegistration (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:12:29)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (D:\MSBelagavi\FunDoo_Notes\src\validators\/user.validator.js:29:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-28T08:49:58.124Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T08:51:18.600Z"}
+error: 
+    status - 500 
+    message - Error: Password not matching re-enter password and confirm password
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\services\/user.service.js:11:11)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newRegistration (D:\MSBelagavi\FunDoo_Notes\src\services\/user.service.js:8:29)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:14:36)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at newRegistration (D:\MSBelagavi\FunDoo_Notes\src\controllers\/user.controller.js:12:29)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (D:\MSBelagavi\FunDoo_Notes\src\validators\/user.validator.js:29:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-28T09:03:53.703Z"}
+error: 
+    status - 500 
+    message - ReferenceError: SECRET_KEY is not defined
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\services\/user.service.js:22:65)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-28T09:04:00.376Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:23:22)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-28T09:08:57.241Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T09:16:25.596Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 78
+    at JSON.parse (<anonymous>)
+    at parse (D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-28T09:19:23.890Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:23:22)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-28T09:19:46.820Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:23:22)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-28T09:20:00.767Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T09:20:03.263Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:23:22)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-28T09:20:20.994Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "tTanushree" fails to match the required pattern: /^[A-Z]{1,1}[a-z]{3,20}$/ 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-28T09:22:16.066Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T12:14:17.408Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T12:14:28.485Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T12:18:40.688Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T12:19:54.103Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T12:20:01.994Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T12:25:39.261Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T12:31:04.163Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T12:37:51.930Z"}
+error: uncaughtException: req is not defined
+ReferenceError: req is not defined
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\src\/index.js:30:10)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Feb 28 2023 18:29:23 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":350615.171},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19251778,"external":20768048,"heapTotal":91959296,"heapUsed":60563872,"rss":131608576},"pid":6048,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: req is not defined\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js:30:10)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-02-28T12:59:23.390Z","trace":[{"column":10,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js","function":null,"line":30,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:469:13)
+    at routes (D:\MSBelagavi\FunDoo_Notes\src\routes\/index.js:14:10)
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\src\/index.js:36:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Feb 28 2023 21:51:36 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":362748},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18370971,"external":19887241,"heapTotal":91697152,"heapUsed":48290888,"rss":130822144},"pid":20248,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (D:\\MSBelagavi\\FunDoo_Notes\\src\\routes\\/index.js:14:10)\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js:36:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-02-28T16:21:36.212Z","trace":[{"column":13,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\routes\\/index.js","function":"routes","line":14,"method":null,"native":false},{"column":38,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js","function":null,"line":36,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\src\/index.js:41:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32) {"date":"Tue Feb 28 2023 23:42:21 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":4000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":369393.781},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18293375,"external":20404368,"heapTotal":91697152,"heapUsed":45578800,"rss":131514368},"pid":3916,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js:41:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)","timestamp":"2023-02-28T18:12:22.001Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js","function":null,"line":41,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false}]}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-01T04:49:01.927Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-01T04:49:22.751Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:22)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T04:49:46.236Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:22)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T04:55:36.474Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:22)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T05:06:30.121Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:22)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T05:07:10.432Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:22)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T05:07:12.844Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:22)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T05:07:14.246Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:27)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T06:19:39.054Z"}
+error: 
+    status - 500 
+    message - ValidationError: "discription" is required 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T06:30:20.400Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 80
+    at JSON.parse (<anonymous>)
+    at parse (D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T06:32:23.657Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T06:32:37.968Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:27)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T06:32:50.461Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:27)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T06:59:03.400Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:27)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T07:02:51.410Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-01T07:21:25.198Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T07:48:06.567Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token  in JSON at position 67
+    at JSON.parse (<anonymous>)
+    at parse (D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T07:57:14.953Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-01T08:03:46.928Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:45:34)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:34:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T08:04:04.954Z"}

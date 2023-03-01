@@ -1,12 +1,14 @@
-// import express from 'express';
-// import * as userController from '../controllers/user.controller';
-// import { newUserValidator } from '../validators/user.validator';
-// import { userAuth } from '../middlewares/auth.middleware';
 
-// const router = express.Router();
+import express from 'express';
+import * as noteController from '../controllers/note.controller';
+import { newNoteValidator } from '../validators/note.validator';
+import { userAuth } from '../middlewares/auth.middleware';
 
-// //route to create a new user
-// router.post('', newNoteValidator,userAuth, noteController.addNote);
-// // router.post('/login',userController.login);
+const router = express.Router();
 
-// export default router;
+//route to create a new note
+router.post('/', newNoteValidator,userAuth,noteController.newNote);
+
+export default router;
+
+

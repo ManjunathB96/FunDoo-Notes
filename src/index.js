@@ -27,6 +27,9 @@ app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json()); //JSON
 app.use(morgan('combined', { stream: logStream }));
+// app.use((req,res,next) =>{              //to check which request(mtd and url) is coming 
+//   console.log("HTTP Method -"+req.method+" , URL -"+req.url);
+// })
 
 database(); //Database connection
 

@@ -1,0 +1,933 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T04:01:48.709Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T04:01:48.784Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T04:42:27.598Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T04:42:27.640Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T04:44:36.698Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T04:44:36.726Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T04:47:55.165Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T04:47:55.192Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-01T04:49:01.927Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-01T04:49:22.751Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:22)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T04:49:46.236Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T04:55:23.580Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T04:55:23.712Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T04:55:31.077Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T04:55:31.107Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:22)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T04:55:36.474Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:02:53.931Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:02:53.954Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:03:06.921Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:03:06.945Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:03:13.919Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:03:13.943Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:04:41.231Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:04:41.258Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:05:00.132Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:05:00.161Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:05:56.876Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:05:56.904Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:06:20.866Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:06:20.929Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:06:27.355Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:06:27.389Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:22)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T05:06:30.121Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:07:07.383Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:07:07.439Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:22)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T05:07:10.432Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:22)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T05:07:12.844Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:22)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T05:07:14.246Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:09:59.901Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:09:59.939Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:33:41.302Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:33:41.328Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:33:49.232Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:33:55.797Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:33:55.825Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:34:05.869Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:34:05.898Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:34:17.216Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:34:17.244Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:34:39.441Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:34:39.485Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:34:50.331Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:35:02.276Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:35:02.341Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:35:11.485Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:35:11.536Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:35:28.988Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:35:29.043Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:35:42.014Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:35:42.093Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:36:00.285Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:36:00.376Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:36:22.228Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:36:22.253Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:38:17.866Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:38:17.893Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:38:51.493Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:38:51.525Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:39:26.124Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:39:26.155Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:39:35.446Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:39:35.472Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:39:44.400Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:39:44.444Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:39:57.335Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:39:57.360Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:40:06.162Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:40:06.193Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:40:26.776Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:40:26.840Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:40:37.356Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:40:37.392Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:40:45.054Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:40:45.083Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T05:41:08.130Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:41:08.160Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T06:17:59.845Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:17:59.913Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T06:18:14.468Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:18:14.499Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:27)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T06:19:39.054Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T06:24:17.339Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:24:17.373Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T06:25:13.967Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:25:14.018Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T06:27:43.832Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:27:43.859Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T06:27:48.438Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:27:48.467Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T06:28:51.150Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:28:51.201Z"}
+error: 
+    status - 500 
+    message - ValidationError: "discription" is required 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T06:30:20.400Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 80
+    at JSON.parse (<anonymous>)
+    at parse (D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T06:32:23.657Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T06:32:37.968Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:27)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T06:32:50.461Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T06:35:10.422Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:35:10.461Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T06:35:17.721Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:35:17.753Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T06:35:53.690Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:35:53.726Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T06:36:44.445Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:36:44.484Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T06:37:02.696Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:37:02.724Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T06:58:36.078Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:58:36.106Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:27)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T06:59:03.400Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:02:47.843Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:02:47.873Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:24:27)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:13:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T07:02:51.410Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:04:10.048Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:04:10.089Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:06:03.213Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:06:03.244Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:06:53.894Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:06:53.935Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:07:09.437Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:07:09.468Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:07:58.887Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:07:58.927Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:08:21.439Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:08:21.527Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:08:26.862Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:08:26.920Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:08:33.433Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:08:33.472Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:09:01.422Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:09:01.457Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:09:15.661Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:09:15.690Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:09:52.048Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:09:52.108Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:10:13.647Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:10:13.681Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:10:22.486Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:10:22.515Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:11:47.881Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:11:47.921Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:12:26.750Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:12:26.812Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:12:39.323Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:12:39.353Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:13:17.665Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:13:17.694Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:13:40.688Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:13:40.717Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:14:18.875Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:14:18.906Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:14:24.889Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:14:24.917Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:17:13.382Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:17:13.431Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:17:24.793Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:17:24.836Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:17:39.109Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:17:39.135Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:17:45.619Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:17:45.661Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:17:51.949Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:17:51.981Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:18:57.769Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:18:57.807Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:19:28.306Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:19:28.343Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:19:42.020Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:19:42.046Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:19:52.125Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:19:52.156Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:20:04.264Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:20:04.302Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:20:11.696Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:20:11.725Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:20:22.671Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:20:22.705Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:20:47.772Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:20:47.815Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:21:10.376Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:21:10.446Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:21:17.081Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:21:17.125Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-01T07:21:25.198Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:24:29.940Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:24:29.981Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:27:31.865Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:27:31.901Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:28:45.034Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:28:45.065Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:29:06.480Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:29:06.518Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:29:13.049Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:29:13.085Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:29:41.891Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:29:41.925Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:32:51.297Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:32:51.368Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:35:08.593Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:35:08.624Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:35:17.214Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:35:17.249Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:35:41.551Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:35:41.623Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:35:57.428Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:35:57.463Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:36:02.276Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:36:02.301Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:37:07.991Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:37:08.035Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:41:06.595Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:41:06.628Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:42:44.785Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:42:44.817Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:43:48.660Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:43:48.701Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:44:29.784Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:44:29.814Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:45:12.874Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:45:12.964Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:45:17.660Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:45:17.695Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:45:23.736Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:45:23.765Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T07:48:06.567Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:54:20.701Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:54:20.733Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:54:48.723Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:54:48.782Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token  in JSON at position 67
+    at JSON.parse (<anonymous>)
+    at parse (D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T07:57:14.953Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T07:58:40.481Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:58:40.520Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T08:03:01.600Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:03:01.644Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T08:03:43.639Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:03:43.682Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-01T08:03:46.928Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\MSBelagavi\FunDoo_Notes\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:45:34)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\MSBelagavi\FunDoo_Notes\src\middlewares\/auth.middleware.js:34:22)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\MSBelagavi\FunDoo_Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:328:13)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:280:10)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T08:04:04.954Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T08:06:03.653Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:06:03.685Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T08:07:03.755Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:07:03.890Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T08:07:12.953Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:07:13.023Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T08:08:02.858Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:08:02.882Z"}

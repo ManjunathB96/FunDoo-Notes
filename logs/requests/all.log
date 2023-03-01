@@ -693,3 +693,327 @@ info: ::1 - - [28/Feb/2023:08:08:19 +0000] "POST /api/v1/users/login HTTP/1.1" 2
 
 info: ::1 - - [28/Feb/2023:08:08:27 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.31.1"
 
+info: ::1 - - [28/Feb/2023:08:49:58 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 95 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:08:50:10 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 62 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:08:50:43 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 323 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:08:51:18 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:03:53 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 95 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:04:00 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:04:53 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 62 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:05:00 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 317 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:07:44 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 251 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:08:57 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:09:48 +0000] "POST /api/v1/users/login HTTP/1.1" 400 61 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:16:06 +0000] "POST /api/v1/users/login HTTP/1.1" 200 311 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:16:25 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:16:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 311 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:16:39 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:16:47 +0000] "POST /api/v1/users/login HTTP/1.1" 400 45 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:16:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 311 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:17:54 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 251 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:19:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 315 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:19:46 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:20:00 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:20:03 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:20:21 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:20:26 +0000] "POST /api/v1/users/login HTTP/1.1" 200 315 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:21:34 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 62 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:22:16 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 137 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:22:24 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 251 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:22:56 +0000] "POST /api/v1/users/login HTTP/1.1" 200 315 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:23:55 +0000] "POST /api/v1/users/login HTTP/1.1" 200 315 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:24:00 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:09:24:09 +0000] "POST /api/v1/users/login HTTP/1.1" 400 45 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:12:12:03 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 92 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:12:12:21 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 55 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:12:13:19 +0000] "POST /api/v1/users/signup HTTP/1.1" 200 322 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:12:14:17 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:12:14:28 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:12:18:40 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:12:19:54 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:12:20:02 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:12:25:39 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:12:31:04 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:12:31:52 +0000] "POST /api/v1/users/login HTTP/1.1" 200 244 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:12:32:34 +0000] "POST /api/v1/users/login HTTP/1.1" 200 244 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:12:33:31 +0000] "POST /api/v1/users/login HTTP/1.1" 200 244 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:12:34:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 315 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:12:37:31 +0000] "POST /api/v1/users/signup HTTP/1.1" 200 322 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:12:37:51 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:12:38:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 315 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:12:39:47 +0000] "POST /api/v1/users/login HTTP/1.1" 200 315 "-" "PostmanRuntime/7.31.1"
+
+error: uncaughtException: req is not defined
+ReferenceError: req is not defined
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\src\/index.js:30:10)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Feb 28 2023 18:29:23 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":350615.203},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19261816,"external":20778126,"heapTotal":91959296,"heapUsed":60750784,"rss":131682304},"pid":6048,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: req is not defined\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js:30:10)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":10,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js","function":null,"line":30,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\router\index.js:469:13)
+    at routes (D:\MSBelagavi\FunDoo_Notes\src\routes\/index.js:14:10)
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\src\/index.js:36:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Feb 28 2023 21:51:36 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":362748.031},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18382531,"external":19898841,"heapTotal":91697152,"heapUsed":48492176,"rss":131092480},"pid":20248,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (D:\\MSBelagavi\\FunDoo_Notes\\src\\routes\\/index.js:14:10)\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js:36:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":13,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\routes\\/index.js","function":"routes","line":14,"method":null,"native":false},{"column":38,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js","function":null,"line":36,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: ::1 - - [28/Feb/2023:16:26:18 +0000] "POST /api/v1/users/signup HTTP/1.1" - - "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:16:31:02 +0000] "POST /api/v1/users/signup HTTP/1.1" - - "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:16:49:11 +0000] "POST /api/v1/users/signup HTTP/1.1" - - "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:16:53:18 +0000] "POST /api/v1/users/login HTTP/1.1" - - "-" "PostmanRuntime/7.31.1"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (D:\MSBelagavi\FunDoo_Notes\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\src\/index.js:41:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\MSBelagavi\FunDoo_Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32) {"date":"Tue Feb 28 2023 23:42:22 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":4000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":369393.812},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18304089,"external":19838178,"heapTotal":91697152,"heapUsed":45997504,"rss":131829760},"pid":3916,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js:41:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\/index.js","function":null,"line":41,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false}]}
+info: ::1 - - [28/Feb/2023:18:12:42 +0000] "POST /api/v1/users/login HTTP/1.1" - - "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Feb/2023:18:14:38 +0000] "POST /api/v1/users/login HTTP/1.1" - - "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:04:42:09 +0000] "POST /api/v1/users/signup HTTP/1.1" - - "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:04:43:38 +0000] "POST /api/v1/users/login HTTP/1.1" - - "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:04:45:49 +0000] "POST /api/v1/users/login HTTP/1.1" - - "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:04:47:27 +0000] "POST /api/v1/users/signup HTTP/1.1" - - "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:04:48:00 +0000] "POST /api/v1/users/signup HTTP/1.1" 200 322 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:04:49:01 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:04:49:22 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:04:49:46 +0000] "POST /api/v1/users/login HTTP/1.1" 500 72 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:04:55:36 +0000] "POST /api/v1/users/login HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:05:05:06 +0000] "POST /api/v1/users/login HTTP/1.1" 401 25 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:05:05:28 +0000] "POST /api/v1/users/login HTTP/1.1" 401 25 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:05:06:30 +0000] "POST /api/v1/users/login HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:05:07:10 +0000] "POST /api/v1/users/login HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:05:07:12 +0000] "POST /api/v1/users/login HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:05:07:14 +0000] "POST /api/v1/users/login HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:06:18:50 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 55 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:06:19:11 +0000] "POST /api/v1/users/signup HTTP/1.1" 200 322 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:06:19:39 +0000] "POST /api/v1/users/login HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:06:30:20 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 62 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:06:30:38 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 232 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:06:32:14 +0000] "POST /api/v1/users/signup HTTP/1.1" 200 322 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:06:32:37 +0000] "POST /api/v1/users/signup HTTP/1.1" 500 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:06:32:50 +0000] "POST /api/v1/users/login HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:06:35:23 +0000] "POST /api/v1/users/login HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:06:35:56 +0000] "POST /api/v1/users/login HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:06:35:59 +0000] "POST /api/v1/users/login HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:06:36:01 +0000] "POST /api/v1/users/login HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:06:59:03 +0000] "POST /api/v1/users/login HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:02:51 +0000] "POST /api/v1/users/login HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:10:28 +0000] "POST /api/v1/users/login HTTP/1.1" 400 15 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:11:00 +0000] "POST /api/v1/users/login HTTP/1.1" 400 15 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:11:14 +0000] "POST /api/v1/users/login HTTP/1.1" 400 15 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:14:28 +0000] "POST /api/v1/users/login HTTP/1.1" 400 89 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:14:43 +0000] "POST /api/v1/users/login HTTP/1.1" 400 89 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:21:25 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:22:26 +0000] "POST /api/v1/users/login HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:24:33 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:27:35 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:27:39 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:32:56 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:32:58 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:33:20 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:33:27 +0000] "POST /api/v1/users/login HTTP/1.1" 400 57 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:33:35 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:36:17 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:40:01 +0000] "POST /api/v1/notes/ HTTP/1.1" 400 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:40:10 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 240 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:45:29 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 240 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:46:15 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 55 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:46:40 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 92 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:46:49 +0000] "POST /api/v1/users/signup HTTP/1.1" 200 322 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:47:09 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:47:22 +0000] "POST /api/v1/users/login HTTP/1.1" 400 45 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:47:30 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:48:06 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 56 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:48:25 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 240 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:54:53 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 240 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:56:09 +0000] "POST /api/v1/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:56:57 +0000] "POST /api/v1/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:57:39 +0000] "POST /api/v1/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:59:11 +0000] "POST /api/v1/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:59:15 +0000] "POST /api/v1/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:07:59:32 +0000] "POST /api/v1/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:08:00:28 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 92 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:08:00:45 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 55 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:08:00:53 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 55 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:08:00:58 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 55 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:08:01:08 +0000] "POST /api/v1/users/signup HTTP/1.1" 200 323 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:08:01:26 +0000] "POST /api/v1/users/login HTTP/1.1" 400 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:08:02:05 +0000] "POST /api/v1/users/login HTTP/1.1" 400 89 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:08:03:05 +0000] "POST /api/v1/users/login HTTP/1.1" 400 89 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:08:03:46 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:08:04:04 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:08:04:30 +0000] "POST /api/v1/users/login HTTP/1.1" 200 250 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:08:04:35 +0000] "POST /api/v1/users/login HTTP/1.1" 200 250 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:08:05:10 +0000] "POST /api/v1/users/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:08:05:19 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:08:06:23 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:08:06:26 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [01/Mar/2023:08:07:19 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 240 "-" "PostmanRuntime/7.31.1"
+

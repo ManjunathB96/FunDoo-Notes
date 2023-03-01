@@ -12,23 +12,27 @@ const bcrypt = require('bcrypt');
 export const newRegistration = async (req, res, next) => {
   try {
     const data = await UserService.newRegistration(req.body);
-    res.status(data.code).json({
-      code: data.code,
-      data: data.data,
-      message: data.message
+    console.log(data);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'User created successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };
 
 export const login = async (req, res, next) => {
   try {
-    const data = await UserService.login(req.body);
-    console.log(data);
+    const userToken= await UserService.login(req.body);
+    console.log(userToken);   
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-      data: data,
+      userToken: userToken,
       message: 'Login successfully'
     });
   } catch (error) {
