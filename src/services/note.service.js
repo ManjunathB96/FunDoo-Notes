@@ -21,7 +21,7 @@ export const getNote = async (id) => {
   return data;
 };
 
-//update single user
+//update single note
 export const updateNote = async (_id, body) => {
   const data = await Note.findByIdAndUpdate(
     {
@@ -33,4 +33,10 @@ export const updateNote = async (_id, body) => {
     }
   );
   return data;
+};
+
+//delete single note
+export const deleteNote = async (id) => {
+  await Note.findByIdAndDelete(id);
+  return '';
 };

@@ -35,7 +35,7 @@ export const getAllNotes = async (req, res, next) => {
     res.status(HttpStatus.OK).json({
       //  code: HttpStatus.OK,
       data: data,
-      message: 'All users fetched successfully'
+      message: 'All Notes fetched successfully'
     });
   } catch (error) {
     next(error);
@@ -55,7 +55,7 @@ export const getNote = async (req, res, next) => {
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
-      message: 'User fetched successfully'
+      message: 'Note fetched successfully'
     });
   } catch (error) {
     next(error);
@@ -74,12 +74,32 @@ export const updateNote = async (req, res, next) => {
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
       data: data,
-      message: 'User updated successfully'
+      message: 'Note updated successfully'
     });
   } catch (error) {
     next(error);
   }
 };
+
+/**
+ * Controller to delete a note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const deleteNote = async (req, res, next) => {
+  try {
+    await NoteService.deleteNote(req.params._id);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: [],
+      message: 'Note deleted successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
 
 
 
