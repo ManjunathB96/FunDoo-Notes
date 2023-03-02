@@ -2498,3 +2498,229 @@ error:
     method - DELETE 
     IP - ::1
    {"timestamp":"2023-03-01T13:42:16.768Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63ff015a3224934a8c1714e2123" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e2123 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T13:53:40.132Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63ff015a3224934a8c1714r1" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714r1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T13:53:54.793Z"}
+error: 
+    status - 500 
+    message - Error: Note is not available for this id
+    at _callee3$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:62:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e7 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T13:54:46.628Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63ff015a3224934a8c1714" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T13:55:00.657Z"}
+error: 
+    status - 500 
+    message - Error: Note is not available for this id
+    at _callee3$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:62:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e3 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T13:55:07.662Z"}
+error: 
+    status - 500 
+    message - Error: Update failed!
+    at _callee4$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:91:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e4 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:03:23.120Z"}
+error: 
+    status - 500 
+    message - Error: Note is not available for this id
+    at _callee3$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:68:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:04:07.535Z"}
+error: 
+    status - 500 
+    message - Error: Note is not available for this Id
+    at _callee3$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:68:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:05:29.099Z"}
+error: 
+    status - 500 
+    message - Error: Update failed! Invalid Id 
+    at _callee4$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:91:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e4 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:05:42.736Z"}
+error: 
+    status - 500 
+    message - Error: Delete failed! Invalid Id 
+    at _callee5$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:114:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e4 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:07:48.339Z"}
+error: 
+    status - 500 
+    message - Error: Delete failed! Invalid Id 
+    at _callee5$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:114:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e2 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:07:56.615Z"}
+error: 
+    status - 500 
+    message - Error: Delete failed! Invalid Id 
+    at _callee5$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:114:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e2 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:08:01.076Z"}
+error: 
+    status - 500 
+    message - Error: Delete failed! Invalid Id 
+    at _callee5$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:114:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e2 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:08:08.879Z"}
+error: 
+    status - 500 
+    message - Error: Delete failed! Invalid Id 
+    at _callee5$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:115:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e2 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:08:45.457Z"}
+error: 
+    status - 500 
+    message - Error: Note is not available for this Id
+    at _callee3$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:68:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:09:47.782Z"}
+error: 
+    status - 500 
+    message - Error: Update failed! Invalid Id 
+    at _callee4$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:91:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e2 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:09:56.823Z"}
+error: 
+    status - 500 
+    message - Error: Update failed! Invalid Id 
+    at _callee4$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:91:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff029936714b3494f49e19 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-01T15:17:29.008Z"}

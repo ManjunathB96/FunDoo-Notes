@@ -2,7 +2,6 @@ import HttpStatus from 'http-status-codes';
 import { log } from 'winston';
 import * as NoteService from '../services/note.service';
 
-
 /**
  * Controller to create a new Note
  * @param  {object} req - request object
@@ -18,7 +17,10 @@ export const newNote = async (req, res, next) => {
       message: 'Note created successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };
 
@@ -31,17 +33,19 @@ export const newNote = async (req, res, next) => {
 export const getAllNotes = async (req, res, next) => {
   try {
     const data = await NoteService.getAllNotes();
-    console.log("getAllNotes__",data)
+       console.log('getAllNotes__', data);
     res.status(HttpStatus.OK).json({
-      //  code: HttpStatus.OK,
+      code: HttpStatus.OK,
       data: data,
       message: 'All Notes fetched successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };
-
 
 /**
  * Controller to get a single note
@@ -58,7 +62,10 @@ export const getNote = async (req, res, next) => {
       message: 'Note fetched successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };
 
@@ -71,13 +78,17 @@ export const getNote = async (req, res, next) => {
 export const updateNote = async (req, res, next) => {
   try {
     const data = await NoteService.updateNote(req.params._id, req.body);
+    console.log("Updated Note",data)
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
       data: data,
       message: 'Note updated successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };
 
@@ -99,7 +110,3 @@ export const deleteNote = async (req, res, next) => {
     next(error);
   }
 };
-
-
-
-

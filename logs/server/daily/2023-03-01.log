@@ -1130,3 +1130,325 @@ info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T1
 info: Connected to the database. {"timestamp":"2023-03-01T13:42:58.219Z"}
 info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:43:20.322Z"}
 info: Connected to the database. {"timestamp":"2023-03-01T13:43:20.358Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:46:59.537Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:46:59.571Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:49:21.486Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:49:21.527Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:49:30.304Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:49:30.337Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:49:47.105Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:49:47.137Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:50:05.170Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:50:05.199Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:50:14.416Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:50:14.462Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:50:20.782Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:50:20.823Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:52:26.049Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:52:26.109Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:52:43.993Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:52:44.017Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:52:59.886Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:52:59.926Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:53:18.223Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:53:18.267Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63ff015a3224934a8c1714e2123" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e2123 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T13:53:40.132Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63ff015a3224934a8c1714r1" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714r1 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T13:53:54.793Z"}
+error: 
+    status - 500 
+    message - Error: Note is not available for this id
+    at _callee3$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:62:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e7 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T13:54:46.628Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "63ff015a3224934a8c1714" (type string) at path "_id" for model "Note"
+    at model.Query.exec (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T13:55:00.657Z"}
+error: 
+    status - 500 
+    message - Error: Note is not available for this id
+    at _callee3$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:62:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e3 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T13:55:07.662Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:55:51.197Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:55:51.227Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:56:02.938Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:56:02.966Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:56:14.673Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:56:14.711Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:56:20.653Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:56:20.682Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:56:36.251Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:56:36.310Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:56:50.416Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:56:50.513Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:57:00.506Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:57:00.539Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:57:23.740Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:57:23.776Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:57:31.343Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:57:31.373Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:58:08.613Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:58:08.637Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:58:24.822Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:58:24.859Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:58:40.458Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:58:40.492Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:58:53.285Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:58:53.311Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:59:14.682Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:59:14.718Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:59:24.311Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:59:24.339Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:59:45.991Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:59:46.031Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T13:59:55.844Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T13:59:55.885Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T14:00:03.400Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T14:00:03.440Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T14:00:10.198Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T14:00:10.225Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T14:00:20.708Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T14:00:20.736Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T14:01:48.629Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T14:01:48.662Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T14:02:03.698Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T14:02:03.721Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T14:02:30.065Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T14:02:30.102Z"}
+error: 
+    status - 500 
+    message - Error: Update failed!
+    at _callee4$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:91:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e4 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:03:23.120Z"}
+error: 
+    status - 500 
+    message - Error: Note is not available for this id
+    at _callee3$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:68:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:04:07.535Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T14:05:02.821Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T14:05:02.853Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T14:05:17.738Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T14:05:17.770Z"}
+error: 
+    status - 500 
+    message - Error: Note is not available for this Id
+    at _callee3$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:68:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:05:29.099Z"}
+error: 
+    status - 500 
+    message - Error: Update failed! Invalid Id 
+    at _callee4$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:91:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e4 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:05:42.736Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T14:06:55.531Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T14:06:55.565Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T14:07:13.455Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T14:07:13.549Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T14:07:21.969Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T14:07:21.994Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T14:07:33.337Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T14:07:33.377Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T14:07:41.992Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T14:07:42.064Z"}
+error: 
+    status - 500 
+    message - Error: Delete failed! Invalid Id 
+    at _callee5$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:114:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e4 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:07:48.339Z"}
+error: 
+    status - 500 
+    message - Error: Delete failed! Invalid Id 
+    at _callee5$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:114:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e2 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:07:56.615Z"}
+error: 
+    status - 500 
+    message - Error: Delete failed! Invalid Id 
+    at _callee5$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:114:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e2 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:08:01.076Z"}
+error: 
+    status - 500 
+    message - Error: Delete failed! Invalid Id 
+    at _callee5$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:114:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e2 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:08:08.879Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T14:08:41.155Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T14:08:41.189Z"}
+error: 
+    status - 500 
+    message - Error: Delete failed! Invalid Id 
+    at _callee5$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:115:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e2 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:08:45.457Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T14:09:18.816Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T14:09:18.846Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T14:09:26.597Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T14:09:26.644Z"}
+error: 
+    status - 500 
+    message - Error: Note is not available for this Id
+    at _callee3$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:68:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e2 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:09:47.782Z"}
+error: 
+    status - 500 
+    message - Error: Update failed! Invalid Id 
+    at _callee4$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:91:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff015a3224934a8c1714e2 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-01T14:09:56.823Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T14:10:17.272Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T14:10:17.299Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T14:10:36.931Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T14:10:36.964Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T15:12:41.800Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T15:12:41.835Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-01T15:17:02.027Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T15:17:02.070Z"}
+error: 
+    status - 500 
+    message - Error: Update failed! Invalid Id 
+    at _callee4$ (D:\MSBelagavi\FunDoo_Notes\src\controllers\/note.controller.js:91:13)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63ff029936714b3494f49e19 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-03-01T15:17:29.008Z"}

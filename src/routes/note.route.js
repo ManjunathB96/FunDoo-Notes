@@ -10,17 +10,17 @@ const router = express.Router();
 router.post('', newNoteValidator,userAuth,noteController.newNote);
 
 //route to get  all notes 
-router.get('', noteController.getAllNotes);
+router.get('',userAuth, noteController.getAllNotes);
 
 //route to get a single note by their note id
-router.get('/:_id', noteController.getNote);
+router.get('/:_id',userAuth, noteController.getNote);
 
 
 //route to update a single note by their note id
-router.put('/:_id', noteController.updateNote);
+router.put('/:_id',userAuth, noteController.updateNote);
 
 //route to delete a single note by their note id
-router.delete('/:_id', noteController.deleteNote);
+router.delete('/:_id',userAuth, noteController.deleteNote);
 
 export default router;
 

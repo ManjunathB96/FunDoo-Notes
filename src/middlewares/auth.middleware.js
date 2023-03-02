@@ -1,5 +1,6 @@
 import HttpStatus from 'http-status-codes';
 import jwt from 'jsonwebtoken';
+import { log } from 'winston';
 //var jwt = require('jsonwebtoken');
 
 /**
@@ -11,16 +12,17 @@ import jwt from 'jsonwebtoken';
  * @param {Function} next
  */
 
-
 export const userAuth = async (req, res, next) => {
   try {
     let bearerToken = req.headers.authorization.split(' ')[1];
+    console.log(`bearerToken  ${bearerToken}`);
     if (!bearerToken) {
       throw new Error('Authentication failed!');
     }
-    const verifyUser = jwt.verify(bearerToken, process.env.SECRET_KEY);
-    res.verifyUser = verifyUser;
-    res.token = bearerToken;
+    // const user = jwt.verify(bearerToken, process.env.SECRET_KEY);
+    const  user  =await jwt.verify(bearerToken, process.env.SECRET_KEY);
+    console.log("user details ",user);
+    req.body.userId =user.id
     next();
   } catch (error) {
     res.status(HttpStatus.BAD_REQUEST).json({
