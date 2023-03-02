@@ -22,6 +22,11 @@ router.put('/:_id',userAuth, noteController.updateNote);
 //route to delete a single note by their note id
 router.delete('/:_id',userAuth, noteController.deleteNote);
 
+
+// Send to archive by id
+router.put('/:_id/archive', userAuth, noteController.addToarchive);
+
+
 export default router;
 
 

@@ -2724,3 +2724,8 @@ error:
     method - PUT 
     IP - ::1
    {"timestamp":"2023-03-01T15:17:29.008Z"}
+error: uncaughtException: callback is not a function
+TypeError: callback is not a function
+    at D:\MSBelagavi\FunDoo_Notes\src\services\/note.service.js:67:9
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\model.js:5082:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) {"date":"Thu Mar 02 2023 17:47:00 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":520871.015},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18557361,"external":20092726,"heapTotal":93900800,"heapUsed":57268768,"rss":133881856},"pid":17576,"uid":null,"version":"v18.13.0"},"stack":"TypeError: callback is not a function\n    at D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/note.service.js:67:9\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mongoose\\lib\\model.js:5082:18\n    at processTicksAndRejections (node:internal/process/task_queues:77:11)","timestamp":"2023-03-02T12:17:00.652Z","trace":[{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/note.service.js","function":null,"line":67,"method":null,"native":false},{"column":18,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mongoose\\lib\\model.js","function":null,"line":5082,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":77,"method":null,"native":false}]}

@@ -6,11 +6,19 @@ const noteSchema = new Schema(
     title: {
       type: String
     },
-    discription: {
+    description: {
       type: String
     },
     color: {
       type: String
+    },
+    archive: {
+      type: Boolean,
+      default: false
+    },
+    trash: {
+      type: Boolean,
+      default: false
     }
   },
 

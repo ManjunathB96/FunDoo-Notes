@@ -1,10 +1,8 @@
 import Note from '../models/note.model';
 
-
-
 //create new note
 export const newNote = async (body) => {
- const data = await Note.create(body);
+  const data = await Note.create(body);
   if (!data) {
     throw new Error('Note creation failed');
   } else {
@@ -19,9 +17,8 @@ export const getAllNotes = async () => {
     throw new Error('Fetching  all notes failed!');
   } else {
     return data;
+  }
 };
- }
-  
 
 //get single note
 export const getNote = async (id) => {
@@ -49,11 +46,22 @@ export const updateNote = async (_id, body) => {
   } else {
     return data;
   }
-  
 };
 
 //delete single note
 export const deleteNote = async (id) => {
   await Note.findByIdAndDelete(id);
   return '';
+};
+
+//Note is added to Archive
+export const addToArchive = async (id) => {
+  const data = await Note.findById(id);
+  // const data = await getNote(id);
+  console.log('archive (servive) data', data);
+  if (!data) {
+    throw new Error('Archive failed! Invalid Id ');
+  } else {
+    return data;
+  }
 };

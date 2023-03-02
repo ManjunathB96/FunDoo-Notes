@@ -1177,3 +1177,198 @@ info: ::1 - - [02/Mar/2023:06:57:22 +0000] "PUT /api/v1/notes/63ff034936714b3494
 
 info: ::1 - - [02/Mar/2023:06:58:53 +0000] "PUT /api/v1/notes/63ff034936714b3494f49e21 HTTP/1.1" 202 281 "-" "PostmanRuntime/7.31.1"
 
+info: ::1 - - [02/Mar/2023:07:45:12 +0000] "PUT /api/v1/notes/63ff034936714b3494f49e21/archive HTTP/1.1" 202 307 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:07:49:10 +0000] "PUT /api/v1/notes/63ff034936714b3494f49e21/archive HTTP/1.1" 202 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:07:50:18 +0000] "PUT /api/v1/notes/63ff034936714b3494f49e22/archive HTTP/1.1" 400 65 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:07:50:29 +0000] "PUT /api/v1/notes/63ff034936714b3494f49e21/archive HTTP/1.1" 202 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:07:51:08 +0000] "PUT /api/v1/notes/63ff034936714b3494f49e21/archive HTTP/1.1" 202 307 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:07:51:35 +0000] "PUT /api/v1/notes/63ff034936714b3494f49e21/archive HTTP/1.1" 202 307 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:08:20:39 +0000] "PUT /api/v1/notes/63ff034936714b3494f49e21/archive HTTP/1.1" 202 114 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:08:22:01 +0000] "PUT /api/v1/notes/63ff034936714b3494f49e21/archive HTTP/1.1" 202 114 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:08:22:54 +0000] "PUT /api/v1/notes/63ff034936714b3494f49e21/archive HTTP/1.1" 202 114 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:08:25:01 +0000] "PUT /api/v1/notes/63ff034936714b3494f49e21/archive HTTP/1.1" 202 183 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:08:26:19 +0000] "PUT /api/v1/notes/63ff034936714b3494f49e21/archive HTTP/1.1" 202 114 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:08:27:33 +0000] "PUT /api/v1/notes/63ff034936714b3494f49e21/archive HTTP/1.1" 202 114 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:08:28:24 +0000] "PUT /api/v1/notes/63ff034936714b3494f49e21/archive HTTP/1.1" 202 114 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:08:28:53 +0000] "PUT /api/v1/notes/63ff034936714b3494f49e21/archive HTTP/1.1" 202 114 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:08:29:26 +0000] "PUT /api/v1/notes/63ff034936714b3494f49e21/archive HTTP/1.1" 202 114 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:08:31:21 +0000] "PUT /api/v1/notes/63ff034936714b3494f49e21/archive HTTP/1.1" 202 114 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:08:33:17 +0000] "POST /api/v1/notes HTTP/1.1" 201 302 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:08:33:49 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 173 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:08:34:14 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 172 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:09:02:14 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 172 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:09:02:42 +0000] "PUT /api/v1/notes/64005f4daed89246482cd037/archive HTTP/1.1" 400 65 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:09:02:55 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 172 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:09:04:05 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 172 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:09:04:12 +0000] "PUT /api/v1/notes/64005f4daed89246482cd037/archive HTTP/1.1" 400 65 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:09:04:21 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 172 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:09:05:27 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 172 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:09:05:37 +0000] "PUT /api/v1/notes/64005f4daed89246482cd046/archive HTTP/1.1" 400 65 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:09:05:44 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 172 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:18:53 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 292 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:30:41 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archivett HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:30:46 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 292 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:30:57 +0000] "GET /api/v1/notes/64005f4daed89246482cd036 HTTP/1.1" 200 301 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:46:24 +0000] "GET /api/v1/notes/64005f4daed89246482cd036/Archive HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:46:32 +0000] "GET /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:47:04 +0000] "GET /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:47:14 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:48:43 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 400 323 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:50:28 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 400 323 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:52:04 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:53:27 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 292 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:53:59 +0000] "PUT /api/v1/notes/64005f4daed89246482cd037/archive HTTP/1.1" 202 53 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:54:09 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 292 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:55:24 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 292 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:55:52 +0000] "PUT /api/v1/notes/64005f4daed89246482cd037/archive HTTP/1.1" 202 53 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:58:06 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 292 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:01:02 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 292 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:01:10 +0000] "PUT /api/v1/notes/64005f4daed89246482cd037/archive HTTP/1.1" 202 53 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:13:56 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 292 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:15:56 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 292 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:16:21 +0000] "PUT /api/v1/notes/64005f4daed89246482cd046/archive HTTP/1.1" - - "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:16:23 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 292 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:17:00 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 41 "-" "PostmanRuntime/7.31.1"
+
+error: uncaughtException: callback is not a function
+TypeError: callback is not a function
+    at D:\MSBelagavi\FunDoo_Notes\src\services\/note.service.js:67:9
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\mongoose\lib\model.js:5082:18
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) {"date":"Thu Mar 02 2023 17:47:00 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":520871.015},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18565577,"external":20100982,"heapTotal":93900800,"heapUsed":57324840,"rss":133922816},"pid":17576,"uid":null,"version":"v18.13.0"},"stack":"TypeError: callback is not a function\n    at D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/note.service.js:67:9\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mongoose\\lib\\model.js:5082:18\n    at processTicksAndRejections (node:internal/process/task_queues:77:11)","trace":[{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/note.service.js","function":null,"line":67,"method":null,"native":false},{"column":18,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mongoose\\lib\\model.js","function":null,"line":5082,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":77,"method":null,"native":false}]}
+info: ::1 - - [02/Mar/2023:12:19:28 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 292 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:19:39 +0000] "PUT /api/v1/notes/64005f4daed89246482cd046/archive HTTP/1.1" 202 53 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:19:54 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 292 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:20:04 +0000] "PUT /api/v1/notes/64005f4daed89246482cd037/archive HTTP/1.1" 202 53 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:20:11 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 292 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:20:48 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 292 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:20:55 +0000] "PUT /api/v1/notes/64005f4daed89246482cd046/archive HTTP/1.1" 202 53 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:21:01 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 292 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:24:59 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/trash HTTP/1.1" 202 295 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:25:13 +0000] "PUT /api/v1/notes/64005f4daed89246482cd037/trash HTTP/1.1" 202 57 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:25:22 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/trash HTTP/1.1" 202 295 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:31:29 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/trash HTTP/1.1" 400 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:34:04 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/trash HTTP/1.1" 202 295 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:34:14 +0000] "PUT /api/v1/notes/64005f4daed89246482cd037/trash HTTP/1.1" 400 57 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:34:22 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/trash HTTP/1.1" 202 295 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:34:40 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:34:47 +0000] "PUT /api/v1/notes/64005f4daed89246482cd037/archive HTTP/1.1" 400 59 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:34:55 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:35:05 +0000] "PUT /api/v1/notes/64005f4daed89246482cd034/archive HTTP/1.1" 400 59 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:35:12 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:39:05 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:39:10 +0000] "PUT /api/v1/notes/64005f4daed89246482cd026/archive HTTP/1.1" 400 59 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:39:17 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:41:19 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:42:15 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:42:23 +0000] "PUT /api/v1/notes/64005f4daed89246482cd037/archive HTTP/1.1" 400 59 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:43:36 +0000] "PUT /api/v1/notes/64005f4daed89246482cd037/archive HTTP/1.1" 400 59 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:44:09 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:45:35 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:45:38 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:46:05 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:46:12 +0000] "PUT /api/v1/notes/64005f4daed89246482cd056/archive HTTP/1.1" 400 59 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:53:07 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:57:05 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:57:15 +0000] "PUT /api/v1/notes/64005f4daed89246482cd037/archive HTTP/1.1" 400 59 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:12:57:23 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:13:05:54 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:13:06:02 +0000] "PUT /api/v1/notes/64005f4daed89246482cd046/archive HTTP/1.1" 400 65 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:13:06:14 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:13:08:53 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:13:09:03 +0000] "PUT /api/v1/notes/64005f4daed89246482cd034/archive HTTP/1.1" 400 59 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:13:09:10 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:13:10:35 +0000] "PUT /api/v1/notes/64005f4daed89246482cd036/archive HTTP/1.1" 202 291 "-" "PostmanRuntime/7.31.1"
+
