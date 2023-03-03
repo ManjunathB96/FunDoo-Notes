@@ -11,8 +11,8 @@ export const newNote = async (body) => {
 };
 
 //to get all  notes
-export const getAllNotes = async () => {
-  const data = await Note.find();
+export const getAllNotes = async (userId) => {
+  const data = await Note.find(userId);
   if (!data) {
     throw new Error('Fetching  all notes failed!');
   } else {
@@ -21,8 +21,8 @@ export const getAllNotes = async () => {
 };
 
 //get single note
-export const getNote = async (id) => {
-  const data = await Note.findById(id);
+export const getNote = async (_id,userId) => {
+  const data = await Note.findById(_id,userId);
   if (!data) {
     throw new Error('Note is not available for this Id');
   } else {
@@ -55,8 +55,8 @@ export const deleteNote = async (id) => {
 };
 
 //Note is added to Archive
-export const addToArchive = async (id) => {
-  const data = await Note.findById(id);
+export const addToArchive = async (_id,userId) => {
+  const data = await Note.findByIdAndUpdate({_id,userId},{new:true},{archive:true});
   // const data = await getNote(id);
   console.log('archive (servive) data', data);
   if (!data) {
@@ -65,3 +65,15 @@ export const addToArchive = async (id) => {
     return data;
   }
 };
+
+
+//Note is recoverd from  Archive
+export const recoverArchive = async (_id,userId) => {
+  const data = await addToArchive({_id,userId},{new:true},{archive:true});
+  if (!data) {
+    throw new Error('Note recovery failed!');
+  } else {
+    return data;
+  }
+};
+

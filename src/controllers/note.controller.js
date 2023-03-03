@@ -122,7 +122,7 @@ export const deleteNote = async (req, res, next) => {
  */
 export const addToarchive = async (req, res, next) => {
   try {
-    const data = await NoteService.addToArchive( req.params._id);
+    const data = await NoteService.addToArchive(req.params._id);
     console.log('data in archive ', data);
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
@@ -137,3 +137,26 @@ export const addToarchive = async (req, res, next) => {
   }
 };
 
+
+/**
+ * Controller to recover  note from archive
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+
+export const recoverArchive = async (req, res, next) => {
+  try {
+    const data = await NoteService.recoverArchive(req.params._id);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'Successfully note recoverd from Archive '
+    });
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  }
+};

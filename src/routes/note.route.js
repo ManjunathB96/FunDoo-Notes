@@ -23,8 +23,12 @@ router.put('/:_id',userAuth, noteController.updateNote);
 router.delete('/:_id',userAuth, noteController.deleteNote);
 
 
-// Send to archive by id
+//route to send note to archive by id
 router.put('/:_id/archive', userAuth, noteController.addToarchive);
+
+
+//route get archive note
+router.get('/:_id/archive/recover',userAuth,noteController.recoverArchive);
 
 
 export default router;
