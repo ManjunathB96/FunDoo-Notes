@@ -1,0 +1,6 @@
+info: ::1 - - [05/Mar/2023:06:33:14 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [05/Mar/2023:06:33:23 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [05/Mar/2023:06:34:05 +0000] "POST /api/v1/users HTTP/1.1" 400 55 "-" "PostmanRuntime/7.31.1"
+

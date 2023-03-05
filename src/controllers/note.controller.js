@@ -10,7 +10,9 @@ import * as NoteService from '../services/note.service';
  */
 export const newNote = async (req, res, next) => {
   try {
+    console.log(req.body)
     const data = await NoteService.newNote(req.body);
+
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
@@ -32,7 +34,7 @@ export const newNote = async (req, res, next) => {
  */
 export const getAllNotes = async (req, res, next) => {
   try {
-    const data = await NoteService.getAllNotes();
+    const data = await NoteService.getAllNotes(req.body.userId);
     console.log('getAllNotes__', data);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
@@ -55,7 +57,7 @@ export const getAllNotes = async (req, res, next) => {
  */
 export const getNote = async (req, res, next) => {
   try {
-    const data = await NoteService.getNote(req.params._id);
+    const data = await NoteService.getNote(req.params._id,req.body.userId);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
@@ -77,7 +79,7 @@ export const getNote = async (req, res, next) => {
  */
 export const updateNote = async (req, res, next) => {
   try {
-    const data = await NoteService.updateNote(req.params._id, req.body);
+    const data = await NoteService.updateNote(req.params._id, req.body.userId,req.body);
     console.log('Updated Note', data);
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
@@ -100,7 +102,7 @@ export const updateNote = async (req, res, next) => {
  */
 export const deleteNote = async (req, res, next) => {
   try {
-    await NoteService.deleteNote(req.params._id);
+    await NoteService.deleteNote(req.params._id,req.body.userId);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: [],
@@ -122,7 +124,7 @@ export const deleteNote = async (req, res, next) => {
  */
 export const addToarchive = async (req, res, next) => {
   try {
-    const data = await NoteService.addToArchive(req.params._id);
+    const data = await NoteService.addToArchive(req.params._id,req.body.userId);
     console.log('data in archive ', data);
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
@@ -145,9 +147,9 @@ export const addToarchive = async (req, res, next) => {
  * @param {Function} next
  */
 
-export const recoverArchive = async (req, res, next) => {
+export const recoverFromArchive = async (req, res, next) => {
   try {
-    const data = await NoteService.recoverArchive(req.params._id);
+    const data = await NoteService.recoverFromArchive(req.params._id,req.body.userId);
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
       data: data,
@@ -160,3 +162,65 @@ export const recoverArchive = async (req, res, next) => {
     });
   }
 };
+
+/**
+ * Controller to trash a note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+
+export const addToTrash = async (req, res, next) => {
+  try {
+    const data = await NoteService.addToTrash(req.params._id,req.body.userId);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'Note is added to trash'
+    });
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  }
+};
+
+/**
+ * Controller to recover  note from trash
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+
+export const recoverFromTrash = async(req,res,next)=>{
+  try {
+    const data=await NoteService.recoverFromTrash(req.params._id,req.body.userId);
+    res.status(HttpStatus.ACCEPTED).json({
+      code:HttpStatus.ACCEPTED,
+      data:data,
+      message:'Note recoverd from trash'
+    })
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code:HttpStatus.BAD_REQUEST,
+      message:`${error}`
+    })
+  }
+}
+
+export const colorUpdate = async(req,res,next)=>{
+  try {
+    const data=await NoteService.colorUpdate(req.params._id,req.body.userId,req.body);
+    res.status(HttpStatus.ACCEPTED).json({
+      code:HttpStatus.ACCEPTED,
+      data:data,
+      message:'Color updated'
+    })
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code:HttpStatus.BAD_REQUEST,
+      message:`${error}`
+    })
+  }
+}

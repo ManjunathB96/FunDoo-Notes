@@ -2736,3 +2736,17 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-03-03T06:27:23.346Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "manjunath@111" fails to match the required pattern: /^((?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*+?~])(?=.*[0-9]).{8,})$/ 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-03T09:24:13.203Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-05T06:33:23.988Z"}

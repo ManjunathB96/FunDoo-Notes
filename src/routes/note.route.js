@@ -28,7 +28,16 @@ router.put('/:_id/archive', userAuth, noteController.addToarchive);
 
 
 //route get archive note
-router.get('/:_id/archive/recover',userAuth,noteController.recoverArchive);
+router.get('/:_id/archive/recover',userAuth,noteController.recoverFromArchive);
+
+//route to add note in trash using id
+router.put('/:_id/trash',userAuth,noteController.addToTrash);
+
+//route to recover note from trash using id
+router.get('/:_id/trash/recover',userAuth,noteController.recoverFromTrash)
+
+//route to change color
+router.put('/:_id/color',userAuth,noteController.colorUpdate);
 
 
 export default router;

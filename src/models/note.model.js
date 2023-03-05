@@ -19,6 +19,9 @@ const noteSchema = new Schema(
     trash: {
       type: Boolean,
       default: false
+    },
+    userId:{
+      type:String
     }
   },
 
