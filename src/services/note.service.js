@@ -2,7 +2,9 @@ import Note from '../models/note.model';
 
 //create new note
 export const newNote = async (body) => {
+  console.log("note service");
   const data = await Note.create(body);
+  console.log("data service",data);
   if (!data) {
     throw new Error('Note creation failed');
   } else {
@@ -61,14 +63,15 @@ export const addToArchive = async (_id,userId) => {
 
 //Note is recoverd from  Archive
 export const recoverFromArchive = async (_id,userId) => {
-  const data = await Note.findByIdAndUpdate({_id:_id,userId:userId},{archive:false},{new:true});
+  console.log("revover archive started");
+  const data = await Note.findOneAndUpdate({_id:_id,userId:userId},{archive:false},{new:true});
+  console.log("revover archive ==>",data);
   if (!data) {
     throw new Error('Note recovery failed!');
   } else {
     return data;
   }
 };
-
 
 //note is adde to trash
 export const addToTrash = async (_id,userId) => {
@@ -83,7 +86,7 @@ export const addToTrash = async (_id,userId) => {
 //Note is recoverd from  trash
 
 export const recoverFromTrash=async(_id,userId)=>{
-  const data= await Note.findByIdAndUpdate({_id:_id,userId:userId},{trash:false},{new:true})
+  const data= await Note.findOneAndUpdate({_id:_id,userId:userId},{trash:false},{new:true})
   if (!data) {
     throw new Error('Recovery failed ! Invalid Id');
   } else {

@@ -9,10 +9,11 @@ import * as NoteService from '../services/note.service';
  * @param {Function} next
  */
 export const newNote = async (req, res, next) => {
+  console.log("note controller");
   try {
     console.log(req.body)
     const data = await NoteService.newNote(req.body);
-
+    console.log("data controller ==>",data);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
@@ -148,8 +149,10 @@ export const addToarchive = async (req, res, next) => {
  */
 
 export const recoverFromArchive = async (req, res, next) => {
+  console.log("revover archive controller");
   try {
-    const data = await NoteService.recoverFromArchive(req.params._id,req.body.userId);
+    const data = await NoteService.recoverFromArchive(req.params._id,req.body.userId,{"archive":false});
+    console.log("revoverarchive controller detaris ==>",data);
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
       data: data,
@@ -195,7 +198,7 @@ export const addToTrash = async (req, res, next) => {
 
 export const recoverFromTrash = async(req,res,next)=>{
   try {
-    const data=await NoteService.recoverFromTrash(req.params._id,req.body.userId);
+    const data=await NoteService.recoverFromTrash(req.params._id,req.body.userId,{"trash":false});
     res.status(HttpStatus.ACCEPTED).json({
       code:HttpStatus.ACCEPTED,
       data:data,

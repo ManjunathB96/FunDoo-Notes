@@ -4,6 +4,8 @@ dotenv.config();
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
+import swaggerUi from 'swagger-ui-express';
+import swaggerDocument from '../src/swagger/swagger.json'
 
 import routes from './routes';
 import database from './config/database';
@@ -27,9 +29,8 @@ app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json()); //JSON
 app.use(morgan('combined', { stream: logStream }));
-// app.use((req,res,next) =>{              //to check which request(mtd and url) is coming 
-//   console.log("HTTP Method -"+req.method+" , URL -"+req.url);
-// })
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 database(); //Database connection
 

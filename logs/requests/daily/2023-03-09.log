@@ -52,3 +52,853 @@ info: ::1 - - [09/Mar/2023:04:03:28 +0000] "POST /api/v1/notes HTTP/1.1" 201 272
 
 info: ::1 - - [09/Mar/2023:04:04:02 +0000] "POST /api/v1/notes HTTP/1.1" 201 281 "-" "PostmanRuntime/7.31.1"
 
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:05:09:47 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:05:09:47 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:05:10:38 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:05:10:39 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:05:10:39 +0000] "POST /api/v1/notes HTTP/1.1" 400 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:05:19:07 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:05:19:07 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:05:19:07 +0000] "POST /api/v1/notes HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:05:21:25 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:05:21:26 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:05:21:26 +0000] "POST /api/v1/notes HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:05:23:20 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:05:23:20 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:05:23:20 +0000] "POST /api/v1/notes HTTP/1.1" 201 288 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:08:32 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:08:32 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:10:24 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:10:25 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:10:25 +0000] "POST /api/v1/notes HTTP/1.1" 401 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:10:25 +0000] "GET /api/v1/notes HTTP/1.1" 401 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:10:25 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 401 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:10:25 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 401 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:10:25 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 401 57 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:10:25 +0000] "PUT /api/v1/note/undefined/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:10:25 +0000] "PUT /api/v1/note/undefined/archive HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:10:25 +0000] "PUT /api/v1/note/undefined/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:10:25 +0000] "PUT /api/v1/note/undefined/color HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:10:25 +0000] "DELETE /api/v1/note/undefined HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:12:32 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:12:33 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:12:33 +0000] "POST /api/v1/notes HTTP/1.1" 201 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:12:33 +0000] "GET /api/v1/notes HTTP/1.1" 200 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:12:33 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 400 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:12:33 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 400 175 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:12:33 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 400 175 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:12:33 +0000] "PUT /api/v1/note/undefined/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:12:33 +0000] "PUT /api/v1/note/undefined/archive HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:12:33 +0000] "PUT /api/v1/note/undefined/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:12:33 +0000] "PUT /api/v1/note/undefined/color HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:12:33 +0000] "DELETE /api/v1/note/undefined HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:13:25 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:13:25 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:13:25 +0000] "POST /api/v1/notes HTTP/1.1" 201 288 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:13:25 +0000] "GET /api/v1/notes HTTP/1.1" 200 295 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:13:26 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 400 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:13:26 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 400 175 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:13:26 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 400 175 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:13:26 +0000] "PUT /api/v1/note/undefined/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:13:26 +0000] "PUT /api/v1/note/undefined/archive HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:13:26 +0000] "PUT /api/v1/note/undefined/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:13:26 +0000] "PUT /api/v1/note/undefined/color HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:13:26 +0000] "DELETE /api/v1/note/undefined HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:15:43 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:15:43 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:15:43 +0000] "GET /api/v1/notes HTTP/1.1" 200 65 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:15:43 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 400 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:15:43 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 400 175 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:15:43 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 400 175 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:15:43 +0000] "PUT /api/v1/note/undefined/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:15:43 +0000] "PUT /api/v1/note/undefined/archive HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:15:43 +0000] "PUT /api/v1/note/undefined/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:15:43 +0000] "PUT /api/v1/note/undefined/color HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:15:43 +0000] "DELETE /api/v1/note/undefined HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:21:58 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:21:58 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:21:58 +0000] "POST /api/v1/notes HTTP/1.1" 201 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:21:59 +0000] "GET /api/v1/notes HTTP/1.1" 200 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:21:59 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 400 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:21:59 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 400 175 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:21:59 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 400 175 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:21:59 +0000] "PUT /api/v1/note/undefined/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:21:59 +0000] "PUT /api/v1/note/undefined/archive HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:21:59 +0000] "PUT /api/v1/note/undefined/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:21:59 +0000] "PUT /api/v1/note/undefined/color HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:21:59 +0000] "DELETE /api/v1/note/undefined HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:23:59 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:24:00 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:24:00 +0000] "POST /api/v1/notes HTTP/1.1" 201 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:24:00 +0000] "GET /api/v1/notes HTTP/1.1" 200 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:24:00 +0000] "GET /api/v1/notes/64097b80aca9773b34d257e4 HTTP/1.1" 200 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:24:00 +0000] "PUT /api/v1/notes/64097b80aca9773b34d257e4 HTTP/1.1" 202 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:24:00 +0000] "PUT /api/v1/notes/64097b80aca9773b34d257e4/trash HTTP/1.1" 202 297 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:24:00 +0000] "PUT /api/v1/note/64097b80aca9773b34d257e4/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:24:00 +0000] "PUT /api/v1/note/64097b80aca9773b34d257e4/archive HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:24:00 +0000] "PUT /api/v1/note/64097b80aca9773b34d257e4/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:24:00 +0000] "PUT /api/v1/note/64097b80aca9773b34d257e4/color HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:24:00 +0000] "DELETE /api/v1/note/64097b80aca9773b34d257e4 HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:27:38 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:27:38 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:27:38 +0000] "POST /api/v1/notes HTTP/1.1" 201 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:27:38 +0000] "GET /api/v1/notes HTTP/1.1" 200 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:27:38 +0000] "GET /api/v1/notes/64097c5a99829f39bcc286ce HTTP/1.1" 200 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:27:38 +0000] "PUT /api/v1/notes/64097c5a99829f39bcc286ce HTTP/1.1" 202 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:27:38 +0000] "PUT /api/v1/notes/64097c5a99829f39bcc286ce/trash HTTP/1.1" 202 297 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:27:38 +0000] "PUT /api/v1/notes/64097c5a99829f39bcc286ce/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:27:38 +0000] "PUT /api/v1/notes/64097c5a99829f39bcc286ce/archive HTTP/1.1" 202 290 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:27:38 +0000] "PUT /api/v1/notes/64097c5a99829f39bcc286ce/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:27:38 +0000] "PUT /api/v1/notes/64097c5a99829f39bcc286ce/color HTTP/1.1" 202 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:27:38 +0000] "DELETE /api/v1/note/64097c5a99829f39bcc286ce HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:30:49 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:30:50 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:30:50 +0000] "POST /api/v1/notes HTTP/1.1" 201 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:30:50 +0000] "GET /api/v1/notes HTTP/1.1" 200 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:30:50 +0000] "GET /api/v1/notes/64097d1a3893026e9c8dccba HTTP/1.1" 200 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:30:50 +0000] "PUT /api/v1/notes/64097d1a3893026e9c8dccba HTTP/1.1" 202 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:30:50 +0000] "PUT /api/v1/notes/64097d1a3893026e9c8dccba/trash HTTP/1.1" 202 297 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:30:50 +0000] "PUT /api/v1/notes/64097d1a3893026e9c8dccba/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:30:50 +0000] "PUT /api/v1/notes/64097d1a3893026e9c8dccba/archive HTTP/1.1" 202 290 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:30:50 +0000] "PUT /api/v1/notes/64097d1a3893026e9c8dccba/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:30:50 +0000] "PUT /api/v1/notes/64097d1a3893026e9c8dccba/color HTTP/1.1" 202 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:30:50 +0000] "DELETE /api/v1/note/64097d1a3893026e9c8dccba HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:39:32 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:39:32 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:39:32 +0000] "POST /api/v1/notes HTTP/1.1" 201 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:39:32 +0000] "GET /api/v1/notes HTTP/1.1" 200 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:39:32 +0000] "GET /api/v1/notes/64097f244aa8496a80f69c39 HTTP/1.1" 200 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:39:32 +0000] "PUT /api/v1/notes/64097f244aa8496a80f69c39 HTTP/1.1" 202 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:39:32 +0000] "PUT /api/v1/notes/64097f244aa8496a80f69c39/trash HTTP/1.1" 202 297 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:39:32 +0000] "PUT /api/v1/notes/64097f244aa8496a80f69c39/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:39:32 +0000] "PUT /api/v1/notes/64097f244aa8496a80f69c39/archive HTTP/1.1" 202 290 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:39:32 +0000] "PUT /api/v1/notes/64097f244aa8496a80f69c39/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:39:32 +0000] "PUT /api/v1/notes/64097f244aa8496a80f69c39/color HTTP/1.1" 202 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:39:32 +0000] "DELETE /api/v1/notes/64097f244aa8496a80f69c39 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:44:12 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:44:12 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:44:12 +0000] "POST /api/v1/notes HTTP/1.1" 500 75 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:44:12 +0000] "GET /api/v1/notes HTTP/1.1" 200 65 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:44:12 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 400 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:44:12 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 400 175 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:44:12 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 400 175 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:44:12 +0000] "PUT /api/v1/notes/undefined/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:44:12 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 400 175 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:44:12 +0000] "PUT /api/v1/notes/undefined/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:44:12 +0000] "PUT /api/v1/notes/undefined/color HTTP/1.1" 400 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:44:12 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 400 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:45:43 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:45:43 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:45:43 +0000] "POST /api/v1/notes HTTP/1.1" 201 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:45:43 +0000] "GET /api/v1/notes HTTP/1.1" 200 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:45:43 +0000] "GET /api/v1/notes/640980973ccc9c6fcc801dff HTTP/1.1" 200 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:45:43 +0000] "PUT /api/v1/notes/640980973ccc9c6fcc801dff HTTP/1.1" 202 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:45:43 +0000] "PUT /api/v1/notes/640980973ccc9c6fcc801dff/trash HTTP/1.1" 202 297 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:45:43 +0000] "PUT /api/v1/notes/640980973ccc9c6fcc801dff/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:45:43 +0000] "PUT /api/v1/notes/640980973ccc9c6fcc801dff/archive HTTP/1.1" 202 290 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:45:43 +0000] "PUT /api/v1/notes/640980973ccc9c6fcc801dff/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:45:43 +0000] "PUT /api/v1/notes/640980973ccc9c6fcc801dff/color HTTP/1.1" 202 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:45:43 +0000] "DELETE /api/v1/notes/640980973ccc9c6fcc801dff HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:47:50 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:47:50 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:47:50 +0000] "POST /api/v1/notes HTTP/1.1" 201 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:47:50 +0000] "GET /api/v1/notes HTTP/1.1" 200 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:47:50 +0000] "GET /api/v1/notes/640981164733dd0414958ceb HTTP/1.1" 200 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:47:50 +0000] "PUT /api/v1/notes/640981164733dd0414958ceb HTTP/1.1" 202 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:47:50 +0000] "PUT /api/v1/notes/640981164733dd0414958ceb/trash HTTP/1.1" 202 297 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:47:50 +0000] "PUT /api/v1/notes/640981164733dd0414958ceb/trash/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:47:50 +0000] "PUT /api/v1/notes/640981164733dd0414958ceb/archive HTTP/1.1" 202 290 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:47:50 +0000] "PUT /api/v1/notes/640981164733dd0414958ceb/archive/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:47:51 +0000] "PUT /api/v1/notes/640981164733dd0414958ceb/color HTTP/1.1" 202 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:06:47:51 +0000] "DELETE /api/v1/notes/640981164733dd0414958ceb HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:04:08 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:04:08 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:04:08 +0000] "POST /api/v1/notes HTTP/1.1" 201 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:04:09 +0000] "GET /api/v1/notes HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:04:09 +0000] "GET /api/v1/notes/6409af18e755b059a88e321f HTTP/1.1" 200 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:04:09 +0000] "PUT /api/v1/notes/6409af18e755b059a88e321f HTTP/1.1" 202 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:04:09 +0000] "PUT /api/v1/notes/6409af18e755b059a88e321f/trash HTTP/1.1" 202 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:04:09 +0000] "PUT /api/v1/notes/6409af18e755b059a88e321f/trash/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:04:09 +0000] "PUT /api/v1/notes/6409af18e755b059a88e321f/archive HTTP/1.1" 202 278 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:04:09 +0000] "PUT /api/v1/notes/6409af18e755b059a88e321f/archive/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:04:09 +0000] "PUT /api/v1/notes/6409af18e755b059a88e321f/color HTTP/1.1" 202 291 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:04:09 +0000] "DELETE /api/v1/notes/6409af18e755b059a88e321f HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:30:35 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:30:35 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:30:35 +0000] "POST /api/v1/notes HTTP/1.1" 201 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:30:35 +0000] "GET /api/v1/notes HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:30:35 +0000] "GET /api/v1/notes/6409b54be4cc6e6354b5cfde HTTP/1.1" 200 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:30:35 +0000] "PUT /api/v1/notes/6409b54be4cc6e6354b5cfde HTTP/1.1" 202 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:30:35 +0000] "PUT /api/v1/notes/6409b54be4cc6e6354b5cfde/archive HTTP/1.1" 202 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:30:35 +0000] "PUT /api/v1/notes/6409b54be4cc6e6354b5cfde/archive/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:30:35 +0000] "PUT /api/v1/notes/6409b54be4cc6e6354b5cfde/trash HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:30:35 +0000] "PUT /api/v1/notes/6409b54be4cc6e6354b5cfde/trash/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:30:35 +0000] "PUT /api/v1/notes/6409b54be4cc6e6354b5cfde/color HTTP/1.1" 202 291 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:10:30:35 +0000] "DELETE /api/v1/notes/6409b54be4cc6e6354b5cfde HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [09/Mar/2023:11:58:33 +0000] "GET /api-docs HTTP/1.1" 301 183 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:11:58:33 +0000] "GET /api-docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:11:58:34 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 4012 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:11:58:34 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 145206 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:11:58:34 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:11:58:34 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1046583 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:11:58:34 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:11:59:44 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:11:59:45 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:11:59:45 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:11:59:45 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 4019 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:11:59:45 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:11:59:45 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:01:22 +0000] "POST /api/v1/user/ HTTP/1.1" 500 67 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:02:50 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:02:50 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:02:50 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:02:50 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 4012 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:02:50 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:02:50 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:03:59 +0000] "POST /api/v1/user/ HTTP/1.1" 500 60 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:04:02 +0000] "POST /api/v1/user/ HTTP/1.1" 500 60 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:06:39 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:06:39 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:06:39 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:06:39 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:06:39 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 4093 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:06:39 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:07:31 +0000] "POST /api/v1/user/ HTTP/1.1" 400 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:08:14 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:08:14 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:08:14 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:08:14 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 4092 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:08:14 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:08:14 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:08:34 +0000] "POST /api/v1/user HTTP/1.1" 400 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:08:52 +0000] "POST /api/v1/user HTTP/1.1" 201 323 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:10:33 +0000] "POST /api/v1/user/login HTTP/1.1" 400 48 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:12:11:03 +0000] "POST /api/v1/user/login HTTP/1.1" 200 250 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:15:38 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:15:38 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:15:38 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 9597 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:15:38 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:15:38 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:18:35 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:18:35 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:18:35 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:18:35 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:18:35 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 9594 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:18:35 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:18:38 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:18:38 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:18:38 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:18:38 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:18:38 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:18:39 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:20:55 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:20:55 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:20:55 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:20:55 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 9810 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:20:55 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:20:55 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:21:08 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:21:08 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:21:08 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:21:08 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:21:08 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:31:28 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:31:28 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:31:29 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:31:29 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:31:29 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 10110 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:31:29 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:33:02 +0000] "POST /api/v1/user HTTP/1.1" 201 317 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:33:42 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:33:48 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:34:29 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 548 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:35:17 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 549 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:35:34 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWQiOiI2NDA5NTU3OGYxZjdmMjYxMThjZmRlYmYiLCJpYXQiOjE2NzgzNzI1MTJ9.WoaV-1v0P7JiOqqLErmpp7A7q0_KaBUeiUZW5geKGMg HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:35:34 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:36:44 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWQiOiI2NDA5NTU3OGYxZjdmMjYxMThjZmRlYmYiLCJpYXQiOjE2NzgzNzI1MTJ9.WoaV-1v0P7JiOqqLErmpp7A7q0_KaBUeiUZW5geKGMg HTTP/1.1" 200 327 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:37:50 +0000] "POST /api/v1/notes HTTP/1.1" 401 89 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:39:27 +0000] "POST /api/v1/notes HTTP/1.1" 201 269 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:39:48 +0000] "GET /api/v1/notes HTTP/1.1" 401 89 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:41:01 +0000] "GET /api/v1/notes HTTP/1.1" 401 89 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:43:57 +0000] "GET /api/v1/notes HTTP/1.1" 400 56 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:45:06 +0000] "GET /api/v1/notes/%226409ef9f2b698b49d888f77f%22 HTTP/1.1" 400 56 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:47:31 +0000] "POST /api/v1/notes HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:48:01 +0000] "GET /api/v1/notes HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:14:48:35 +0000] "GET /api/v1/notes HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:49:16 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:49:16 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:49:16 +0000] "POST /api/v1/notes HTTP/1.1" 500 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:49:17 +0000] "GET /api/v1/notes HTTP/1.1" 500 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:49:17 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:49:17 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:49:17 +0000] "PUT /api/v1/notes/undefined/archive HTTP/1.1" 500 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:49:17 +0000] "PUT /api/v1/notes/undefined/archive/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:49:17 +0000] "PUT /api/v1/notes/undefined/trash HTTP/1.1" 500 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:49:17 +0000] "PUT /api/v1/notes/undefined/trash/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:49:17 +0000] "PUT /api/v1/notes/undefined/color HTTP/1.1" 500 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:49:17 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 500 72 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:50:35 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:50:35 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:50:36 +0000] "POST /api/v1/notes HTTP/1.1" 201 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:50:36 +0000] "GET /api/v1/notes HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:50:36 +0000] "GET /api/v1/notes/6409f23c859da465e81fdbcb HTTP/1.1" 200 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:50:36 +0000] "PUT /api/v1/notes/6409f23c859da465e81fdbcb HTTP/1.1" 202 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:50:36 +0000] "PUT /api/v1/notes/6409f23c859da465e81fdbcb/archive HTTP/1.1" 202 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:50:36 +0000] "PUT /api/v1/notes/6409f23c859da465e81fdbcb/archive/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:50:36 +0000] "PUT /api/v1/notes/6409f23c859da465e81fdbcb/trash HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:50:36 +0000] "PUT /api/v1/notes/6409f23c859da465e81fdbcb/trash/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:50:36 +0000] "PUT /api/v1/notes/6409f23c859da465e81fdbcb/color HTTP/1.1" 202 291 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:14:50:36 +0000] "DELETE /api/v1/notes/6409f23c859da465e81fdbcb HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:02:53 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:02:53 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:02:53 +0000] "POST /api/v1/notes HTTP/1.1" 201 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:02:53 +0000] "GET /api/v1/notes HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:02:53 +0000] "GET /api/v1/notes/640a032dac4c796c3022c8a5 HTTP/1.1" 200 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:02:53 +0000] "PUT /api/v1/notes/640a032dac4c796c3022c8a5 HTTP/1.1" 202 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:02:53 +0000] "PUT /api/v1/notes/640a032dac4c796c3022c8a5/archive HTTP/1.1" 202 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:02:53 +0000] "PUT /api/v1/notes/640a032dac4c796c3022c8a5/archive/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:02:53 +0000] "PUT /api/v1/notes/640a032dac4c796c3022c8a5/trash HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:02:53 +0000] "PUT /api/v1/notes/640a032dac4c796c3022c8a5/trash/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:02:53 +0000] "PUT /api/v1/notes/640a032dac4c796c3022c8a5/color HTTP/1.1" 202 291 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:02:53 +0000] "DELETE /api/v1/notes/640a032dac4c796c3022c8a5 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [09/Mar/2023:16:08:14 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:16:08:15 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:16:08:15 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:16:08:15 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:16:08:15 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:16:08:34 +0000] "POST /api/v1/notes HTTP/1.1" 401 40 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:16:09:29 +0000] "POST /api/v1/notes HTTP/1.1" 401 40 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:16:09:59 +0000] "POST /api/v1/notes HTTP/1.1" 401 40 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:16:13:24 +0000] "POST /api/v1/notes HTTP/1.1" 401 40 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:16:14:46 +0000] "POST /api/v1/notes HTTP/1.1" 401 40 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:16:16:50 +0000] "POST /api/v1/notes HTTP/1.1" 401 40 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:16:17:55 +0000] "POST /api/v1/notes HTTP/1.1" 201 270 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:16:22:57 +0000] "POST /api/v1/notes HTTP/1.1" 401 40 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:16:23:52 +0000] "POST /api/v1/notes HTTP/1.1" 401 89 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:16:26:53 +0000] "POST /api/v1/notes HTTP/1.1" 401 40 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:16:28:08 +0000] "POST /api/v1/notes HTTP/1.1" 401 40 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:16:34:38 +0000] "POST /api/v1/user/login HTTP/1.1" 400 45 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:16:35:01 +0000] "POST /api/v1/user/login HTTP/1.1" 400 45 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:16:35:08 +0000] "POST /api/v1/user/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:16:35:21 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:16:35:38 +0000] "POST /api/v1/notes HTTP/1.1" 201 302 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:16:37:25 +0000] "POST /api/v1/notes HTTP/1.1" 401 64 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:16:37:56 +0000] "POST /api/v1/notes HTTP/1.1" 401 64 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:16:39:25 +0000] "POST /api/v1/notes HTTP/1.1" 201 285 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:16:39:45 +0000] "GET /api/v1/notes HTTP/1.1" 200 537 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:16:40:36 +0000] "GET /api/v1/notes/%22640a0ada3bdb405a18935174%22 HTTP/1.1" 400 151 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:16:40:38 +0000] "GET /api/v1/notes/%22640a0ada3bdb405a18935174%22 HTTP/1.1" 400 151 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:16:41:05 +0000] "GET /api/v1/notes/640a0ada3bdb405a18935174 HTTP/1.1" 200 302 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:16:42:06 +0000] "PUT /api/v1/notes/640a0ada3bdb405a18935174 HTTP/1.1" 202 302 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:16:42:29 +0000] "POST /api/v1/notes HTTP/1.1" 201 302 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:16:42:33 +0000] "POST /api/v1/notes HTTP/1.1" 201 302 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [09/Mar/2023:16:43:16 +0000] "PUT /api/v1/notes/640a0ada3bdb405a18935174 HTTP/1.1" 202 307 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:46:03 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:46:03 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:46:03 +0000] "POST /api/v1/notes HTTP/1.1" 201 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:46:03 +0000] "GET /api/v1/notes HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:46:03 +0000] "GET /api/v1/notes/640a0d4bcb6d55513cb45192 HTTP/1.1" 200 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:46:03 +0000] "PUT /api/v1/notes/640a0d4bcb6d55513cb45192 HTTP/1.1" 202 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:46:03 +0000] "PUT /api/v1/notes/640a0d4bcb6d55513cb45192/archive HTTP/1.1" 202 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:46:03 +0000] "PUT /api/v1/notes/640a0d4bcb6d55513cb45192/archive/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:46:03 +0000] "PUT /api/v1/notes/640a0d4bcb6d55513cb45192/trash HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:46:03 +0000] "PUT /api/v1/notes/640a0d4bcb6d55513cb45192/trash/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:46:03 +0000] "PUT /api/v1/notes/640a0d4bcb6d55513cb45192/color HTTP/1.1" 202 291 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:46:03 +0000] "DELETE /api/v1/notes/640a0d4bcb6d55513cb45192 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:49:36 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:49:36 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:49:36 +0000] "POST /api/v1/notes HTTP/1.1" 201 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:49:36 +0000] "GET /api/v1/notes HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:49:36 +0000] "GET /api/v1/notes/640a0e20b7cf9e4cbc9fd72a HTTP/1.1" 200 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:49:36 +0000] "PUT /api/v1/notes/640a0e20b7cf9e4cbc9fd72a HTTP/1.1" 202 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:49:36 +0000] "PUT /api/v1/notes/640a0e20b7cf9e4cbc9fd72a/archive HTTP/1.1" 202 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:49:36 +0000] "PUT /api/v1/notes/640a0e20b7cf9e4cbc9fd72a/archive/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:49:36 +0000] "PUT /api/v1/notes/640a0e20b7cf9e4cbc9fd72a/trash HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:49:36 +0000] "PUT /api/v1/notes/640a0e20b7cf9e4cbc9fd72a/trash/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:49:36 +0000] "PUT /api/v1/notes/640a0e20b7cf9e4cbc9fd72a/color HTTP/1.1" 202 291 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:49:36 +0000] "DELETE /api/v1/notes/640a0e20b7cf9e4cbc9fd72a HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:53:43 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:53:43 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:53:43 +0000] "POST /api/v1/notes HTTP/1.1" 201 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:53:43 +0000] "GET /api/v1/notes HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:53:43 +0000] "GET /api/v1/notes/640a0f17b9f7681ee03a4128 HTTP/1.1" 200 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:53:43 +0000] "PUT /api/v1/notes/640a0f17b9f7681ee03a4128 HTTP/1.1" 202 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:53:43 +0000] "PUT /api/v1/notes/640a0f17b9f7681ee03a4128/archive HTTP/1.1" 202 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:53:43 +0000] "PUT /api/v1/notes/640a0f17b9f7681ee03a4128/archive/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:53:44 +0000] "PUT /api/v1/notes/640a0f17b9f7681ee03a4128/trash HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:53:44 +0000] "PUT /api/v1/notes/640a0f17b9f7681ee03a4128/trash/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:53:44 +0000] "PUT /api/v1/notes/640a0f17b9f7681ee03a4128/color HTTP/1.1" 202 291 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:16:53:44 +0000] "DELETE /api/v1/notes/640a0f17b9f7681ee03a4128 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:00:09 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:00:09 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:00:09 +0000] "POST /api/v1/notes HTTP/1.1" 201 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:00:09 +0000] "GET /api/v1/notes HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:00:09 +0000] "GET /api/v1/notes/640a10994bca676538d85529 HTTP/1.1" 200 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:00:09 +0000] "PUT /api/v1/notes/640a10994bca676538d85529 HTTP/1.1" 202 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:00:09 +0000] "PUT /api/v1/notes/640a10994bca676538d85529/archive HTTP/1.1" 202 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:00:09 +0000] "PUT /api/v1/notes/640a10994bca676538d85529/archive/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:00:09 +0000] "PUT /api/v1/notes/640a10994bca676538d85529/trash HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:00:09 +0000] "PUT /api/v1/notes/640a10994bca676538d85529/trash/recover HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:00:09 +0000] "PUT /api/v1/notes/640a10994bca676538d85529/color HTTP/1.1" 202 291 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:00:09 +0000] "DELETE /api/v1/notes/640a10994bca676538d85529 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:04:51 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:04:52 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:04:52 +0000] "POST /api/v1/notes HTTP/1.1" 201 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:04:52 +0000] "GET /api/v1/notes HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:04:52 +0000] "GET /api/v1/notes/640a11b491a1505298a914aa HTTP/1.1" 200 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:04:52 +0000] "PUT /api/v1/notes/640a11b491a1505298a914aa HTTP/1.1" 202 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:04:52 +0000] "PUT /api/v1/notes/640a11b491a1505298a914aa/archive HTTP/1.1" 202 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:04:52 +0000] "GET /api/v1/notes/640a11b491a1505298a914aa/archive/recover HTTP/1.1" 202 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:04:52 +0000] "PUT /api/v1/notes/640a11b491a1505298a914aa/trash HTTP/1.1" 202 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:04:52 +0000] "GET /api/v1/notes/640a11b491a1505298a914aa/trash/recover HTTP/1.1" 202 288 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:04:52 +0000] "PUT /api/v1/notes/640a11b491a1505298a914aa/color HTTP/1.1" 202 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:04:52 +0000] "DELETE /api/v1/notes/640a11b491a1505298a914aa HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:05:37 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:05:37 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:05:37 +0000] "POST /api/v1/notes HTTP/1.1" 201 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:05:37 +0000] "GET /api/v1/notes HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:05:37 +0000] "GET /api/v1/notes/640a11e1d89d4d6c548aa495 HTTP/1.1" 200 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:05:37 +0000] "PUT /api/v1/notes/640a11e1d89d4d6c548aa495 HTTP/1.1" 202 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:05:37 +0000] "PUT /api/v1/notes/640a11e1d89d4d6c548aa495/archive HTTP/1.1" 202 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:05:37 +0000] "GET /api/v1/notes/640a11e1d89d4d6c548aa495/archive/recover HTTP/1.1" 400 88 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:05:37 +0000] "PUT /api/v1/notes/640a11e1d89d4d6c548aa495/trash HTTP/1.1" 202 284 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:05:37 +0000] "GET /api/v1/notes/640a11e1d89d4d6c548aa495/trash/recover HTTP/1.1" 202 287 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:05:37 +0000] "PUT /api/v1/notes/640a11e1d89d4d6c548aa495/color HTTP/1.1" 202 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:05:37 +0000] "DELETE /api/v1/notes/640a11e1d89d4d6c548aa495 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:06:38 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:06:38 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:06:38 +0000] "POST /api/v1/notes HTTP/1.1" 201 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:06:39 +0000] "GET /api/v1/notes HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:06:39 +0000] "GET /api/v1/notes/640a121e877f301ee074ad3e HTTP/1.1" 200 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:06:39 +0000] "PUT /api/v1/notes/640a121e877f301ee074ad3e HTTP/1.1" 202 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:06:39 +0000] "PUT /api/v1/notes/640a121e877f301ee074ad3e/archive HTTP/1.1" 202 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:06:39 +0000] "GET /api/v1/notes/640a121e877f301ee074ad3e/archive/recover HTTP/1.1" 202 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:06:39 +0000] "PUT /api/v1/notes/640a121e877f301ee074ad3e/trash HTTP/1.1" 202 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:06:39 +0000] "GET /api/v1/notes/640a121e877f301ee074ad3e/trash/recover HTTP/1.1" 202 288 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:06:39 +0000] "PUT /api/v1/notes/640a121e877f301ee074ad3e/color HTTP/1.1" 202 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [09/Mar/2023:17:06:39 +0000] "DELETE /api/v1/notes/640a121e877f301ee074ad3e HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
