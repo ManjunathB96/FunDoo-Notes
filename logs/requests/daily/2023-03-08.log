@@ -1,0 +1,176 @@
+info: ::1 - - [08/Mar/2023:02:49:36 +0000] "PUT /api/v1/user/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRhbnVzaHJlZTQ0NEBnbWFpbC5jb20iLCJpZCI6IjY0MDQzOGE4Nzk1YjE3M2VkODNkM2Q0ZiIsImlhdCI6MTY3Nzk5ODQ2MH0.8hxk_MlmjilcS4Ovho8jHsKcQCGozFRiMxh3y-_cR3s HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:02:49:54 +0000] "PUT /api/v1/user/reset HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:02:50:20 +0000] "PUT /api/v1/user/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRhbnVzaHJlZTQ0NEBnbWFpbC5jb20iLCJpZCI6IjY0MDQzOGE4Nzk1YjE3M2VkODNkM2Q0ZiIsImlhdCI6MTY3Nzk5ODQ2MH0.8hxk_MlmjilcS4Ovho8jHsKcQCGozFRiMxh3y-_cR3s HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:02:51:59 +0000] "PUT /api/v1/user/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRhbnVzaHJlZTQ0NEBnbWFpbC5jb20iLCJpZCI6IjY0MDQzOGE4Nzk1YjE3M2VkODNkM2Q0ZiIsImlhdCI6MTY3Nzk5ODQ2MH0.8hxk_MlmjilcS4Ovho8jHsKcQCGozFRiMxh3y-_cR3s HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:03:02:27 +0000] "PUT /api/v1/user/reset HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:03:06:39 +0000] "PUT /api/v1/user/forgetPwd HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:03:07:27 +0000] "PUT /api/v1/user/forgetPwd HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:03:08:27 +0000] "PUT /api/v1/user/forgetPwd HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:03:09:52 +0000] "PUT /api/v1/users/forgetPwd HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:03:10:14 +0000] "PUT /api/v1/user/forgetPwd HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:03:17:37 +0000] "PUT /api/v1/user/forgetPwd HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:03:18:22 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 546 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:03:18:56 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjQ1NDk0fQ.3Tg13y08YJFNuMIeJ6IXlRKziqHEGIwDmQziEq9LHuA HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Mar/2023:03:18:57 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Mar/2023:03:23:10 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjQ1NDk0fQ.3Tg13y08YJFNuMIeJ6IXlRKziqHEGIwDmQziEq9LHuA HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Mar/2023:03:31:36 +0000] "PUT /api/v1/user/reset HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:11:16:41 +0000] "POST /api/v1/user/resetPwd/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:11:17:06 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjQ1NDk0fQ.3Tg13y08YJFNuMIeJ6IXlRKziqHEGIwDmQziEq9LHuA HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:11:17:47 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjQ1NDk0fQ.3Tg13y08YJFNuMIeJ6IXlRKziqHEGIwDmQziEq9LHuA HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:11:26:05 +0000] "POST /api/v1/user/resetPwd HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:11:27:34 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 547 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:11:28:35 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4Mjc0ODQyfQ.rIwIjvHqn4Nd2Wsw88xpcNIeUlVVNjaoyS7c5jU6yd0 HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Mar/2023:11:28:36 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Mar/2023:11:30:58 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 547 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:11:31:12 +0000] "POST /api/v1/user/resetPwd HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:11:32:04 +0000] "POST /api/v1/user/resetPwd HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:11:47:25 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4Mjc0ODQyfQ.rIwIjvHqn4Nd2Wsw88xpcNIeUlVVNjaoyS7c5jU6yd0 HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Mar/2023:11:50:05 +0000] "POST /api/v1/user/resetPwd HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:12:40:31 +0000] "POST /api/v1/user HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:12:40:31 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:12:42:35 +0000] "POST /api/v1/user HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:12:42:35 +0000] "POST /api/v1/user/login HTTP/1.1" 400 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:12:43:49 +0000] "POST /api/v1/user HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:14:37:30 +0000] "POST /api/v1/user HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:14:37:30 +0000] "POST /api/v1/user/login HTTP/1.1" 400 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:14:55:18 +0000] "POST /api/v1/user HTTP/1.1" 500 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:14:55:18 +0000] "POST /api/v1/user/login HTTP/1.1" 400 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:14:55:57 +0000] "POST /api/v1/user HTTP/1.1" 500 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:14:55:57 +0000] "POST /api/v1/user/login HTTP/1.1" 400 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:15:02:52 +0000] "POST /api/v1/user/login HTTP/1.1" 400 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:15:12:07 +0000] "POST /api/v1/user/login HTTP/1.1" 400 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:15:13:39 +0000] "POST /api/v1/user/login HTTP/1.1" 400 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:15:16:55 +0000] "POST /api/v1/user/login HTTP/1.1" 400 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:15:22:16 +0000] "POST /api/v1/user/login HTTP/1.1" 400 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:15:23:51 +0000] "POST /api/v1/users/signup HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:15:24:50 +0000] "POST /api/v1/user HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:15:25:48 +0000] "POST /api/v1/user HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:15:45:55 +0000] "POST /api/v1/user HTTP/1.1" 200 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:15:48:06 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:15:49:34 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:15:49:34 +0000] "POST /api/v1/user/login HTTP/1.1" 400 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:15:51:36 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:15:51:36 +0000] "POST /api/v1/user/login HTTP/1.1" 400 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:15:53:52 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [08/Mar/2023:15:53:53 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [08/Mar/2023:16:00:52 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4Mjc1MDUyfQ.6ohUiZfZ4LUFwPw-6M0gYcicWAIEy_WNa1iTwUj38Zg HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:01:50 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4Mjc1MDUyfQ.6ohUiZfZ4LUFwPw-6M0gYcicWAIEy_WNa1iTwUj38Zg HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:02:35 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4Mjc1MDUyfQ.6ohUiZfZ4LUFwPw-6M0gYcicWAIEy_WNa1iTwUj38Zg HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:04:38 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4Mjc1MDUyfQ.6ohUiZfZ4LUFwPw-6M0gYcicWAIEy_WNa1iTwUj38Zg HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Mar/2023:16:04:40 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4Mjc1MDUyfQ.6ohUiZfZ4LUFwPw-6M0gYcicWAIEy_WNa1iTwUj38Zg HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:17:55 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 549 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:18:24 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjkyMjY2fQ.vGMlf_jChiFVOJdH3cRnq7hcH7wgMQqpsLlb440-V-A HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Mar/2023:16:19:35 +0000] "POST /api/v1/user/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjkyMjY2fQ.vGMlf_jChiFVOJdH3cRnq7hcH7wgMQqpsLlb440-V-A HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:19:46 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjkyMjY2fQ.vGMlf_jChiFVOJdH3cRnq7hcH7wgMQqpsLlb440-V-A HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:20:38 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjkyMjY2fQ.vGMlf_jChiFVOJdH3cRnq7hcH7wgMQqpsLlb440-V-A HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:22:11 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjkyMjY2fQ.vGMlf_jChiFVOJdH3cRnq7hcH7wgMQqpsLlb440-V-A HTTP/1.1" 400 63 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:25:22 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjkyMjY2fQ.vGMlf_jChiFVOJdH3cRnq7hcH7wgMQqpsLlb440-V-A HTTP/1.1" 400 141 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:26:34 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjkyMjY2fQ.vGMlf_jChiFVOJdH3cRnq7hcH7wgMQqpsLlb440-V-A HTTP/1.1" 400 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:27:01 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjkyMjY2fQ.vGMlf_jChiFVOJdH3cRnq7hcH7wgMQqpsLlb440-V-A HTTP/1.1" 400 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:27:09 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjkyMjY2fQ.vGMlf_jChiFVOJdH3cRnq7hcH7wgMQqpsLlb440-V-A HTTP/1.1" 400 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:29:39 +0000] "POST /api/v1/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:30:51 +0000] "POST /api/v1/user HTTP/1.1" 201 323 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:31:37 +0000] "POST /api/v1/user HTTP/1.1" 400 55 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:32:00 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:32:33 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 546 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:32:47 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjkzMTQ2fQ.xjGmHwcQqbhoF9UdJb-nVSBAlU_NukHTfWgNmhcIA7I HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Mar/2023:16:33:39 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 548 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:33:58 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjkzMjE0fQ.WLrCdTxA4T0mxpQRdPWIzMdtT0qQWlEc_szrW9bLLHM HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Mar/2023:16:34:48 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjkzMjE0fQ.WLrCdTxA4T0mxpQRdPWIzMdtT0qQWlEc_szrW9bLLHM HTTP/1.1" 400 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:34:54 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjkzMjE0fQ.WLrCdTxA4T0mxpQRdPWIzMdtT0qQWlEc_szrW9bLLHM HTTP/1.1" 400 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:38:21 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjkzMjE0fQ.WLrCdTxA4T0mxpQRdPWIzMdtT0qQWlEc_szrW9bLLHM HTTP/1.1" 400 92 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:40:00 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjkzMjE0fQ.WLrCdTxA4T0mxpQRdPWIzMdtT0qQWlEc_szrW9bLLHM HTTP/1.1" 400 141 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:41:11 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjkzMjE0fQ.WLrCdTxA4T0mxpQRdPWIzMdtT0qQWlEc_szrW9bLLHM HTTP/1.1" 400 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:44:09 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjkzMjE0fQ.WLrCdTxA4T0mxpQRdPWIzMdtT0qQWlEc_szrW9bLLHM HTTP/1.1" 400 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:44:36 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MjkzMjE0fQ.WLrCdTxA4T0mxpQRdPWIzMdtT0qQWlEc_szrW9bLLHM HTTP/1.1" 400 54 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:46:14 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 548 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:46:25 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWQiOiI2NDA4Yjg4MDM0YjU2NzNlMjRkN2I1MzUiLCJpYXQiOjE2NzgyOTM5Njd9.gL9XChqy_JJSX-tZH-bb31la75kPMpGRPYh7MyW0QKE HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Mar/2023:16:46:55 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWQiOiI2NDA4Yjg4MDM0YjU2NzNlMjRkN2I1MzUiLCJpYXQiOjE2NzgyOTM5Njd9.gL9XChqy_JJSX-tZH-bb31la75kPMpGRPYh7MyW0QKE HTTP/1.1" 200 327 "-" "PostmanRuntime/7.31.1"
+

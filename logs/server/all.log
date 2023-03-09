@@ -4901,3 +4901,548 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-03-05T06:33:23.988Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T18:36:31.817Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T18:36:31.867Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T18:36:41.800Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T18:36:41.922Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T18:36:50.768Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T18:36:50.803Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T18:37:57.324Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T18:37:57.367Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T18:38:56.960Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T18:38:57.062Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T18:40:51.056Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T18:40:51.092Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T18:41:21.549Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T18:41:21.575Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T18:42:13.953Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T18:42:13.986Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T18:42:29.983Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T18:42:30.029Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T18:47:04.982Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T18:47:05.014Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T18:50:10.871Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T18:50:10.904Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 48
+    at JSON.parse (<anonymous>)
+    at parse (D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:231:16)
+    at done (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\MSBelagavi\FunDoo_Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/user/forgetPswd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-05T18:52:07.699Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T18:52:45.124Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T18:52:45.160Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T18:54:24.312Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T18:54:24.352Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T18:54:33.172Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T18:54:33.224Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T18:57:14.693Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T18:57:14.727Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T18:57:58.303Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T18:57:58.350Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T18:58:47.538Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T18:58:47.565Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T18:58:55.225Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T18:58:55.264Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T19:04:06.549Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T19:04:06.582Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T19:04:17.855Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T19:04:17.907Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T19:04:24.280Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T19:04:24.311Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T19:04:54.772Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T19:04:54.799Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T19:24:58.980Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T19:24:59.006Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T19:26:42.652Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T19:26:42.764Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-05T19:26:55.833Z"}
+info: Connected to the database. {"timestamp":"2023-03-05T19:26:55.858Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T04:36:27.105Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T04:36:27.143Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T04:44:35.992Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T04:44:36.125Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T04:47:14.089Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T04:47:14.182Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:39:54.891Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:39:54.960Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:41:54.250Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:41:54.355Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:42:37.974Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:42:38.062Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:43:59.003Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:43:59.038Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:46:34.323Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:46:34.377Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:48:39.558Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:48:39.642Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:50:15.535Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:50:15.563Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:51:15.353Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:51:15.398Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:51:28.387Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:51:28.419Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:51:46.356Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:51:46.423Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:52:13.977Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:52:14.016Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:52:22.340Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:52:22.369Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:52:38.621Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:52:38.649Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:53:42.879Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:53:42.913Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:55:07.177Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:55:07.214Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:55:21.217Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:55:21.287Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:56:05.291Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:56:05.318Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:57:23.312Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:57:30.220Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:57:30.244Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:57:41.708Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:57:41.798Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:57:49.830Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:57:49.854Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T09:59:58.782Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T09:59:58.870Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T10:00:42.780Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:00:42.874Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T10:02:36.717Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:02:36.813Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T10:02:56.616Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:02:56.645Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T10:03:09.641Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:03:09.674Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T10:03:34.920Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:03:34.997Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T10:04:17.528Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:04:17.557Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T10:04:40.531Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:04:40.559Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T10:06:49.243Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:06:49.299Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T10:07:22.981Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:07:23.051Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T10:07:49.773Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:07:49.808Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T10:08:43.736Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:08:43.799Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T10:08:56.721Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:08:56.761Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T10:10:47.441Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:10:47.468Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T10:12:26.508Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:12:26.531Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T10:19:35.226Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:19:35.254Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-06T10:20:47.149Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:20:47.228Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T02:48:03.686Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T02:48:03.728Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T02:49:06.868Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T02:49:06.944Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T02:54:35.359Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T02:54:35.408Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T02:54:51.444Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T02:54:51.484Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T02:55:18.104Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T02:55:18.183Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T02:55:40.870Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T02:55:40.931Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T03:01:47.493Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T03:01:47.530Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T03:07:03.305Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T03:07:03.341Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T03:07:10.332Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T03:07:10.378Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T03:09:49.433Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T03:09:49.467Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T03:10:06.343Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T03:10:06.370Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T03:27:58.345Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T03:27:58.382Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T03:30:44.543Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T03:30:44.623Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T03:33:09.697Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T03:33:09.730Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T04:31:49.148Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T04:31:49.216Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T11:10:10.789Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T11:10:10.821Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T11:13:34.467Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T11:13:34.538Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T11:25:58.170Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T11:25:58.258Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T11:33:36.249Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T11:33:36.288Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T12:40:31.033Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-03-08T12:40:31.157Z"}
+error: uncaughtException: expected 500 to equal 202
+AssertionError: expected 500 to equal 202
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:43:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Mar 08 2023 18:10:31 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":202,"message":"expected 500 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1040674.312},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19019479,"external":20159496,"heapTotal":139792384,"heapUsed":110384920,"rss":180297728},"pid":22076,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-08T12:40:31.246Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":43,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T12:42:35.068Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-03-08T12:42:35.156Z"}
+error: uncaughtException: expected 500 to equal 202
+AssertionError: expected 500 to equal 202
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:43:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Mar 08 2023 18:12:35 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":202,"message":"expected 500 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1040798.25},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18498811,"external":19638828,"heapTotal":124346368,"heapUsed":90767704,"rss":161853440},"pid":20596,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-08T12:42:35.190Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":43,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T12:43:49.730Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-03-08T12:43:49.813Z"}
+error: uncaughtException: expected 500 to equal 202
+AssertionError: expected 500 to equal 202
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:43:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Mar 08 2023 18:13:49 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":202,"message":"expected 500 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1040872.906},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19046985,"external":20187582,"heapTotal":126017536,"heapUsed":96306744,"rss":165363712},"pid":24712,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-08T12:43:49.851Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":43,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T14:37:29.986Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-03-08T14:37:30.149Z"}
+error: uncaughtException: expected 500 to equal 202
+AssertionError: expected 500 to equal 202
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:43:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Mar 08 2023 20:07:30 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":202,"message":"expected 500 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1047693.25},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18382606,"external":19521307,"heapTotal":126443520,"heapUsed":88873088,"rss":163209216},"pid":23164,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-08T14:37:30.186Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":43,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T14:55:18.368Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirm_password" is required 
+    url - /api/v1/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-03-08T14:55:18.478Z"}
+error: uncaughtException: expected 500 to equal 202
+AssertionError: expected 500 to equal 202
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:43:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Mar 08 2023 20:25:18 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":202,"message":"expected 500 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1048761.578},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19368809,"external":20509406,"heapTotal":126029824,"heapUsed":98121712,"rss":165806080},"pid":21636,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-08T14:55:18.519Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":43,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T14:55:57.425Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirm_password" is required 
+    url - /api/v1/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-03-08T14:55:57.536Z"}
+error: uncaughtException: expected 500 to equal 202
+AssertionError: expected 500 to equal 202
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:43:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Mar 08 2023 20:25:57 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":202,"message":"expected 500 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1048800.64},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18912281,"external":20052878,"heapTotal":121987072,"heapUsed":98949824,"rss":161165312},"pid":11832,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:43:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-08T14:55:57.576Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":43,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:02:47.672Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:62:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Mar 08 2023 20:32:52 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:62:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1049215.953},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19379753,"external":20520350,"heapTotal":125509632,"heapUsed":99630464,"rss":165257216},"pid":13116,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:62:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-08T15:02:52.886Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":62,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:12:01.840Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:62:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Mar 08 2023 20:42:07 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:62:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1049770.093},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18536715,"external":19677312,"heapTotal":128540672,"heapUsed":95634472,"rss":167243776},"pid":10268,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:62:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-08T15:12:07.032Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":62,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:13:33.835Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:62:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Mar 08 2023 20:43:39 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:62:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1049862.156},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18956642,"external":20097239,"heapTotal":122773504,"heapUsed":99743960,"rss":161894400},"pid":21800,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:62:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-08T15:13:39.107Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":62,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:16:50.410Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:62:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Mar 08 2023 20:46:55 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:62:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1050058.703},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19027540,"external":20167557,"heapTotal":124985344,"heapUsed":95110896,"rss":163368960},"pid":20828,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:62:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-08T15:16:55.646Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":62,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:22:11.674Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:62:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Mar 08 2023 20:52:16 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:62:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1050379.953},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19073114,"external":20213711,"heapTotal":126291968,"heapUsed":97528480,"rss":165900288},"pid":25852,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:62:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-08T15:22:16.886Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":62,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:23:51.548Z"}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:113:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Mar 08 2023 20:53:51 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:113:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1050474.984},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19143054,"external":20283651,"heapTotal":126300160,"heapUsed":97209640,"rss":165810176},"pid":20648,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:113:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-08T15:23:51.924Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":113,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:24:50.793Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-03-08T15:24:50.926Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:113:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Mar 08 2023 20:54:51 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:113:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1050534.328},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19082294,"external":20222891,"heapTotal":126300160,"heapUsed":97013616,"rss":165548032},"pid":22068,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:113:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-08T15:24:51.278Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":113,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:25:48.392Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-03-08T15:25:48.531Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:113:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Mar 08 2023 20:55:48 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:113:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1050591.953},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19071823,"external":20212420,"heapTotal":127344640,"heapUsed":98397504,"rss":166498304},"pid":24792,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:113:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-08T15:25:48.895Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":113,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:26:46.316Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:27:56.401Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:31:37.248Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:34:28.438Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:39:44.079Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:41:43.897Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:43:45.390Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:45:54.892Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T15:45:54.986Z"}
+error: uncaughtException: expected 200 to equal 201
+AssertionError: expected 200 to equal 201
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:113:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Mar 08 2023 21:15:55 GMT+0530 (India Standard Time)","error":{"actual":200,"expected":201,"message":"expected 200 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:113:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1051798.687},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18386041,"external":19524742,"heapTotal":125132800,"heapUsed":89080664,"rss":162295808},"pid":26268,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:113:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-08T15:45:55.635Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":113,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:48:06.285Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T15:48:06.320Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:49:34.410Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T15:49:34.455Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:62:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Mar 08 2023 21:19:34 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:62:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1052017.89},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19285559,"external":20426156,"heapTotal":126304256,"heapUsed":98871376,"rss":165666816},"pid":22184,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:62:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-08T15:49:34.834Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":62,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:51:35.841Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T15:51:35.954Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:62:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Mar 08 2023 21:21:36 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:62:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1052139.546},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18517480,"external":19658077,"heapTotal":128540672,"heapUsed":95766816,"rss":167579648},"pid":25752,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:62:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-08T15:51:36.499Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":62,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T15:53:52.680Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T15:53:52.717Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:00:44.692Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:00:44.726Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:03:29.817Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:03:29.862Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:04:14.271Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:04:14.421Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:17:23.087Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:17:23.122Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:22:06.412Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:22:06.552Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:23:08.160Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:23:08.258Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:23:29.232Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:23:29.275Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:23:52.680Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:23:52.713Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:24:39.240Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:24:39.279Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:25:12.079Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:25:12.113Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:26:27.394Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:26:27.426Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:30:27.981Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:30:28.034Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:36:44.673Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:36:44.710Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:37:18.261Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:37:18.302Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:38:03.182Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:38:03.220Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:39:00.408Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:39:00.452Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:39:27.255Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:39:27.358Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:40:45.965Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:40:46.015Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:43:02.333Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:43:02.379Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:43:32.152Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:43:32.211Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:43:55.140Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:43:55.219Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-08T16:45:49.944Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:45:49.976Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-09T03:02:11.222Z"}
+info: Connected to the database. {"timestamp":"2023-03-09T03:02:11.297Z"}
+error: uncaughtException: Cannot read properties of undefined (reading '_id')
+TypeError: Cannot read properties of undefined (reading '_id')
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:81:30)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Mar 09 2023 08:32:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1092375.015},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19078138,"external":20218155,"heapTotal":130486272,"heapUsed":99547024,"rss":170328064},"pid":12080,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Cannot read properties of undefined (reading '_id')\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:81:30)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-09T03:02:11.949Z","trace":[{"column":30,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":81,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-09T03:05:19.551Z"}
+info: Connected to the database. {"timestamp":"2023-03-09T03:05:19.581Z"}
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:81:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Mar 09 2023 08:35:20 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:81:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1092563.093},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19216947,"external":20356964,"heapTotal":127602688,"heapUsed":95943080,"rss":165081088},"pid":21624,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:81:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-09T03:05:20.041Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":81,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-09T03:07:08.563Z"}
+info: Connected to the database. {"timestamp":"2023-03-09T03:07:08.637Z"}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:81:40)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Mar 09 2023 08:37:09 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:81:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1092672.187},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18388995,"external":19527696,"heapTotal":126705664,"heapUsed":90748240,"rss":163454976},"pid":25500,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:81:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-09T03:07:09.165Z","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":81,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-09T03:34:43.691Z"}
+info: Connected to the database. {"timestamp":"2023-03-09T03:34:43.727Z"}
+error: uncaughtException: Cannot read properties of undefined (reading '_id')
+TypeError: Cannot read properties of undefined (reading '_id')
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:81:30)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Mar 09 2023 09:04:44 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1094327.234},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19347231,"external":20487248,"heapTotal":129454080,"heapUsed":101199464,"rss":168345600},"pid":26464,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Cannot read properties of undefined (reading '_id')\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:81:30)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-09T03:34:44.231Z","trace":[{"column":30,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":81,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-09T03:41:44.636Z"}
+info: Connected to the database. {"timestamp":"2023-03-09T03:41:44.678Z"}
+error: uncaughtException: Cannot read properties of undefined (reading '_id')
+TypeError: Cannot read properties of undefined (reading '_id')
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:81:30)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Mar 09 2023 09:11:45 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1094748.171},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19023317,"external":20163914,"heapTotal":131010560,"heapUsed":100453120,"rss":169754624},"pid":24856,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Cannot read properties of undefined (reading '_id')\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:81:30)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-09T03:41:45.166Z","trace":[{"column":30,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":81,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-09T03:46:05.826Z"}
+info: Connected to the database. {"timestamp":"2023-03-09T03:46:05.857Z"}
+error: uncaughtException: Cannot read properties of undefined (reading '_id')
+TypeError: Cannot read properties of undefined (reading '_id')
+    at Test.<anonymous> (D:\MSBelagavi\FunDoo_Notes\tests\integration\/user.test.js:81:30)
+    at Test.assert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\MSBelagavi\FunDoo_Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Mar 09 2023 09:16:06 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1095009.312},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18914448,"external":20055045,"heapTotal":123035648,"heapUsed":100416072,"rss":161886208},"pid":24604,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Cannot read properties of undefined (reading '_id')\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:81:30)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-09T03:46:06.319Z","trace":[{"column":30,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":81,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-09T03:47:23.183Z"}
+info: Connected to the database. {"timestamp":"2023-03-09T03:47:23.221Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-09T03:55:04.269Z"}
+info: Connected to the database. {"timestamp":"2023-03-09T03:55:04.312Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-09T03:59:09.875Z"}
+info: Connected to the database. {"timestamp":"2023-03-09T03:59:09.909Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-03-09T04:05:10.665Z"}
+info: Connected to the database. {"timestamp":"2023-03-09T04:05:10.701Z"}

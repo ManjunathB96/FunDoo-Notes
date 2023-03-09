@@ -20,9 +20,10 @@ export const newUserValidator = (req, res, next) => {
       .regex(/^((?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*+?~])(?=.*[0-9]).{8,})$/)
       .trim()
       .required(),
-    confirm_password: Joi.required()
+    confirm_password: Joi.string().required()
   });
   const { error } = schema.validate(req.body);
+  console.log("error data ==>",error);
   if (error) {
     next(error);
   } else {

@@ -1,0 +1,42 @@
+info: ::1 - - [05/Mar/2023:18:47:22 +0000] "POST /api/v1/users HTTP/1.1" 400 55 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [05/Mar/2023:18:47:36 +0000] "POST /api/v1/users HTTP/1.1" 400 55 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [05/Mar/2023:18:50:41 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [05/Mar/2023:18:50:49 +0000] "POST /api/v1/user/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [05/Mar/2023:18:51:11 +0000] "POST /api/v1/user/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [05/Mar/2023:18:51:45 +0000] "POST /api/v1/user/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [05/Mar/2023:18:52:11 +0000] "POST /api/v1/user/forgetPswd HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [05/Mar/2023:18:54:53 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 597 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [05/Mar/2023:18:59:03 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 596 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [06/Mar/2023:04:42:17 +0000] "POST /api/v1/user HTTP/1.1" 200 320 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [06/Mar/2023:04:42:47 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [06/Mar/2023:04:44:42 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [06/Mar/2023:04:47:43 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 1080 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [06/Mar/2023:09:41:11 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [06/Mar/2023:09:43:23 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 601 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [06/Mar/2023:10:00:53 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 548 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [06/Mar/2023:10:01:25 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWF0IjoxNjc4MDk2ODQ3fQ.kuZl9lARAXEOy1uiOjHZ-3QNkMBsodJ9ZzBilrnIBIA HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Mar/2023:10:01:25 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Mar/2023:10:05:13 +0000] "PUT /api/v1/user/resetPwd HTTP/1.1" 200 271 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [06/Mar/2023:10:05:54 +0000] "PUT /api/v1/user/resetPwd HTTP/1.1" 200 281 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [06/Mar/2023:10:09:29 +0000] "PUT /api/v1/user/resetPwd HTTP/1.1" 200 281 "-" "PostmanRuntime/7.31.1"
+
