@@ -63,8 +63,7 @@ export const addToArchive = async (_id,userId) => {
 
 //Note is recoverd from  Archive
 export const recoverFromArchive = async (_id,userId) => {
-  console.log("revover archive started");
-  const data = await Note.findOneAndUpdate({_id:_id,userId:userId},{archive:false},{new:true});
+ const data = await Note.findOneAndUpdate({_id:_id,userId:userId},{archive:false},{new:true});
   console.log("revover archive ==>",data);
   if (!data) {
     throw new Error('Note recovery failed!');

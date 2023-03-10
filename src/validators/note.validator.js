@@ -1,7 +1,6 @@
 import Joi from '@hapi/joi';
 
 export const newNoteValidator = (req, res, next) => {
-  console.log('Validation start');
   const schema = Joi.object({
     title: Joi.string().min(4).required(),
     description: Joi.string().min(4).required(),
@@ -10,7 +9,7 @@ export const newNoteValidator = (req, res, next) => {
     trash: Joi.boolean()
   });
   const { error, value } = schema.validate(req.body);
-  console.log('error ==>', error);
+
   if (error) {
     next(error);
   } else {

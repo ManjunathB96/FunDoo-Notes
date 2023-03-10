@@ -1,0 +1,458 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "V1",
+    "title": "FunDoo Note",
+    "description": "This is the replica of google keep.It contains all the API's of user and notes."
+  },
+  "host": "localhost:4000",
+  "basePath": "/api/v1/",
+  "tags": [
+    {
+      "name": "User and Notes API's Using express CLI",
+      "description": "Creating all user and notes API."
+    }
+  ],
+  "schemes": ["http"],
+  "consumes": ["application/json"],
+  "produces": ["application/json"],
+  "paths": {
+    "/user": {
+      "post": {
+        "tags": ["User"],
+        "description": "create new user...",
+        "parameters": [
+          {
+            "name": "Register new name",
+            "in": "body",
+            "description": "User Registered",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "201": {
+            "description": "New user registered succesfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    },
+    "/user/login": {
+      "post": {
+        "tags": ["User"],
+        "description": "User login",
+        "parameters": [
+          {
+            "name": "login user",
+            "in": "body",
+            "description": "User login",
+            "schema": {
+              "$ref": "#/definitions/login"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "201": {
+            "description": "User login successfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    },
+    "/user/forgetPwd": {
+      "post": {
+        "tags": ["User"],
+        "description": "Forget Password",
+        "produces": [],
+        "parameters": [
+          {
+            "name": "Forget Password",
+            "in": "body",
+            "description": "Forget Password",
+            "required": false,
+            "type": "string",
+            "schema": {
+              "$ref": "#/definitions/ForgetPassword"
+            }
+          }
+        ],
+
+        "responses": {
+          "200": {
+            "description": "Password reset link is sent to your email Id"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    },
+    "/user/resetPwd/{token}": {
+      "post": {
+        "tags": ["User"],
+        "description": "Reset Password",
+        "produces": [],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "New Password",
+            "in": "body",
+            "description": "New Password updated ",
+            "required": true,
+            "type": "string",
+            "schema": {
+              "$ref": "#/definitions/ResetPassword"
+            }
+          }
+        ],
+
+        "responses": {
+          "200": {
+            "description": "Password updated successfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      }
+    },
+
+    "/notes": {
+      "post": {
+        "tags": ["Notes"],
+        "description": "Create a new note ",
+        "produces": [],
+        "parameters": [
+          {
+            "name": "create note",
+            "in": "body",
+            "description": "create note",
+            "required": false,
+            "type": "string",
+            "schema": {
+              "$ref": "#/definitions/Note"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Note is created succesfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      },
+      "get": {
+        "tags": ["Notes"],
+        "description": "Get all notes from database",
+        "produces": [],
+
+        "responses": {
+          "200": {
+            "description": "All notes fetched successfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      }
+    },
+    "/notes/{_id}": {
+      "get": {
+        "tags": ["Notes"],
+        "description": "Get a single note using id",
+        "produces": [],
+        "parameters": [
+          {
+            "name": "_id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Note is fetched successfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      },
+      "put": {
+        "tags": ["Notes"],
+        "description": "Update a note for User",
+        "produces": [],
+        "parameters": [
+          {
+            "name": "_id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "update note",
+            "in": "body",
+            "description": "update note",
+            "required": false,
+            "type": "string",
+            "schema": {
+              "$ref": "#/definitions/Note"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Note is updated succesfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      },
+      "delete": {
+        "tags": ["Notes"],
+        "description": "Delete a note",
+        "produces": [],
+        "parameters": [
+          {
+            "name": "_id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Note is deleted succesfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      }
+    },
+    "/notes/{_id}/archive": {
+      "put": {
+        "tags": ["Notes"],
+        "description": "archive Notes",
+        "parameters": [
+          {
+            "name": "_id",
+            "in": "path",
+            "description": "archive Notes"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "Note is archived."
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      }
+    },
+    "/notes/{_id}/archive/recover": {
+      "get": {
+        "tags": ["Notes"],
+        "description": "Recover note from archive",
+        "produces": [],
+        "parameters": [
+          {
+            "name": "_id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Note is successfully recovered from archive"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      }
+    },
+    "/notes/{id}/trash": {
+      "put": {
+        "tags": ["Notes"],
+        "description": "Trash Notes",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "trash Notes"
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": " Note is added to trash."
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      }
+    },
+    "/notes/{_id}/trash/recover": {
+      "get": {
+        "tags": ["Notes"],
+        "description": "Recover note from trash",
+        "produces": [],
+        "parameters": [
+          {
+            "name": "_id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Note is successfully recovered from trash"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      }
+    }
+  },
+  "securityDefinitions": {
+    "JWT": {
+      "type": "apiKey",
+      "name": "Authorization",
+      "in": "header"
+    }
+  },
+
+  "definitions": {
+    "User": {
+      "type": "object",
+      "properties": {
+        "firstName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "confirm_password": {
+          "type": "string"
+        }
+      }
+    },
+    "login": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+    "ForgetPassword": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        }
+      }
+    },
+    "ResetPassword": {
+      "type": "object",
+      "properties": {
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+    "Note": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

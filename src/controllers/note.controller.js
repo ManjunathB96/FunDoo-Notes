@@ -149,10 +149,10 @@ export const addToarchive = async (req, res, next) => {
  */
 
 export const recoverFromArchive = async (req, res, next) => {
-  console.log("revover archive controller");
+ 
   try {
     const data = await NoteService.recoverFromArchive(req.params._id,req.body.userId,{"archive":false});
-    console.log("revoverarchive controller detaris ==>",data);
+    console.log("Recovery data ==>",data);
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
       data: data,
