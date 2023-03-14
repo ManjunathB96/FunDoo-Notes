@@ -5,10 +5,13 @@ import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 import swaggerUi from 'swagger-ui-express';
-import swaggerDocument from '../src/swagger/swagger.json'
+import swaggerDocument from '../src/swagger/swagger.json';
 
 import routes from './routes';
+
 import database from './config/database';
+import redis from './config/redis.js';
+
 import {
   appErrorHandler,
   genericErrorHandler,
@@ -24,7 +27,7 @@ const port = process.env.APP_PORT;
 const api_version = process.env.API_VERSION;
 
 // middleware
-app.use(cors()); //Cross-Origin Resource Sharing  helps to handle error when we run the appl in front-end and backend development
+app.use(cors());
 app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json()); //JSON
@@ -33,6 +36,8 @@ app.use(morgan('combined', { stream: logStream }));
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 database(); //Database connection
+
+redis(); //Redis connection
 
 app.use(`/api/${api_version}`, routes());
 app.use(appErrorHandler);

@@ -30,6 +30,20 @@ export const newRegistration = async (req, res, next) => {
   }
 };
 
+export const getAllUsers = async (req, res, next) => {
+  try {
+    const data = await UserService.getAllUsers();
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'All users fetched successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
+
 //controller to login registered user
 export const login = async (req, res, next) => {
   console.log("started");

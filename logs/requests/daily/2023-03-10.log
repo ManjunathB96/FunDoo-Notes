@@ -40,3 +40,27 @@ info: ::1 - - [10/Mar/2023:04:58:13 +0000] "GET /api/v1/notes/640ab824559b59525c
 
 info: ::1 - - [10/Mar/2023:04:58:16 +0000] "GET /api/v1/notes/640ab824559b59525c016d94/trash/recover HTTP/1.1" 202 301 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
 
+info: ::ffff:127.0.0.1 - - [10/Mar/2023:06:36:18 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2023:06:36:18 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2023:06:36:18 +0000] "POST /api/v1/notes HTTP/1.1" 201 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2023:06:36:18 +0000] "GET /api/v1/notes HTTP/1.1" 200 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2023:06:36:18 +0000] "GET /api/v1/notes/640acfe2bea85f41f858c050 HTTP/1.1" 200 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2023:06:36:18 +0000] "PUT /api/v1/notes/640acfe2bea85f41f858c050 HTTP/1.1" 202 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2023:06:36:18 +0000] "PUT /api/v1/notes/640acfe2bea85f41f858c050/archive HTTP/1.1" 202 279 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2023:06:36:18 +0000] "GET /api/v1/notes/640acfe2bea85f41f858c050/archive/recover HTTP/1.1" 202 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2023:06:36:18 +0000] "PUT /api/v1/notes/640acfe2bea85f41f858c050/trash HTTP/1.1" 202 285 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2023:06:36:18 +0000] "GET /api/v1/notes/640acfe2bea85f41f858c050/trash/recover HTTP/1.1" 202 288 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2023:06:36:18 +0000] "PUT /api/v1/notes/640acfe2bea85f41f858c050/color HTTP/1.1" 202 293 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [10/Mar/2023:06:36:18 +0000] "DELETE /api/v1/notes/640acfe2bea85f41f858c050 HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+

@@ -12,26 +12,7 @@ import { log } from 'winston';
  * @param {Function} next
  */
 
-// export const userAuth = async (req, res, next) => {
-//   try {
-//     let bearerToken = req.headers.authorization.split(' ')[1];
-//     console.log(`bearerToken  ${bearerToken}`);
-//     if (!bearerToken) {
-//       throw new Error('Authentication failed!');
-//     }
-//     // const user = jwt.verify(bearerToken, process.env.SECRET_KEY);
-//     const  user  =await jwt.verify(bearerToken, process.env.SECRET_KEY);
-//     console.log("user details ",user);
-//     //req.body.userId =user.id
-//    req.body.userId = user.email;
-//     next();
-//   } catch (error) {
-//     res.status(HttpStatus.UNAUTHORIZED).json({
-//       code: HttpStatus.UNAUTHORIZED,
-//       message: `${error}`
-//     });
-//   }
-// };
+
 export const userAuth = async (req, res, next) => {
   console.log('auth started..');
   try {
@@ -45,8 +26,8 @@ export const userAuth = async (req, res, next) => {
 
     const user = await jwt.verify(bearerToken, process.env.SECRET_KEY);
     console.log('auth token ==>', user);
-    //req.body.userId = user.id;
-    req.body.userId = user.email;
+    req.body.userId = user.id;
+   // req.body.userId = user.email;
     next();
   } catch (error) {
     res.status(HttpStatus.UNAUTHORIZED).json({

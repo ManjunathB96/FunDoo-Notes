@@ -1,0 +1,26 @@
+info: ::1 - - [11/Mar/2023:17:28:15 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Mar/2023:17:28:15 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Mar/2023:17:28:15 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 145208 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Mar/2023:17:28:15 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 322865 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Mar/2023:17:28:15 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1046585 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [11/Mar/2023:17:38:19 +0000] "GET /api/v1/notes HTTP/1.1" 200 1081 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [11/Mar/2023:17:38:27 +0000] "GET /api/v1/notes HTTP/1.1" 200 1102 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [11/Mar/2023:17:40:25 +0000] "GET /api/v1/notes/640a0bbd3bdb405a18935176 HTTP/1.1" 200 285 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [11/Mar/2023:17:40:30 +0000] "GET /api/v1/notes/640a0bbd3bdb405a18935176 HTTP/1.1" 200 312 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [11/Mar/2023:17:40:43 +0000] "GET /api/v1/notes/640a0bbd3bdb405a18935176 HTTP/1.1" 200 312 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [11/Mar/2023:17:51:15 +0000] "GET /api/v1/notes/640a0bbd3bdb405a18935176 HTTP/1.1" 200 312 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [11/Mar/2023:18:10:18 +0000] "GET /api/v1/notes/640a0bbd3bdb405a18935176 HTTP/1.1" 200 312 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [11/Mar/2023:18:26:14 +0000] "POST /api/v1/user HTTP/1.1" 201 322 "-" "PostmanRuntime/7.31.1"
+
