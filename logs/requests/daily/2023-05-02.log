@@ -10,3 +10,21 @@ info: ::1 - - [02/May/2023:03:01:27 +0000] "PUT /api/v1/notes/640f029bf520814034
 
 info: ::1 - - [02/May/2023:03:02:34 +0000] "PUT /api/v1/notes/644cb9163a6c3a0584e9859d/addCollaborator HTTP/1.1" 202 92 "-" "PostmanRuntime/7.32.2"
 
+info: ::1 - - [02/May/2023:11:09:58 +0000] "GET /api/v1/user HTTP/1.1" 200 3173 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [02/May/2023:11:10:22 +0000] "PUT /api/v1/notes/644cb9163a6c3a0584e9859d/addCollaborator HTTP/1.1" 202 92 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [02/May/2023:11:11:01 +0000] "PUT /api/v1/notes/644cb9163a6c3a0584e9859d/addCollaborator HTTP/1.1" 202 92 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [02/May/2023:11:14:27 +0000] "PUT /api/v1/notes/644cb9163a6c3a0584e9859d/addCollaborator HTTP/1.1" 400 88 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [02/May/2023:11:17:51 +0000] "PUT /api/v1/notes/644cb9163a6c3a0584e9859d/addCollaborator HTTP/1.1" 202 92 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [02/May/2023:11:18:45 +0000] "PUT /api/v1/notes/644cb9163a6c3a0584e9859d/addCollaborator HTTP/1.1" 202 92 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [02/May/2023:11:23:35 +0000] "PUT /api/v1/notes/644cb9163a6c3a0584e9859d/addCollaborator HTTP/1.1" 202 92 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [02/May/2023:11:29:29 +0000] "PUT /api/v1/notes/644cb9163a6c3a0584e9859d/addCollaborator HTTP/1.1" 400 68 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [02/May/2023:11:30:08 +0000] "PUT /api/v1/notes/644cb9163a6c3a0584e9859d/addCollaborator HTTP/1.1" 400 68 "-" "PostmanRuntime/7.32.2"
+

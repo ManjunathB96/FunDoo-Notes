@@ -44,6 +44,7 @@ router.get('/:_id/trash/recover',userAuth,noteController.recoverFromTrash)
 //route to change color
 router.put('/:_id/color',userAuth,noteController.colorUpdate);
 
+router.put('/:noteId/addCollaborator',userAuth,noteController.addCollaborator)
 export default router;
 
 

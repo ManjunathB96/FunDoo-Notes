@@ -223,3 +223,19 @@ export const colorUpdate = async(req,res)=>{
     })
   }
 }
+
+export const addCollaborator = async(req,res)=>{
+  try {
+    const data=await NoteService.addCollaborator(req.params.noteId,req.body);
+    res.status(HttpStatus.ACCEPTED).json({
+      code:HttpStatus.ACCEPTED,
+      data:data,
+      message:'collaborator added successfully'
+    })
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code:HttpStatus.BAD_REQUEST,
+      message:`${error}`
+    })
+  }
+}

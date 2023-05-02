@@ -22,13 +22,16 @@ const noteSchema = new Schema(
     },
     userId:{
       type:String
-    }
+    },
+    collaborator:[{
+      type:String
+    }]
   },
 
   {
     timestamps: true,
     collection: 'Note',
-    versionKey: false // to remove the "__v" :0 in response from db
+    versionKey: false 
   }
 );
 

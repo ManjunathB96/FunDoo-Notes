@@ -124,3 +124,18 @@ export const colorUpdate = async (_id, userId, body) => {
     return data;
   }
 };
+
+export const addCollaborator = async (noteId, body) => {
+  const userExists = await User.find({ email: body.collaborator });
+  if (userExists) {
+    const data = await Note.updateOne(
+      { _id: noteId, userId: body.userId },
+      {
+        $push: {
+          collaborator: body.collaborator
+        }
+      }
+    );
+    return data;
+  }
+};
