@@ -9,7 +9,7 @@ const noteSchema = new Schema(
     description: {
       type: String
     },
-    color: {
+    color: {  
       type: String
     },
     archive: {

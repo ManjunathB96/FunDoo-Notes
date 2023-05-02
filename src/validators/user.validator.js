@@ -2,6 +2,7 @@ import Joi from '@hapi/joi';
 
 export const newUserValidator = (req, res, next) => {
   const schema = Joi.object({
+    userId:Joi.string().optional(),
     firstName: Joi.string()
       .regex(/^[A-Z]{1,1}[a-z]{3,20}$/)
       .trim()

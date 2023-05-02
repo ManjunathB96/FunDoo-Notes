@@ -8,12 +8,10 @@ import * as NoteService from '../services/note.service';
  * @param {object} res - response object
  * @param {Function} next
  */
-export const newNote = async (req, res, next) => {
-  console.log("note controller");
+export const newNote = async (req, res) => {
   try {
     console.log(req.body)
     const data = await NoteService.newNote(req.body);
-    console.log("data controller ==>",data);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
@@ -33,10 +31,9 @@ export const newNote = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
-export const getAllNotes = async (req, res, next) => {
+export const getAllNotes = async (req, res) => {
   try {
     const data = await NoteService.getAllNotes(req.body.userId);
-    console.log('getAllNotes__', data);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
@@ -56,7 +53,7 @@ export const getAllNotes = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
-export const getNote = async (req, res, next) => {
+export const getNote = async (req, res) => {
   try {
     const data = await NoteService.getNote(req.params._id,req.body.userId);
     res.status(HttpStatus.OK).json({
@@ -78,7 +75,7 @@ export const getNote = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
-export const updateNote = async (req, res, next) => {
+export const updateNote = async (req, res) => {
   try {
     const data = await NoteService.updateNote(req.params._id, req.body.userId,req.body);
     console.log('Updated Note', data);
@@ -101,7 +98,7 @@ export const updateNote = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
-export const deleteNote = async (req, res, next) => {
+export const deleteNote = async (req, res) => {
   try {
     await NoteService.deleteNote(req.params._id,req.body.userId);
     res.status(HttpStatus.OK).json({
@@ -123,7 +120,7 @@ export const deleteNote = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
-export const addToarchive = async (req, res, next) => {
+export const addToarchive = async (req, res) => {
   try {
     const data = await NoteService.addToArchive(req.params._id,req.body.userId);
     console.log('data in archive ', data);
@@ -148,11 +145,10 @@ export const addToarchive = async (req, res, next) => {
  * @param {Function} next
  */
 
-export const recoverFromArchive = async (req, res, next) => {
+export const recoverFromArchive = async (req, resext) => {
  
   try {
     const data = await NoteService.recoverFromArchive(req.params._id,req.body.userId,{"archive":false});
-    console.log("Recovery data ==>",data);
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
       data: data,
@@ -173,7 +169,7 @@ export const recoverFromArchive = async (req, res, next) => {
  * @param {Function} next
  */
 
-export const addToTrash = async (req, res, next) => {
+export const addToTrash = async (req, res) => {
   try {
     const data = await NoteService.addToTrash(req.params._id,req.body.userId);
     res.status(HttpStatus.ACCEPTED).json({
@@ -196,7 +192,7 @@ export const addToTrash = async (req, res, next) => {
  * @param {Function} next
  */
 
-export const recoverFromTrash = async(req,res,next)=>{
+export const recoverFromTrash = async(req,res)=>{
   try {
     const data=await NoteService.recoverFromTrash(req.params._id,req.body.userId,{"trash":false});
     res.status(HttpStatus.ACCEPTED).json({
@@ -212,7 +208,7 @@ export const recoverFromTrash = async(req,res,next)=>{
   }
 }
 
-export const colorUpdate = async(req,res,next)=>{
+export const colorUpdate = async(req,res)=>{
   try {
     const data=await NoteService.colorUpdate(req.params._id,req.body.userId,req.body);
     res.status(HttpStatus.ACCEPTED).json({

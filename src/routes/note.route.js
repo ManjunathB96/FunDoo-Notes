@@ -1,4 +1,3 @@
-
 import express from 'express';
 import * as noteController from '../controllers/note.controller';
 import { newNoteValidator } from '../validators/note.validator';
@@ -9,14 +8,17 @@ import {redisForGetall,redisForGetOne} from '../middlewares/redis.middleware';
 
 const router = express.Router();
 
-//route to create a new note
-router.post('', newNoteValidator,userAuth,noteController.newNote);
-
 //route to get  all notes 
 router.get('',userAuth,redisForGetall, noteController.getAllNotes);
 
+//route to create a new note
+router.post('', newNoteValidator,userAuth,noteController.newNote);
+
+
+
 //route to get a single note by their note id
 router.get('/:_id',userAuth,redisForGetOne, noteController.getNote);
+//router.get('/:_id',userAuth, noteController.getNote);
 
 
 //route to update a single note by their note id
@@ -41,7 +43,6 @@ router.get('/:_id/trash/recover',userAuth,noteController.recoverFromTrash)
 
 //route to change color
 router.put('/:_id/color',userAuth,noteController.colorUpdate);
-
 
 export default router;
 

@@ -4010,3 +4010,310 @@ AssertionError: expected 400 to equal 200
     at Server.emit (node:events:513:28)
     at emitCloseNT (node:net:2128:8)
     at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Tue Mar 14 2023 12:36:59 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:106:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1539057.921},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18394824,"external":20849407,"heapTotal":199716864,"heapUsed":127988768,"rss":242200576},"pid":10736,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js:106:40)\n    at Test.assert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"D:\\MSBelagavi\\FunDoo_Notes\\tests\\integration\\/user.test.js","function":null,"line":106,"method":null,"native":false},{"column":6,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::1 - - [18/Apr/2023:15:32:59 +0000] "POST /api/v1/user HTTP/1.1" 500 60 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:15:33:20 +0000] "POST /api/v1/user HTTP/1.1" 500 60 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:15:33:33 +0000] "POST /api/v1/user HTTP/1.1" 500 67 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:15:34:14 +0000] "POST /api/v1/user HTTP/1.1" 400 92 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:15:34:19 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:15:35:11 +0000] "POST /api/v1/user/login HTTP/1.1" 200 247 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:15:38:05 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 2489 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:15:40:04 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 2489 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:15:46:11 +0000] "POST /api/v1/user HTTP/1.1" 400 69 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:15:47:15 +0000] "POST /api/v1/user HTTP/1.1" 400 55 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:15:47:33 +0000] "POST /api/v1/user HTTP/1.1" 400 69 "-" "PostmanRuntime/7.32.2"
+
+error: uncaughtException: (0 , _app.sendMailToRegisteredUser) is not a function
+TypeError: (0 , _app.sendMailToRegisteredUser) is not a function
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\utils\/rabbitmq.js:55:56)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at D:\MSBelagavi\FunDoo_Notes\src\utils\/rabbitmq.js:62:10
+    at Channel.BaseChannel.dispatchMessage (D:\MSBelagavi\FunDoo_Notes\node_modules\amqplib\lib\channel.js:483:12)
+    at Channel.BaseChannel.handleDelivery (D:\MSBelagavi\FunDoo_Notes\node_modules\amqplib\lib\channel.js:492:15)
+    at Channel.emit (node:events:513:28)
+    at Channel.emit (node:domain:489:12)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\amqplib\lib\channel.js:278:10
+    at Channel.content (D:\MSBelagavi\FunDoo_Notes\node_modules\amqplib\lib\channel.js:331:9)
+    at Channel.C.acceptMessageFrame (D:\MSBelagavi\FunDoo_Notes\node_modules\amqplib\lib\channel.js:246:31)
+    at Channel.C.accept (D:\MSBelagavi\FunDoo_Notes\node_modules\amqplib\lib\channel.js:399:17)
+    at Connection.mainAccept [as accept] (D:\MSBelagavi\FunDoo_Notes\node_modules\amqplib\lib\connection.js:63:33)
+    at Socket.go (D:\MSBelagavi\FunDoo_Notes\node_modules\amqplib\lib\connection.js:486:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitReadable_ (node:internal/streams/readable:590:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Tue Apr 18 2023 21:19:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":280194.843},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18464627,"external":21499933,"heapTotal":212180992,"heapUsed":176932568,"rss":258048000},"pid":16584,"uid":null,"version":"v18.13.0"},"stack":"TypeError: (0 , _app.sendMailToRegisteredUser) is not a function\n    at _callee$ (D:\\MSBelagavi\\FunDoo_Notes\\src\\utils\\/rabbitmq.js:55:56)\n    at tryCatch (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at apply (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at D:\\MSBelagavi\\FunDoo_Notes\\src\\utils\\/rabbitmq.js:62:10\n    at Channel.BaseChannel.dispatchMessage (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js:483:12)\n    at Channel.BaseChannel.handleDelivery (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js:492:15)\n    at Channel.emit (node:events:513:28)\n    at Channel.emit (node:domain:489:12)\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js:278:10\n    at Channel.content (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js:331:9)\n    at Channel.C.acceptMessageFrame (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js:246:31)\n    at Channel.C.accept (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js:399:17)\n    at Connection.mainAccept [as accept] (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\connection.js:63:33)\n    at Socket.go (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\connection.js:486:48)\n    at Socket.emit (node:events:513:28)\n    at Socket.emit (node:domain:489:12)\n    at emitReadable_ (node:internal/streams/readable:590:12)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":56,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\utils\\/rabbitmq.js","function":"_callee$","line":55,"method":null,"native":false},{"column":17,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"apply","line":19,"method":null,"native":false},{"column":10,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\utils\\/rabbitmq.js","function":null,"line":62,"method":null,"native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.dispatchMessage","line":483,"method":"dispatchMessage","native":false},{"column":15,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.handleDelivery","line":492,"method":"handleDelivery","native":false},{"column":28,"file":"node:events","function":"Channel.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Channel.emit","line":489,"method":"emit","native":false},{"column":10,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js","function":null,"line":278,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.content","line":331,"method":"content","native":false},{"column":31,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.acceptMessageFrame","line":246,"method":"acceptMessageFrame","native":false},{"column":17,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.C.accept","line":399,"method":"accept","native":false},{"column":33,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\connection.js","function":"Connection.mainAccept [as accept]","line":63,"method":"mainAccept [as accept]","native":false},{"column":48,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\connection.js","function":"Socket.go","line":486,"method":"go","native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Socket.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"emitReadable_","line":590,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::1 - - [18/Apr/2023:15:51:48 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "PostmanRuntime/7.32.2"
+
+error: uncaughtException: (0 , _app.sendMailToRegisteredUser) is not a function
+TypeError: (0 , _app.sendMailToRegisteredUser) is not a function
+    at _callee$ (D:\MSBelagavi\FunDoo_Notes\src\utils\/rabbitmq.js:55:56)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at D:\MSBelagavi\FunDoo_Notes\src\utils\/rabbitmq.js:62:10
+    at Channel.BaseChannel.dispatchMessage (D:\MSBelagavi\FunDoo_Notes\node_modules\amqplib\lib\channel.js:483:12)
+    at Channel.BaseChannel.handleDelivery (D:\MSBelagavi\FunDoo_Notes\node_modules\amqplib\lib\channel.js:492:15)
+    at Channel.emit (node:events:513:28)
+    at Channel.emit (node:domain:489:12)
+    at D:\MSBelagavi\FunDoo_Notes\node_modules\amqplib\lib\channel.js:278:10
+    at Channel.content (D:\MSBelagavi\FunDoo_Notes\node_modules\amqplib\lib\channel.js:331:9) {"date":"Tue Apr 18 2023 21:21:48 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":280342.171},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18412666,"external":21443844,"heapTotal":161435648,"heapUsed":124807304,"rss":180371456},"pid":7784,"uid":null,"version":"v18.13.0"},"stack":"TypeError: (0 , _app.sendMailToRegisteredUser) is not a function\n    at _callee$ (D:\\MSBelagavi\\FunDoo_Notes\\src\\utils\\/rabbitmq.js:55:56)\n    at tryCatch (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at apply (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at D:\\MSBelagavi\\FunDoo_Notes\\src\\utils\\/rabbitmq.js:62:10\n    at Channel.BaseChannel.dispatchMessage (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js:483:12)\n    at Channel.BaseChannel.handleDelivery (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js:492:15)\n    at Channel.emit (node:events:513:28)\n    at Channel.emit (node:domain:489:12)\n    at D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js:278:10\n    at Channel.content (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js:331:9)","trace":[{"column":56,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\utils\\/rabbitmq.js","function":"_callee$","line":55,"method":null,"native":false},{"column":17,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"apply","line":19,"method":null,"native":false},{"column":10,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\utils\\/rabbitmq.js","function":null,"line":62,"method":null,"native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.dispatchMessage","line":483,"method":"dispatchMessage","native":false},{"column":15,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.BaseChannel.handleDelivery","line":492,"method":"handleDelivery","native":false},{"column":28,"file":"node:events","function":"Channel.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"Channel.emit","line":489,"method":"emit","native":false},{"column":10,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js","function":null,"line":278,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\amqplib\\lib\\channel.js","function":"Channel.content","line":331,"method":"content","native":false}]}
+info: ::1 - - [18/Apr/2023:15:55:08 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:15:55:29 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 2489 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:15:57:41 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 2489 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:16:00:57 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:16:01:03 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 2489 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:16:03:51 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 400 52 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:16:03:59 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:16:04:27 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 2489 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:16:14:19 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:16:18:15 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:16:19:06 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:16:22:00 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:16:22:19 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 2489 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:16:25:00 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:16:35:30 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:16:35:59 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 545 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:14:19:45 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 547 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:14:20:11 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWQiOiI2NDNlYzZkMmZhODE1YzM0NTAxODliZDUiLCJpYXQiOjE2ODE5MTM5Nzh9.rpNTTlJqQPaCcXmuD86h-kFD5dd-4T4WHemOxPvyZaE HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:14:20:11 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:14:21:10 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWQiOiI2NDNlYzZkMmZhODE1YzM0NTAxODliZDUiLCJpYXQiOjE2ODE5MTM5Nzh9.rpNTTlJqQPaCcXmuD86h-kFD5dd-4T4WHemOxPvyZaE HTTP/1.1" 400 54 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:14:22:36 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWQiOiI2NDNlYzZkMmZhODE1YzM0NTAxODliZDUiLCJpYXQiOjE2ODE5MTM5Nzh9.rpNTTlJqQPaCcXmuD86h-kFD5dd-4T4WHemOxPvyZaE HTTP/1.1" 400 54 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:14:24:53 +0000] "POST /api/v1/users/create HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:14:25:05 +0000] "POST /api/v1/user/create HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:14:26:45 +0000] "POST /api/v1/user HTTP/1.1" 400 74 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:14:26:53 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:14:28:29 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 548 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:14:28:42 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWQiOiI2NDNmZmEyZGEwZWRlZDRmMmM1OWM2MmMiLCJpYXQiOjE2ODE5MTQ0OTd9.ejhTgSf3PNX7HAD_jeTjT_ArjUk2Oj8v3YN21ulHWDs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:14:29:33 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWQiOiI2NDNmZmEyZGEwZWRlZDRmMmM1OWM2MmMiLCJpYXQiOjE2ODE5MTQ0OTd9.ejhTgSf3PNX7HAD_jeTjT_ArjUk2Oj8v3YN21ulHWDs HTTP/1.1" 400 141 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:14:31:43 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWQiOiI2NDNmZmEyZGEwZWRlZDRmMmM1OWM2MmMiLCJpYXQiOjE2ODE5MTQ0OTd9.ejhTgSf3PNX7HAD_jeTjT_ArjUk2Oj8v3YN21ulHWDs HTTP/1.1" 400 54 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:14:36:16 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiaWQiOiI2NDNmZmEyZGEwZWRlZDRmMmM1OWM2MmMiLCJpYXQiOjE2ODE5MTQ0OTd9.ejhTgSf3PNX7HAD_jeTjT_ArjUk2Oj8v3YN21ulHWDs HTTP/1.1" 400 141 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:14:38:45 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:14:39:13 +0000] "POST /api/v1/user/forgetPwd HTTP/1.1" 200 548 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:14:39:23 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiX2lkIjoiNjQzZmZjZjU3YWI0MDA0NGQ4NDA3M2VkIiwiaWF0IjoxNjgxOTE1MTQ3fQ.nWaMVWOA6kGq6Dvc1x_MIVuzocr9718hZ87HeaKbkcE HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [19/Apr/2023:14:39:40 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiX2lkIjoiNjQzZmZjZjU3YWI0MDA0NGQ4NDA3M2VkIiwiaWF0IjoxNjgxOTE1MTQ3fQ.nWaMVWOA6kGq6Dvc1x_MIVuzocr9718hZ87HeaKbkcE HTTP/1.1" 200 327 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:14:42:08 +0000] "POST /api/v1/user/resetPwd/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJiZWxhZ2F2aTZAZ21haWwuY29tIiwiX2lkIjoiNjQzZmZjZjU3YWI0MDA0NGQ4NDA3M2VkIiwiaWF0IjoxNjgxOTE1MTQ3fQ.nWaMVWOA6kGq6Dvc1x_MIVuzocr9718hZ87HeaKbkcE HTTP/1.1" 200 363 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:19:10 +0000] "GET /api/v1/notes HTTP/1.1" 401 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:19:37 +0000] "POST /api/v1/user/login HTTP/1.1" 200 249 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:19:54 +0000] "GET /api/v1/notes HTTP/1.1" 200 65 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:22:09 +0000] "POST /api/v1/notes HTTP/1.1" 201 301 "-" "PostmanRuntime/7.32.2"
+
+error: uncaughtException: MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+  No stack trace {"date":"Wed Apr 19 2023 23:52:09 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":375760.812},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18401953,"external":21433131,"heapTotal":128929792,"heapUsed":123319808,"rss":173867008},"pid":16708,"uid":null,"version":"v18.13.0"},"trace":[]}
+info: ::1 - - [19/Apr/2023:18:24:47 +0000] "POST /api/v1/notes HTTP/1.1" 201 303 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:25:39 +0000] "GET /api/v1/notes HTTP/1.1" 200 554 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:25:43 +0000] "GET /api/v1/notes HTTP/1.1" 200 575 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:26:01 +0000] "GET /api/v1/notes/644031ef118582369871a38e HTTP/1.1" 400 72 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:27:37 +0000] "GET /api/v1/notes/643ffcf57ab40044d84073ed HTTP/1.1" 200 571 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:28:14 +0000] "GET /api/v1/notes/%22644031503f25e04144578f6c HTTP/1.1" 400 72 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:30:09 +0000] "GET /api/v1/notes/644031503f25e04144578f6c HTTP/1.1" 400 72 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:31:31 +0000] "GET /api/v1/notes/644031503f25e04144578f6c HTTP/1.1" 200 301 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:34:46 +0000] "GET /api/v1/notes/644031503f25e04144578f6c HTTP/1.1" 200 323 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:35:28 +0000] "POST /api/v1/notes HTTP/1.1" 201 305 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:35:33 +0000] "GET /api/v1/notes HTTP/1.1" 200 802 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:35:37 +0000] "GET /api/v1/notes HTTP/1.1" 200 823 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:35:51 +0000] "GET /api/v1/notes/64403470cfcc9d16dc589a9d HTTP/1.1" 400 72 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:35:56 +0000] "GET /api/v1/notes/64403470cfcc9d16dc589a9d HTTP/1.1" 400 72 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:36:05 +0000] "GET /api/v1/notes HTTP/1.1" 200 823 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:36:37 +0000] "GET /api/v1/notes/64403470cfcc9d16dc589a9d HTTP/1.1" 400 72 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:39:34 +0000] "GET /api/v1/notes/64403470cfcc9d16dc589a9d HTTP/1.1" 200 305 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:39:40 +0000] "GET /api/v1/notes/64403470cfcc9d16dc589a9d HTTP/1.1" 200 327 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:40:10 +0000] "GET /api/v1/notes/64403470cfcc9d16dc589a9d1 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:40:18 +0000] "GET /api/v1/notes/64403470cfcc9d16dc589a9d HTTP/1.1" 200 327 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:40:22 +0000] "GET /api/v1/notes/64403470cfcc9d16dc589a91d HTTP/1.1" 400 60 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:40:28 +0000] "GET /api/v1/notes/64403470cfcc9d16dc589a9d HTTP/1.1" 200 327 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:43:00 +0000] "GET /api/v1/notes/64403470cfcc9d16dc589a9d HTTP/1.1" 200 327 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:43:07 +0000] "GET /api/v1/notes HTTP/1.1" 200 823 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:52:11 +0000] "PUT /api/v1/notes/64403470cfcc9d16dc589a9d HTTP/1.1" 202 305 "-" "PostmanRuntime/7.32.2"
+
+error: uncaughtException: Invalid argument type
+TypeError: Invalid argument type
+    at encodeCommand (D:\MSBelagavi\FunDoo_Notes\node_modules\@redis\client\dist\lib\client\RESP2\encoder.js:17:19)
+    at RedisCommandsQueue.getCommandToSend (D:\MSBelagavi\FunDoo_Notes\node_modules\@redis\client\dist\lib\client\commands-queue.js:138:45)
+    at Commander._RedisClient_tick (D:\MSBelagavi\FunDoo_Notes\node_modules\@redis\client\dist\lib\client\index.js:507:76)
+    at Commander._RedisClient_sendCommand (D:\MSBelagavi\FunDoo_Notes\node_modules\@redis\client\dist\lib\client\index.js:494:82)
+    at Commander.commandsExecutor (D:\MSBelagavi\FunDoo_Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.set (D:\MSBelagavi\FunDoo_Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee4$ (D:\MSBelagavi\FunDoo_Notes\src\services\/note.service.js:44:12)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Thu Apr 20 2023 00:22:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":377563.14},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18447718,"external":21478896,"heapTotal":132599808,"heapUsed":126630608,"rss":176078848},"pid":17192,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Invalid argument type\n    at encodeCommand (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\RESP2\\encoder.js:17:19)\n    at RedisCommandsQueue.getCommandToSend (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\commands-queue.js:138:45)\n    at Commander._RedisClient_tick (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:507:76)\n    at Commander._RedisClient_sendCommand (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:494:82)\n    at Commander.commandsExecutor (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:193:154)\n    at Commander.set (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\commander.js:8:29)\n    at _callee4$ (D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/note.service.js:44:12)\n    at tryCatch (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":19,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\RESP2\\encoder.js","function":"encodeCommand","line":17,"method":null,"native":false},{"column":45,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\commands-queue.js","function":"RedisCommandsQueue.getCommandToSend","line":138,"method":"getCommandToSend","native":false},{"column":76,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander._RedisClient_tick","line":507,"method":"_RedisClient_tick","native":false},{"column":82,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander._RedisClient_sendCommand","line":494,"method":"_RedisClient_sendCommand","native":false},{"column":154,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander.commandsExecutor","line":193,"method":"commandsExecutor","native":false},{"column":29,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\commander.js","function":"Commander.set","line":8,"method":"set","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/note.service.js","function":"_callee4$","line":44,"method":null,"native":false},{"column":17,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [19/Apr/2023:18:56:27 +0000] "PUT /api/v1/notes/64403470cfcc9d16dc589a9d HTTP/1.1" 202 305 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:18:57:46 +0000] "PUT /api/v1/notes/64403470cfcc9d16dc589a9d HTTP/1.1" 202 305 "-" "PostmanRuntime/7.32.2"
+
+error: uncaughtException: Invalid argument type
+TypeError: Invalid argument type
+    at encodeCommand (D:\MSBelagavi\FunDoo_Notes\node_modules\@redis\client\dist\lib\client\RESP2\encoder.js:17:19)
+    at RedisCommandsQueue.getCommandToSend (D:\MSBelagavi\FunDoo_Notes\node_modules\@redis\client\dist\lib\client\commands-queue.js:138:45)
+    at Commander._RedisClient_tick (D:\MSBelagavi\FunDoo_Notes\node_modules\@redis\client\dist\lib\client\index.js:507:76)
+    at Commander._RedisClient_sendCommand (D:\MSBelagavi\FunDoo_Notes\node_modules\@redis\client\dist\lib\client\index.js:494:82)
+    at Commander.commandsExecutor (D:\MSBelagavi\FunDoo_Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.set (D:\MSBelagavi\FunDoo_Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee4$ (D:\MSBelagavi\FunDoo_Notes\src\services\/note.service.js:44:12)
+    at tryCatch (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\MSBelagavi\FunDoo_Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Thu Apr 20 2023 00:27:46 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":377897.859},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19636101,"external":22671407,"heapTotal":209641472,"heapUsed":186534536,"rss":255987712},"pid":13884,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Invalid argument type\n    at encodeCommand (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\RESP2\\encoder.js:17:19)\n    at RedisCommandsQueue.getCommandToSend (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\commands-queue.js:138:45)\n    at Commander._RedisClient_tick (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:507:76)\n    at Commander._RedisClient_sendCommand (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:494:82)\n    at Commander.commandsExecutor (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js:193:154)\n    at Commander.set (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\commander.js:8:29)\n    at _callee4$ (D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/note.service.js:44:12)\n    at tryCatch (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":19,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\RESP2\\encoder.js","function":"encodeCommand","line":17,"method":null,"native":false},{"column":45,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\commands-queue.js","function":"RedisCommandsQueue.getCommandToSend","line":138,"method":"getCommandToSend","native":false},{"column":76,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander._RedisClient_tick","line":507,"method":"_RedisClient_tick","native":false},{"column":82,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander._RedisClient_sendCommand","line":494,"method":"_RedisClient_sendCommand","native":false},{"column":154,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\client\\index.js","function":"Commander.commandsExecutor","line":193,"method":"commandsExecutor","native":false},{"column":29,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@redis\\client\\dist\\lib\\commander.js","function":"Commander.set","line":8,"method":"set","native":false},{"column":12,"file":"D:\\MSBelagavi\\FunDoo_Notes\\src\\services\\/note.service.js","function":"_callee4$","line":44,"method":null,"native":false},{"column":17,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\MSBelagavi\\FunDoo_Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [19/Apr/2023:18:58:25 +0000] "PUT /api/v1/notes/64403470cfcc9d16dc589a9d HTTP/1.1" 202 307 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [19/Apr/2023:19:02:27 +0000] "DELETE /api/v1/notes/64403470cfcc9d16dc589a9d HTTP/1.1" 200 60 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:05:56:59 +0000] "POST /api/v1/user HTTP/1.1" 500 67 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [22/Apr/2023:05:57:48 +0000] "POST /api/v1/user HTTP/1.1" 201 276 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:13:49 +0000] "PUT /api/v1/addCollaborator/640f029bf520814034a94367 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:14:19 +0000] "PUT /api/v1/notes/addCollaborator/640f029bf520814034a94367 HTTP/1.1" 401 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:14:54 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:15:04 +0000] "POST /api/v1/user HTTP/1.1" 201 276 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:15:14 +0000] "POST /api/v1/user/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:15:31 +0000] "POST /api/v1/user/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:16:02 +0000] "POST /api/v1/user/login HTTP/1.1" 400 45 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:16:06 +0000] "POST /api/v1/user HTTP/1.1" 201 276 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:16:44 +0000] "POST /api/v1/user HTTP/1.1" 500 60 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:16:55 +0000] "POST /api/v1/user/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:18:56 +0000] "POST /api/v1/user/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:19:02 +0000] "POST /api/v1/user/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:19:34 +0000] "POST /api/v1/user/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:20:27 +0000] "POST /api/v1/user/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:22:29 +0000] "POST /api/v1/user/login HTTP/1.1" 400 48 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:22:56 +0000] "POST /api/v1/user HTTP/1.1" 201 323 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:23:03 +0000] "POST /api/v1/user/login HTTP/1.1" 200 251 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:25:53 +0000] "POST /api/v1/notes HTTP/1.1" 401 40 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:27:55 +0000] "POST /api/v1/notes HTTP/1.1" 401 40 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:28:14 +0000] "POST /api/v1/notes HTTP/1.1" 401 40 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:28:38 +0000] "POST /api/v1/notes HTTP/1.1" 201 328 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:30:35 +0000] "PUT /api/v1/notes/addCollaborator/640f029bf520814034a94367 HTTP/1.1" 202 68 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:31:28 +0000] "PUT /api/v1/notes/addCollaborator/640f029bf520814034a94367 HTTP/1.1" 202 68 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:32:43 +0000] "PUT /api/v1/notes/addCollaborator/640f029bf520814034a94367 HTTP/1.1" 202 68 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:33:43 +0000] "PUT /api/v1/notes/addCollaborator/640f029bf520814034a94367 HTTP/1.1" 202 68 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [29/Apr/2023:06:39:13 +0000] "PUT /api/v1/notes/addCollaborator/640f029bf520814034a94367 HTTP/1.1" 202 68 "-" "PostmanRuntime/7.32.2"
+
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Sun Apr 30 2023 20:19:01 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":565},"process":{"argv":["node","D:\\MSBelagavi\\FunDoo_Notes\\src\\index.js"],"cwd":"D:\\MSBelagavi\\FunDoo_Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18402256,"external":21433434,"heapTotal":128405504,"heapUsed":121746056,"rss":173367296},"pid":10640,"uid":null,"version":"v18.13.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: ::1 - - [02/May/2023:02:55:28 +0000] "PUT /api/v1/notes/640f029bf520814034a94367/addCollaborator HTTP/1.1" 202 68 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [02/May/2023:02:56:57 +0000] "PUT /api/v1/notes/640f029bf520814034a94367/addCollaborator HTTP/1.1" 202 68 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [02/May/2023:02:57:52 +0000] "PUT /api/v1/notes/640f029bf520814034a94367/addCollaborator HTTP/1.1" 202 68 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [02/May/2023:02:59:16 +0000] "PUT /api/v1/notes/640f029bf520814034a94367/addCollaborator HTTP/1.1" 202 68 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [02/May/2023:03:01:27 +0000] "PUT /api/v1/notes/640f029bf520814034a94367/addCollaborator HTTP/1.1" 202 68 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [02/May/2023:03:02:34 +0000] "PUT /api/v1/notes/644cb9163a6c3a0584e9859d/addCollaborator HTTP/1.1" 202 92 "-" "PostmanRuntime/7.32.2"
+

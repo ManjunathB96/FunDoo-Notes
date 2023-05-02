@@ -6,7 +6,7 @@ const CLIENT_ID =
 const CLIENT_SECRET = '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';
 const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
 const REFRESH_TOKEN =
-  '1//04CUdbrm3iHPLCgYIARAAGAQSNwF-L9IrfkJ86UC-lQhldvtjWOkAVEf_vw8P5JGVO9uPWMTgTCJoZ5jlJARFJgcgstwh-dylihc';
+  '1//04ke3Qd4OSpzcCgYIARAAGAQSNwF-L9Ir0BQulZAmvSZIU2hD3bN25DmltHNhfXnjEaQmLPLoOUDiOEQ2bbVrg6yxo0rKmtjlCWI';
 
 const oAuth2Client = new google.auth.OAuth2(
   CLIENT_ID,
@@ -50,3 +50,36 @@ export const sendMail = async (email, token) => {
     return error;
   }
 };
+
+export const sendMailToRegisteredUser=async(email, firstName, lastName) =>{
+  try {
+      const accessToken = await oAuth2Client.getAccessToken();
+
+      const transport = nodemailer.createTransport({
+          service: 'gmail',
+          auth: {
+            type: 'OAuth2',
+            user: 'bbelagavi6@gmail.com',
+            pass: '8296453892',
+            clientId: CLIENT_ID,
+            clientSecret: CLIENT_SECRET,
+            refreshToken: REFRESH_TOKEN,
+            accessToken: accessToken
+          }
+      });
+
+      const mailOptions = {
+          from: 'Manjunath S Belagavi 📧 <bbelagavi6@gmail.com>',
+          to: email,
+          subject: 'Registration is Successfull',
+          text: `Hi, ${firstName} ${lastName} you are successfully registered....`,
+      };
+
+      const result = await transport.sendMail(mailOptions)
+      return result;
+
+  } catch (error) {
+      return error;
+
+  }
+}
