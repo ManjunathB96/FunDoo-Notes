@@ -44,6 +44,9 @@ router.get('/:_id/trash/recover',userAuth,noteController.recoverFromTrash)
 //route to change color
 router.put('/:_id/color',userAuth,noteController.colorUpdate);
 
+//route for pin
+router.put('/:noteId/pin',userAuth,noteController.pinNote);
+
 router.put('/:noteId/addCollaborator',userAuth,noteController.addCollaborator)
 export default router;
 

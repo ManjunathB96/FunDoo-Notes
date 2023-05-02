@@ -125,13 +125,22 @@ export const colorUpdate = async (_id, userId, body) => {
   }
 };
 
+//note pin
+export const pinNote = async (noteId,body) => {
+const note = await Note.findOne({ _id: noteId, userId: body.userId });
+const pinned=note.pinned === false ? true:false
+const data = await Note.findByIdAndUpdate({ _id:noteId, userId: body.userId },{pinned:pinned});
+return data;
+};
+
+//add collaborator
 export const addCollaborator = async (noteId, body) => {
   const userExists = await User.find({ email: body.collaborator });
   if (userExists) {
     const data = await Note.updateOne(
       { _id: noteId, userId: body.userId },
       {
-        $push: {
+        $addToSet: {
           collaborator: body.collaborator
         }
       }
