@@ -21,6 +21,5 @@ router.post('/forgetPwd',userController.forgetPwd);
 router.post('/resetPwd/:token',  resetAuthorization , userController.resetPassword);
 
 
-
 export default router;
 

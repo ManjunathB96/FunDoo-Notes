@@ -7506,3 +7506,62 @@ info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-02T1
 info: Connected to the database. {"timestamp":"2023-05-02T12:12:48.869Z"}
 info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-02T12:15:02.089Z"}
 info: Connected to the database. {"timestamp":"2023-05-02T12:15:02.146Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-09T06:09:00.731Z"}
+error: uncaughtException: connect ECONNREFUSED ::1:5672
+Error: connect ECONNREFUSED ::1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Tue May 09 2023 11:39:00 GMT+0530 (India Standard Time)","error":{"address":"::1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1469298.093},"process":{"argv":["node","D:\\FunDoo-Note\\FunDoo-Notes\\src\\index.js"],"cwd":"D:\\FunDoo-Note\\FunDoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20175606,"external":22905894,"heapTotal":232099840,"heapUsed":206189632,"rss":277790720},"pid":5900,"uid":null,"version":"v18.16.0"},"stack":"Error: connect ECONNREFUSED ::1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","timestamp":"2023-05-09T06:09:00.756Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-09T06:11:35.254Z"}
+error: uncaughtException: connect ECONNREFUSED ::1:5672
+Error: connect ECONNREFUSED ::1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Tue May 09 2023 11:41:35 GMT+0530 (India Standard Time)","error":{"address":"::1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1469452.625},"process":{"argv":["node","D:\\FunDoo-Note\\FunDoo-Notes\\src\\index.js"],"cwd":"D:\\FunDoo-Note\\FunDoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18805446,"external":21535734,"heapTotal":178810880,"heapUsed":153354488,"rss":223776768},"pid":3868,"uid":null,"version":"v18.16.0"},"stack":"Error: connect ECONNREFUSED ::1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","timestamp":"2023-05-09T06:11:35.275Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-09T06:14:02.896Z"}
+error: uncaughtException: connect ECONNREFUSED ::1:5672
+Error: connect ECONNREFUSED ::1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Tue May 09 2023 11:44:02 GMT+0530 (India Standard Time)","error":{"address":"::1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1469600.265},"process":{"argv":["node","D:\\FunDoo-Note\\FunDoo-Notes\\src\\index.js"],"cwd":"D:\\FunDoo-Note\\FunDoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18805446,"external":21535734,"heapTotal":178810880,"heapUsed":153558056,"rss":224374784},"pid":13208,"uid":null,"version":"v18.16.0"},"stack":"Error: connect ECONNREFUSED ::1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","timestamp":"2023-05-09T06:14:02.919Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-09T06:26:55.612Z"}
+error: uncaughtException: connect ECONNREFUSED ::1:5672
+Error: connect ECONNREFUSED ::1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Tue May 09 2023 11:56:55 GMT+0530 (India Standard Time)","error":{"address":"::1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1470372.968},"process":{"argv":["node","D:\\FunDoo-Note\\FunDoo-Notes\\src\\index.js"],"cwd":"D:\\FunDoo-Note\\FunDoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18386289,"external":21116577,"heapTotal":205697024,"heapUsed":169102280,"rss":248590336},"pid":3648,"uid":null,"version":"v18.16.0"},"stack":"Error: connect ECONNREFUSED ::1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","timestamp":"2023-05-09T06:26:55.634Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-09T17:36:06.097Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T17:36:06.131Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-09T17:36:35.255Z"}
+info: Connected to the database. {"timestamp":"2023-05-09T17:36:35.287Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T16:47:15.776Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T16:47:15.809Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirm_password" is required 
+    url - /api/v1/user 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-05-23T16:50:09.944Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-05-23T16:52:15.662Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-23T16:55:43.547Z"}
+info: Connected to the database. {"timestamp":"2023-05-23T16:55:43.576Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-30T16:46:27.720Z"}
+info: Connected to the database. {"timestamp":"2023-05-30T16:46:27.762Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-30T16:47:15.710Z"}
+info: Connected to the database. {"timestamp":"2023-05-30T16:47:15.738Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-30T17:12:54.192Z"}
+info: Connected to the database. {"timestamp":"2023-05-30T17:12:54.223Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-31T11:17:02.756Z"}
+info: Connected to the database. {"timestamp":"2023-05-31T11:17:02.841Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-05-31T12:12:58.554Z"}
+info: Connected to the database. {"timestamp":"2023-05-31T12:12:58.582Z"}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Wed May 31 2023 17:43:07 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":21803.109},"process":{"argv":["node","D:\\FunDoo-Note\\FunDoo-Notes\\src\\index.js"],"cwd":"D:\\FunDoo-Note\\FunDoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18385974,"external":21243203,"heapTotal":130576384,"heapUsed":123175136,"rss":173121536},"pid":13184,"uid":null,"version":"v18.16.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","timestamp":"2023-05-31T12:13:07.443Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-06-02T16:08:35.238Z"}
+info: Connected to the database. {"timestamp":"2023-06-02T16:08:35.299Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-06-02T16:19:56.978Z"}
+info: Connected to the database. {"timestamp":"2023-06-02T16:19:57.008Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-06-02T16:20:54.792Z"}
+info: Connected to the database. {"timestamp":"2023-06-02T16:20:54.822Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-06-23T14:30:02.792Z"}
+info: Connected to the database. {"timestamp":"2023-06-23T14:30:02.851Z"}

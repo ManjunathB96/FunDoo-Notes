@@ -4375,3 +4375,138 @@ info: ::1 - - [02/May/2023:12:15:41 +0000] "PUT /api/v1/notes/6450fc6808712b1014
 
 info: ::1 - - [02/May/2023:12:15:57 +0000] "PUT /api/v1/notes/6450fc6808712b101426cfc8/addCollaborator HTTP/1.1" 202 92 "-" "PostmanRuntime/7.32.2"
 
+error: uncaughtException: connect ECONNREFUSED ::1:5672
+Error: connect ECONNREFUSED ::1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Tue May 09 2023 11:39:00 GMT+0530 (India Standard Time)","error":{"address":"::1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1469298.093},"process":{"argv":["node","D:\\FunDoo-Note\\FunDoo-Notes\\src\\index.js"],"cwd":"D:\\FunDoo-Note\\FunDoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20183822,"external":22914150,"heapTotal":232099840,"heapUsed":206233256,"rss":277909504},"pid":5900,"uid":null,"version":"v18.16.0"},"stack":"Error: connect ECONNREFUSED ::1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED ::1:5672
+Error: connect ECONNREFUSED ::1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Tue May 09 2023 11:41:35 GMT+0530 (India Standard Time)","error":{"address":"::1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1469452.625},"process":{"argv":["node","D:\\FunDoo-Note\\FunDoo-Notes\\src\\index.js"],"cwd":"D:\\FunDoo-Note\\FunDoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18813662,"external":21543990,"heapTotal":178810880,"heapUsed":153398176,"rss":223809536},"pid":3868,"uid":null,"version":"v18.16.0"},"stack":"Error: connect ECONNREFUSED ::1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED ::1:5672
+Error: connect ECONNREFUSED ::1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Tue May 09 2023 11:44:02 GMT+0530 (India Standard Time)","error":{"address":"::1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1469600.265},"process":{"argv":["node","D:\\FunDoo-Note\\FunDoo-Notes\\src\\index.js"],"cwd":"D:\\FunDoo-Note\\FunDoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18813662,"external":21543990,"heapTotal":179073024,"heapUsed":153841680,"rss":224423936},"pid":13208,"uid":null,"version":"v18.16.0"},"stack":"Error: connect ECONNREFUSED ::1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ECONNREFUSED ::1:5672
+Error: connect ECONNREFUSED ::1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Tue May 09 2023 11:56:55 GMT+0530 (India Standard Time)","error":{"address":"::1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1470372.984},"process":{"argv":["node","D:\\FunDoo-Note\\FunDoo-Notes\\src\\index.js"],"cwd":"D:\\FunDoo-Note\\FunDoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18394505,"external":21124833,"heapTotal":205697024,"heapUsed":169145968,"rss":248631296},"pid":3648,"uid":null,"version":"v18.16.0"},"stack":"Error: connect ECONNREFUSED ::1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+info: ::1 - - [09/May/2023:17:39:13 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [09/May/2023:17:39:23 +0000] "POST /api/v1/user HTTP/1.1" 201 323 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [09/May/2023:17:39:32 +0000] "POST /api/v1/user/login HTTP/1.1" 200 251 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [09/May/2023:17:41:14 +0000] "POST /api/v1/notes HTTP/1.1" 201 341 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [09/May/2023:17:43:07 +0000] "GET /api/v1/notes HTTP/1.1" 200 348 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [09/May/2023:17:43:12 +0000] "GET /api/v1/notes HTTP/1.1" 200 369 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [09/May/2023:17:43:48 +0000] "GET /api/v1/notes/645a85ba3c8b5107789eee73 HTTP/1.1" 200 341 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [09/May/2023:17:43:52 +0000] "GET /api/v1/notes/645a85ba3c8b5107789eee73 HTTP/1.1" 200 363 "-" "PostmanRuntime/7.32.2"
+
+info: ::ffff:127.0.0.1 - - [23/May/2023:16:48:10 +0000] "GET /api/v1/ HTTP/1.1" 404 47 "-" "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+
+info: ::ffff:127.0.0.1 - - [23/May/2023:16:48:29 +0000] "GET /api/v1/user HTTP/1.1" 200 330 "-" "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+
+info: ::ffff:127.0.0.1 - - [23/May/2023:16:50:09 +0000] "POST /api/v1/user HTTP/1.1" 500 67 "-" "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+
+info: ::ffff:127.0.0.1 - - [23/May/2023:16:50:35 +0000] "POST /api/v1/user HTTP/1.1" 201 323 "-" "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+
+info: ::ffff:127.0.0.1 - - [23/May/2023:16:50:44 +0000] "POST /api/v1/user/login HTTP/1.1" 200 251 "-" "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+
+info: ::ffff:127.0.0.1 - - [23/May/2023:16:52:15 +0000] "POST /api/v1/notes HTTP/1.1" 500 62 "-" "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+
+info: ::ffff:127.0.0.1 - - [23/May/2023:16:52:23 +0000] "POST /api/v1/notes HTTP/1.1" 201 329 "-" "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+
+info: ::ffff:127.0.0.1 - - [23/May/2023:16:53:09 +0000] "GET /api/v1/notes/646cef47b98bee2ee01db37f HTTP/1.1" - - "-" "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+
+info: ::ffff:127.0.0.1 - - [23/May/2023:16:53:31 +0000] "GET /api/v1/notes/646cef47b98bee2ee01db37f HTTP/1.1" - - "-" "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+
+info: ::ffff:127.0.0.1 - - [23/May/2023:16:53:51 +0000] "GET /api/v1/notes/646cef47b98bee2ee01db37f HTTP/1.1" - - "-" "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+
+info: ::ffff:127.0.0.1 - - [23/May/2023:16:54:08 +0000] "GET /api/v1/notes/646cef47b98bee2ee01db37f HTTP/1.1" - - "-" "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+
+info: ::ffff:127.0.0.1 - - [23/May/2023:16:54:57 +0000] "GET /api/v1/notes/646cef47b98bee2ee01db37f HTTP/1.1" - - "-" "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+
+info: ::ffff:127.0.0.1 - - [23/May/2023:16:55:57 +0000] "GET /api/v1/notes HTTP/1.1" 200 336 "-" "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+
+info: ::ffff:127.0.0.1 - - [23/May/2023:16:56:47 +0000] "GET /api/v1/notes/646cef47b98bee2ee01db37f HTTP/1.1" 200 329 "-" "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+
+info: ::1 - - [30/May/2023:16:49:21 +0000] "GET /api-docs HTTP/1.1" 301 183 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/May/2023:16:49:21 +0000] "GET /api-docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/May/2023:16:49:21 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 12943 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/May/2023:16:49:21 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 145208 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/May/2023:16:49:21 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1046585 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/May/2023:16:49:21 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 322865 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/May/2023:16:49:22 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/May/2023:16:50:40 +0000] "POST /api/v1/user HTTP/1.1" 201 316 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/May/2023:16:51:24 +0000] "POST /api/v1/user/login HTTP/1.1" 200 243 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/May/2023:17:13:02 +0000] "GET /api-docs/ HTTP/1.1" 200 3106 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/May/2023:17:13:02 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/May/2023:17:13:02 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/May/2023:17:13:02 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/May/2023:17:13:02 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [30/May/2023:17:13:02 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/May/2023:11:17:52 +0000] "GET /api/v1/user HTTP/1.1" 200 855 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [31/May/2023:11:18:21 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/May/2023:11:18:21 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 12943 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/May/2023:11:18:21 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 322865 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/May/2023:11:18:21 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1046585 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [31/May/2023:11:18:21 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 145208 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Wed May 31 2023 17:43:07 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":21803.109},"process":{"argv":["node","D:\\FunDoo-Note\\FunDoo-Notes\\src\\index.js"],"cwd":"D:\\FunDoo-Note\\FunDoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18394190,"external":21251459,"heapTotal":130576384,"heapUsed":123462376,"rss":173219840},"pid":13184,"uid":null,"version":"v18.16.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: ::1 - - [02/Jun/2023:16:21:00 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [02/Jun/2023:16:21:05 +0000] "POST /api/v1/user HTTP/1.1" 201 321 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [02/Jun/2023:16:22:14 +0000] "POST /api/v1/notes HTTP/1.1" 401 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [02/Jun/2023:16:22:57 +0000] "POST /api/v1/user/login HTTP/1.1" 200 249 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [02/Jun/2023:16:23:24 +0000] "POST /api/v1/notes HTTP/1.1" 201 325 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [02/Jun/2023:16:24:36 +0000] "GET /api/v1/notes/647a177c3f260c42d0e45d14 HTTP/1.1" 401 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [23/Jun/2023:14:30:27 +0000] "GET /api/v1/notes HTTP/1.1" 401 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [23/Jun/2023:14:31:39 +0000] "POST /api/v1/user HTTP/1.1" 201 313 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [23/Jun/2023:14:31:50 +0000] "POST /api/v1/user/login HTTP/1.1" 200 245 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [23/Jun/2023:14:32:09 +0000] "GET /api/v1/notes HTTP/1.1" 200 65 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [23/Jun/2023:14:33:59 +0000] "POST /api/v1/notes HTTP/1.1" 201 324 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [23/Jun/2023:14:34:31 +0000] "POST /api/v1/notes HTTP/1.1" 201 343 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [23/Jun/2023:14:34:39 +0000] "GET /api/v1/notes HTTP/1.1" 200 617 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [23/Jun/2023:14:36:40 +0000] "GET /api/v1/notes HTTP/1.1" 200 638 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [23/Jun/2023:14:37:25 +0000] "POST /api/v1/notes HTTP/1.1" 201 343 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [23/Jun/2023:14:37:38 +0000] "GET /api/v1/notes HTTP/1.1" 200 903 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [23/Jun/2023:14:38:50 +0000] "GET /api/v1/notes HTTP/1.1" 200 924 "-" "PostmanRuntime/7.32.2"
+

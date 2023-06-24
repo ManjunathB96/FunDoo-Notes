@@ -12,7 +12,7 @@ import * as rabbit from '../utils/rabbitmq';
 export const newRegistration = async (body) => {
   if (body.password !== body.confirm_password) {
     throw new Error(
-      'Password and confirm password must be same'
+      'Password and confirm 😥 password must be same'
     );
   }
   const result = await User.findOne({ email: body.email });
@@ -50,7 +50,6 @@ export const login = async (body) => {
 };
 
 // user forget password
-
 export const forgetPwd = async (body) => {
   const data = await User.findOne({ email: body.email });
   if (data !== null) {

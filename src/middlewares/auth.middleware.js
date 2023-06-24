@@ -41,7 +41,8 @@ export const resetAuthorization = async (req, res, next) => {
         message: `token is required for Authorization.`
       };
     const user = await jwt.verify(bearertoken, process.env.RESET_KEY);
-    req.body.userId = user._id;
+   // req.body.userId = user._id;
+    req.body.userId = user.email;
     next();
   } catch (error) {
     res.status(HttpStatus.BAD_REQUEST).json({

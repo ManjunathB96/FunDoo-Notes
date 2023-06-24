@@ -14,12 +14,9 @@ router.get('',userAuth,redisForGetall, noteController.getAllNotes);
 //route to create a new note
 router.post('', newNoteValidator,userAuth,noteController.newNote);
 
-
-
 //route to get a single note by their note id
 router.get('/:_id',userAuth,redisForGetOne, noteController.getNote);
 //router.get('/:_id',userAuth, noteController.getNote);
-
 
 //route to update a single note by their note id
 router.put('/:_id',userAuth, noteController.updateNote);
@@ -27,10 +24,8 @@ router.put('/:_id',userAuth, noteController.updateNote);
 //route to delete a single note by their note id
 router.delete('/:_id',userAuth, noteController.deleteNote);
 
-
 //route to send note to archive by id
 router.put('/:_id/archive', userAuth, noteController.addToarchive);
-
 
 //route get archive note
 router.get('/:_id/archive/recover',userAuth,noteController.recoverFromArchive);
@@ -48,6 +43,7 @@ router.put('/:_id/color',userAuth,noteController.colorUpdate);
 router.put('/:noteId/pin',userAuth,noteController.pinNote);
 
 router.put('/:noteId/addCollaborator',userAuth,noteController.addCollaborator)
+
 export default router;
 
 
