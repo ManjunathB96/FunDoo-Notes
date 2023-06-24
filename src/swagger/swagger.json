@@ -385,6 +385,34 @@
           }
         ]
       }
+    },
+    "/notes/{noteId}/pin": {
+      "put": {
+        "tags": ["Notes"],
+        "description": "Pin note",
+        "produces": [],
+        "parameters": [
+          {
+            "name": "noteId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Note pinned is successfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      }
     }
   },
   "securityDefinitions": {
