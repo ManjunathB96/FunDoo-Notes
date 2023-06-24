@@ -136,6 +136,8 @@ return data;
 //add collaborator
 export const addCollaborator = async (noteId, body) => {
   const userExists = await User.find({ email: body.collaborator });
+  console.log("Output ===> addCollaborator ===> userExists:", userExists);
+  
   if (userExists) {
     const data = await Note.updateOne(
       { _id: noteId, userId: body.userId },
@@ -145,6 +147,7 @@ export const addCollaborator = async (noteId, body) => {
         }
       }
     );
+    console.log("collabn data----",data);
     return data;
   }
 };

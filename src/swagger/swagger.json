@@ -40,6 +40,19 @@
             "description": "Internal server error"
           }
         }
+      },
+      "get": {
+        "tags": ["User"],
+        "description": "Get all User from database",
+        "produces": [],
+        "responses": {
+          "200": {
+            "description": "All User fetched successfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
       }
     },
     "/user/login": {
@@ -413,6 +426,44 @@
           }
         ]
       }
+    },
+    "/notes/{noteId}/addCollaborator": {
+      "put": {
+        "tags": ["Notes"],
+        "description": "Add Collaborator",
+        "produces": [],
+        "parameters": [
+          {
+            "name": "noteId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "Add Collaborator",
+            "in": "body",
+            "description": "Add Collaborator",
+            "required": false,
+            "type": "string",
+            "schema": {
+              "$ref": "#/definitions/Collaborator"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Collaborator added successfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "security": [
+          {
+            "JWT": []
+          }
+        ]
+      }
     }
   },
   "securityDefinitions": {
@@ -478,6 +529,14 @@
           "type": "string"
         },
         "description": {
+          "type": "string"
+        }
+      }
+    },
+    "Collaborator": {
+      "type": "object",
+      "properties": {
+        "collaborator": {
           "type": "string"
         }
       }
